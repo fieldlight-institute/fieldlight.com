@@ -55,9 +55,9 @@ test('reduced motion, readable fallback, and no automatic publication or analyti
 test('reading text has em dashes or commas, not hyphen or en-dash punctuation', () => {
   const text = html.replace(/<[^>]*>/g,'');
   assert.doesNotMatch(text,/[\u2013-]/);
-  assert.match(text,/Chad had been hiding acorns in every outdoor pot/);
+  assert.match(text,/Chad had been hiding nuts in all my outdoor pots\. I bring the pots inside for winter\. Come spring, oak trees are growing all over my house\./);
   assert.match(text,/oak trees are growing all over my house/);
-  assert.match(text,/I had brought Chad’s forest inside/);
+  assert.doesNotMatch(text,/Chad’s forest|Flaming Katy had found her own patch of ground/);
 });
 
 function motionHarness(reduced = false) {
