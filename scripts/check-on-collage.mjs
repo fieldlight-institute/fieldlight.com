@@ -55,7 +55,9 @@ test('reduced motion, readable fallback, and no automatic publication or analyti
 test('reading text has em dashes or commas, not hyphen or en-dash punctuation', () => {
   const text = html.replace(/<[^>]*>/g,'');
   assert.doesNotMatch(text,/[\u2013-]/);
-  assert.match(text,/Chad had been hiding nuts in all my outdoor pots\. I bring the pots inside for winter\. Come spring, oak trees are growing all over my house\./);
+  assert.match(text,/In every outdoor pot I so carefully tend, he’s been hiding nuts/);
+  assert.match(text,/I bring the pots inside for winter/);
+  assert.match(text,/Come spring, oak trees are growing all over my house/);
   assert.match(text,/oak trees are growing all over my house/);
   assert.doesNotMatch(text,/Chad’s forest|Flaming Katy had found her own patch of ground/);
 });
