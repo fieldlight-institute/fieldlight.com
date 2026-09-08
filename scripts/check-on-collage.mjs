@@ -36,20 +36,45 @@ test('rabbit runs through distinct leg frames and remains within the margin', ()
   assert.deepEqual(runFrame(5000,400,150),{frame:7,x:250,column:3,row:1,done:true});
   assert.equal(runFrame(Infinity,900,150).x,750);
 });
-test('reduced motion, readable fallback, and no automatic publication or analytics', () => {
+test('reduced motion, readable fallback, and motion without data collection', () => {
   const css = fs.readFileSync(path.join(root,'collage.css'),'utf8');
   const js = fs.readFileSync(path.join(root,'collage.mjs'),'utf8');
   assert.match(css,/prefers-reduced-motion/);
   assert.match(css,/html\.motion-paused\{scroll-behavior:auto\}/);
   assert.match(js,/doc\.documentElement\.classList\.toggle\('motion-paused', paused\)/);
   assert.match(css,/@media print/);
-  assert.match(html,/noindex, nofollow/);
-  assert.doesNotMatch(html,/article:published_time|cloudflareinsights|gtag\(/);
+  assert.doesNotMatch(html,/gtag\(/);
   assert.doesNotMatch(js,/fetch\(|localStorage|sessionStorage/);
   assert.match(html,/The words so old/);
   assert.doesNotMatch(html, /flip-page|Turn the pages|flip-controls|type="range"/);
   assert.match(html,/rabbit-still/);
   assert.match(html,/rabbit-ink/);
+});
+
+test('publication metadata, share card, canonical source and discovery entries agree', () => {
+  const url = 'https://fieldlight.com/writing/on/';
+  const share = url + 'assets/on-share-2026-09-07.png';
+  const site = path.resolve(root, '../..');
+  assert.match(html, /rel="canonical" href="https:\/\/fieldlight\.com\/writing\/on\/"/);
+  assert.match(html, /name="twitter:card" content="summary_large_image"/);
+  for (const property of ['og:image', 'twitter:image']) {
+    assert.ok(html.includes(`${property}" content="${share}"`));
+  }
+  const card = fs.readFileSync(path.join(root, 'assets/on-share-2026-09-07.png'));
+  assert.equal(card.readUInt32BE(16), 1730);
+  assert.equal(card.readUInt32BE(20), 909);
+  assert.ok(card.length < 5 * 1024 * 1024, 'share image fits platform size limit');
+  assert.match(html, /article:published_time/);
+  assert.doesNotMatch(html, /noindex|nofollow|in progress|\/Users\/|127\.0\.0\.1|localhost/);
+  assert.match(html, /public-writing\/blob\/main\/fiction-myth-and-story-worlds\/on-collage\/on\.md/);
+  assert.match(html, /a8ece4976a604339bac4dbb72a6c5856/);
+  const item = JSON.parse(fs.readFileSync(path.join(site, 'feed.json'), 'utf8')).items.find(item => item.url === url);
+  assert.equal(item.title, 'On…');
+  assert.equal(item.image, share);
+  for (const file of ['feed.xml', 'sitemap.xml', 'llms.txt']) {
+    assert.ok(fs.readFileSync(path.join(site, file), 'utf8').includes(url), file);
+  }
+  assert.ok(fs.readFileSync(path.join(site, 'writing/index.html'), 'utf8').includes('href="on/"'));
 });
 
 test('reading text has em dashes or commas, not hyphen or en-dash punctuation', () => {

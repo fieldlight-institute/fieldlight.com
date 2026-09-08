@@ -7,6 +7,15 @@
   "authors": [{"name": "Fieldlight Institute", "url": "https://fieldlight.com/"}],
   "items": [
     {
+      "id": "https://fieldlight.com/writing/on/",
+      "url": "https://fieldlight.com/writing/on/",
+      "title": "On…",
+      "summary": "A poem, a garden, a remembered book, and the words that stay. A literary collage by Anni McHenry.",
+      "date_published": "2026-09-07T22:34:52-07:00",
+      "image": "https://fieldlight.com/writing/on/assets/on-share-2026-09-07.png",
+      "authors": [{"name": "Anni McHenry", "url": "https://fieldlight.com/#anni-mchenry"}]
+    },
+    {
       "id": "https://fieldlight.com/writing/at-two-heights/",
       "url": "https://fieldlight.com/writing/at-two-heights/",
       "title": "At Two Heights",

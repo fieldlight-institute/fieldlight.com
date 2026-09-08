@@ -23,15 +23,16 @@ JSON feed: https://fieldlight.com/feed.json
 
 ## Complete public writing
 
-The complete public catalog contains 48 public writing entries organized by subject: https://fieldlight.com/writing/
+The complete public catalog contains 49 public writing entries organized by subject: https://fieldlight.com/writing/
 
-Reader Continuity assigns every public reading surface a stable identifier and publishes connection claims with basis, confidence, and visible evidence gaps. Its provenance register can name a relationship to restricted working evidence without exposing the private source itself: https://fieldlight.com/continuity/
+Reader Continuity assigns registered reading surfaces stable identifiers and publishes connection claims with basis, confidence, and visible evidence gaps. Its provenance register can name a relationship to restricted working evidence without exposing the private source itself: https://fieldlight.com/continuity/
 
 The private archive and current work together form a longitudinal human–AI research case with tractable questions about collaborative state, context reconstruction, memory, confabulation hardening, correction behavior, and governance. Case definition and evidence architecture are underway; the corpus does not by itself validate causal or ontological claims: https://fieldlight.com/continuity/#research-case
 
 - alt: a record of return — interactive listening record and privacy-bounded dataset: https://fieldlight.com/writing/alt-a-record-of-return/
 - Found Language Atlas — a living fieldwork atlas of photographed language and the symbolic relations it forms: https://fieldlight.com/writing/found-language-atlas/
 - At Two Heights — a photographic essay pairing street and aerial views from one date: https://fieldlight.com/writing/at-two-heights/
+- On… — a literary collage of poetry, garden comedy, remembered reading, fiction, and words that stay: https://fieldlight.com/writing/on/
 
 ## Story worlds
 
