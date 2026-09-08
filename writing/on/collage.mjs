@@ -1,53 +1,51 @@
-// Reader-controlled marginal motion. No requests, tracking, or saved reader data.
-export const frameFor = value => Math.min(8, Math.max(1, Math.round(Number(value) || 1)));
-export function rabbitPosition(value, width, rabbitWidth, animated = true) {
-  const frame = frameFor(value);
-  const fraction = (frame - 1) / 7;
-  return {
-    frame,
-    x: Math.max(0, width - rabbitWidth) * fraction,
-    y: animated ? -(Math.sin(fraction * Math.PI * 2) ** 2) * 17 : 0,
-    angle: animated ? Math.cos(fraction * Math.PI * 2) * -3 : 0,
-  };
+// Brief, source-led marginal motion. No tracking or saved reader data.
+export function runFrame(elapsed, width, rabbitWidth) {
+  const time = Math.max(0, Number(elapsed) || 0);
+  const distance = Math.max(0, width - rabbitWidth);
+  const duration = Math.max(1400, Math.min(2800, distance / .2));
+  const progress = Math.min(1, time / duration);
+  const frame = progress === 1 ? 7 : Math.floor(time / 80) % 8;
+  return {x: distance * progress, frame, column: frame % 4, row: Math.floor(frame / 4), done: progress === 1};
 }
 
 export function startCollage(doc, win) {
   const reduce = win.matchMedia('(prefers-reduced-motion: reduce)');
   let paused = reduce.matches;
-  let holdTimer;
+  let frameRequest = 0;
+  let elapsed = 0;
+  let lastTime;
+  let visible = false;
+  let ready = false;
+  let done = false;
   const toggle = doc.querySelector('.motion-toggle');
-  const input = doc.querySelector('#flip-page');
-  const rabbit = doc.querySelector('.rabbit');
-  const track = doc.querySelector('.rabbit-track');
-  const previous = doc.querySelector('.flip-back');
-  const next = doc.querySelector('.flip-next');
-  const controls = doc.querySelector('.flip-controls');
+  const passage = doc.querySelector('.rabbit-passage');
+  const rabbit = doc.querySelector('.rabbit-runner');
   const coda = doc.querySelector('.paper-fragment');
-  const folios = [...doc.querySelectorAll('.folio-numbers span')];
 
-  function drawFrame() {
-    const frame = frameFor(input.value);
-    const position = rabbitPosition(frame, track.clientWidth, rabbit.offsetWidth, !paused);
-    rabbit.style.transform = `translate(${position.x}px, ${position.y}px) rotate(${position.angle}deg)`;
-    input.value = String(frame);
-    input.setAttribute('aria-valuetext', `Page ${frame} of 8`);
-    previous.disabled = frame === 1;
-    next.disabled = frame === 8;
-    folios.forEach((folio, index) => folio.classList.toggle('current', index + 1 === frame));
+  function stopRun() {
+    win.cancelAnimationFrame(frameRequest);
+    frameRequest = 0;
+    lastTime = undefined;
   }
-  function stopHold() {
-    win.clearTimeout(holdTimer);
-    holdTimer = undefined;
+  function paint() {
+    const position = runFrame(done ? Infinity : elapsed, passage.clientWidth, rabbit.offsetWidth);
+    rabbit.style.transform = 'translateX(' + position.x + 'px)';
+    rabbit.style.backgroundPosition = (position.column / 3 * 100) + '% ' + (position.row * 100) + '%';
+    done = position.done;
   }
-  function step(direction) {
-    input.value = String(frameFor(Number(input.value) + direction));
-    drawFrame();
+  function tick(time) {
+    frameRequest = 0;
+    if (paused || !visible || doc.hidden) { lastTime = undefined; return; }
+    if (lastTime !== undefined) elapsed += time - lastTime;
+    lastTime = time;
+    paint();
+    if (!done) frameRequest = win.requestAnimationFrame(tick);
   }
-  function heldStep(direction) {
-    step(direction);
-    if ((direction > 0 && Number(input.value) < 8) || (direction < 0 && Number(input.value) > 1)) {
-      holdTimer = win.setTimeout(() => heldStep(direction), 145);
-    }
+  function maybeRun() {
+    if (!ready || !visible || paused || done || doc.hidden || frameRequest) return;
+    passage.classList.add('sprite-active');
+    paint();
+    frameRequest = win.requestAnimationFrame(tick);
   }
   function applyMotion() {
     doc.documentElement.classList.toggle('motion-paused', paused);
@@ -55,36 +53,32 @@ export function startCollage(doc, win) {
     doc.body.classList.toggle('motion-paused', paused);
     toggle.textContent = paused ? 'Motion off' : 'Pause motion';
     toggle.setAttribute('aria-pressed', String(paused));
-    if (paused) { stopHold(); coda.classList.remove('touched'); }
-    drawFrame();
+    if (paused) { stopRun(); coda.classList.remove('touched'); }
+    else maybeRun();
   }
   toggle.hidden = false;
-  controls.hidden = false;
-  input.addEventListener('input', drawFrame);
   toggle.addEventListener('click', () => { paused = !paused; applyMotion(); });
   reduce.addEventListener('change', event => { paused = event.matches; applyMotion(); });
+  doc.addEventListener('visibilitychange', () => { if (doc.hidden) stopRun(); else maybeRun(); });
+  win.addEventListener('resize', () => { if (ready) paint(); }, {passive:true});
 
-  for (const [button, direction] of [[previous, -1], [next, 1]]) {
-    button.addEventListener('click', event => {
-      if (event.detail === 0 || !button.dataset.pointerHandled) step(direction);
-      delete button.dataset.pointerHandled;
-    });
-    button.addEventListener('pointerdown', event => {
-      if (event.button !== 0 || button.disabled) return;
-      button.dataset.pointerHandled = 'true';
-      stopHold();
-      step(direction);
-      if (!paused) holdTimer = win.setTimeout(() => heldStep(direction), 350);
-    });
-    button.addEventListener('pointerleave', stopHold);
-  }
-  win.addEventListener('pointerup', stopHold);
-  win.addEventListener('pointercancel', stopHold);
-  win.addEventListener('blur', stopHold);
-  doc.addEventListener('visibilitychange', () => { if (doc.hidden) stopHold(); });
-  win.addEventListener('resize', drawFrame, {passive:true});
+  const sprite = new win.Image();
+  sprite.onload = () => {
+    // Fractional source-cell dimensions are safe: CSS uses proportional positions.
+    rabbit.style.aspectRatio = String((sprite.naturalWidth / 4) / (sprite.naturalHeight / 2));
+    rabbit.style.backgroundImage = 'url("' + sprite.src + '")';
+    ready = true;
+    maybeRun();
+  };
+  // Keep the original engraving visible if the animation asset is unavailable.
+  sprite.src = rabbit.dataset.sprite;
 
   if ('IntersectionObserver' in win) {
+    const rabbitObserver = new win.IntersectionObserver(entries => {
+      visible = entries[0].isIntersecting && entries[0].intersectionRatio >= .65;
+      if (visible) maybeRun(); else stopRun();
+    }, {threshold:.65});
+    rabbitObserver.observe(passage);
     const refrainObserver = new win.IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -98,7 +92,7 @@ export function startCollage(doc, win) {
       for (const entry of entries) {
         if (!entry.isIntersecting) continue;
         doc.querySelectorAll('.contents a').forEach(link => {
-          if (link.getAttribute('href') === `#${entry.target.id}`) link.setAttribute('aria-current', 'location');
+          if (link.getAttribute('href') === '#' + entry.target.id) link.setAttribute('aria-current', 'location');
           else link.removeAttribute('aria-current');
         });
       }
@@ -109,8 +103,8 @@ export function startCollage(doc, win) {
   function showPressure(event) {
     if (paused || (event.pointerType === 'touch' && !event.buttons)) return;
     const bounds = coda.getBoundingClientRect();
-    coda.style.setProperty('--touch-x', `${event.clientX - bounds.left}px`);
-    coda.style.setProperty('--touch-y', `${event.clientY - bounds.top}px`);
+    coda.style.setProperty('--touch-x', (event.clientX - bounds.left) + 'px');
+    coda.style.setProperty('--touch-y', (event.clientY - bounds.top) + 'px');
     coda.classList.add('touched');
   }
   coda.addEventListener('pointermove', showPressure, {passive:true});
