@@ -123,6 +123,17 @@ if "The empty place already has a shape." not in continuous_text:
     errors.append("At Two Heights vacancy heading loses its word spacing")
 if "noindex" in essay or "Private edition" in essay or "/Users/" in essay:
     errors.append("At Two Heights retains private draft metadata")
+share_url = "https://fieldlight.com/writing/at-two-heights/assets/at-two-heights-share-2026-09-08.png"
+if 'name="twitter:card" content="summary_large_image"' not in essay:
+    errors.append("At Two Heights does not request a large X card")
+for field in ('property="og:image"', 'name="twitter:image"'):
+    if f'{field} content="{share_url}"' not in essay:
+        errors.append(f"At Two Heights is missing {field} share metadata")
+share_path = ROOT / "writing/at-two-heights/assets/at-two-heights-share-2026-09-08.png"
+if not share_path.exists():
+    errors.append("At Two Heights share image is missing")
+elif share_path.stat().st_size >= 5 * 1024 * 1024:
+    errors.append("At Two Heights share image exceeds the platform size limit")
 atlas = (ROOT / "writing/found-language-atlas/index.html").read_text()
 for entry in ("0023", "0024"):
     if f'id="entry-{entry}"' not in atlas or f'#entry-{entry}' not in essay:
