@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import json
+import re
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
@@ -37,8 +39,12 @@ def local_target(page, reference):
         target = target / "index.html"
     return target.resolve()
 
-if len(publications) != 50:
-    errors.append(f"expected 50 publications, found {len(publications)}")
+continuity_html = (ROOT / "continuity/index.html").read_text()
+for label, count in (("public reading surfaces", len(publications)),
+                     ("connection claims", len(DATA.get("connections", [])))):
+    match = re.search(r"<dt>(\d+)</dt><dd>" + re.escape(label) + r"</dd>", continuity_html)
+    if not match or int(match.group(1)) != count:
+        errors.append(f"displayed {label} does not match data count {count}")
 if len(publication_ids) != len(publications):
     errors.append("publication IDs are not unique")
 if len({item["url"] for item in publications}) != len(publications):
@@ -79,8 +85,6 @@ for context in DATA["contexts"]:
             errors.append(f"unknown related publication {publication_id} on {context['id']}")
 
 connection_ids = set()
-if len(DATA.get("connections", [])) != 31:
-    errors.append(f"expected 31 connection claims, found {len(DATA.get('connections', []))}")
 for connection in DATA.get("connections", []):
     if connection["id"] in connection_ids:
         errors.append(f"duplicate connection ID: {connection['id']}")
@@ -102,7 +106,8 @@ for chain in DATA.get("mapChains", []):
             if publication_id not in publication_ids:
                 errors.append(f"unknown map work {publication_id} in {chain['id']}")
 
-for page in [ROOT / "continuity/index.html", ROOT / "writing/index.html", ROOT / "index.html"]:
+for page in [ROOT / "continuity/index.html", ROOT / "writing/index.html", ROOT / "index.html",
+             ROOT / "writing/at-two-heights/index.html", ROOT / "writing/found-language-atlas/index.html"]:
     parser = LinkParser()
     parser.feed(page.read_text())
     for reference in parser.references:
@@ -110,9 +115,51 @@ for page in [ROOT / "continuity/index.html", ROOT / "writing/index.html", ROOT /
         if target is not None and not target.exists():
             errors.append(f"broken local reference in {page.relative_to(ROOT)}: {reference}")
 
+essay = (ROOT / "writing/at-two-heights/index.html").read_text()
+continuous_text = re.sub(r"\s+", " ", re.sub(r"<[^>]*>", "", essay))
+if re.search(r"<br\s*/?>(?!\s)", essay):
+    errors.append("At Two Heights has a line break without a preserved word boundary")
+if "The empty place already has a shape." not in continuous_text:
+    errors.append("At Two Heights vacancy heading loses its word spacing")
+if "noindex" in essay or "Private edition" in essay or "/Users/" in essay:
+    errors.append("At Two Heights retains private draft metadata")
+atlas = (ROOT / "writing/found-language-atlas/index.html").read_text()
+for entry in ("0023", "0024"):
+    if f'id="entry-{entry}"' not in atlas or f'#entry-{entry}' not in essay:
+        errors.append(f"missing reciprocal Atlas anchor for entry {entry}")
+if atlas.count('../at-two-heights/#address-title') != 2:
+    errors.append("Atlas must link both revisited encounters to At Two Heights")
+
 if errors:
     for error in errors:
         print("ERROR:", error)
     raise SystemExit(1)
+
+writing_html = (ROOT / "writing/index.html").read_text()
+writing_count = len(re.findall(r'<li><a href="[^\"]+"><span>\d+</span><strong>', writing_html))
+count_match = re.search(r'class="writing-index-count"><strong>(\d+)</strong>', writing_html)
+if not count_match or int(count_match.group(1)) != writing_count:
+    raise SystemExit(f"ERROR: Writing label does not match {writing_count} catalog entries")
+home_html = (ROOT / "index.html").read_text()
+for shown in re.findall(r"(\d+) authored pieces", home_html):
+    if int(shown) != writing_count:
+        raise SystemExit(f"ERROR: Homepage writing count {shown} does not match {writing_count}")
+
+json_items = json.loads((ROOT / "feed.json").read_text())["items"]
+rss_items = ET.parse(ROOT / "feed.xml").findall("./channel/item")
+json_urls = [item["url"] for item in json_items]
+rss_urls = [item.findtext("link") for item in rss_items]
+if len(set(json_urls)) != len(json_urls) or len(set(rss_urls)) != len(rss_urls):
+    raise SystemExit("ERROR: duplicate feed URLs")
+if set(json_urls) != set(rss_urls):
+    raise SystemExit("ERROR: JSON and RSS feeds list different works")
+json_by_url = {item["url"]: item for item in json_items}
+for item in rss_items:
+    counterpart = json_by_url[item.findtext("link")]
+    for json_key, xml_key in (("title", "title"), ("summary", "description")):
+        if counterpart.get(json_key, "") != item.findtext(xml_key, ""):
+            raise SystemExit(f"ERROR: feed {json_key} differs for {counterpart['url']}")
+
+print(f"Catalog/feed checks valid: {writing_count} writing entries; {len(json_items)} matching feed items")
 
 print(f"Reader Continuity valid: {len(publications)} publications, {len(DATA.get('mapChains', []))} evidence chains, {len(DATA.get('connections', []))} connections, {len(DATA['contexts'])} provenance records")

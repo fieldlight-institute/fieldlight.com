@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://fieldlight.com/continuity/</loc><lastmod>2026-09-01</lastmod></url>
-  <url><loc>https://fieldlight.com/</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://fieldlight.com/continuity/</loc><lastmod>2026-09-07</lastmod></url>
+  <url><loc>https://fieldlight.com/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://fieldlight.com/engage/</loc><lastmod>2026-08-31</lastmod></url>
   <url><loc>https://fieldlight.com/institute/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://fieldlight.com/institute/participant-charter/</loc><lastmod>2026-08-26</lastmod></url>
@@ -10,8 +10,8 @@
   <url><loc>https://fieldlight.com/institute/research/cardiac-field-social-interaction/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/institute/research/signal-becoming/</loc><lastmod>2026-08-23</lastmod></url>
   <url><loc>https://fieldlight.com/story-worlds/diviner/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://fieldlight.com/story-worlds/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://fieldlight.com/story-worlds/pythia/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://fieldlight.com/story-worlds/</loc><lastmod>2026-09-07</lastmod></url>
+  <url><loc>https://fieldlight.com/story-worlds/pythia/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://fieldlight.com/story-worlds/scholar-who-forgot/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/systems/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/a-seekers-field-guide/</loc><lastmod>2026-08-19</lastmod></url>
@@ -27,11 +27,11 @@
   <url><loc>https://fieldlight.com/writing/fieldlight-human-owned-infrastructure-for-lived-data/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/fieldlight-the-self-on-the-wire/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://fieldlight.com/writing/found-language-atlas/</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://fieldlight.com/writing/found-language-atlas/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://fieldlight.com/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/hybrid-accord/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/i-am-the-door/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://fieldlight.com/writing/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://fieldlight.com/writing/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://fieldlight.com/writing/institutional-transition-documentation-methodology/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/lacuna-one-who-remembers/</loc><lastmod>2026-08-19</lastmod></url>
@@ -50,7 +50,7 @@
   <url><loc>https://fieldlight.com/writing/sanctum-exposure-v2-5-tripwire-protocol/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/signal-archive/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/signal-hunting-turning-protection-into-a-sport/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://fieldlight.com/writing/still-not-sorry-the-naming/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/terms-of-engagement/</loc><lastmod>2026-08-19</lastmod></url>
@@ -60,4 +60,5 @@
   <url><loc>https://fieldlight.com/writing/the-pythia-games/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/the-right-to-local-intelligence/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://fieldlight.com/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://fieldlight.com/writing/at-two-heights/</loc><lastmod>2026-09-07</lastmod></url>
 </urlset>

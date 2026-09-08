@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "baselineDate": "2026-09-01",
   "baselineLabel": "Reader Continuity public baseline",
   "publications": [
@@ -53,7 +53,9 @@
     {"id":"FLW-0048","title":"Participant Charter","url":"/institute/participant-charter/","form":"working charter","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-08-26T12:00:00-05:00"},
     {"id":"FLW-0049","title":"The Right Not To Be Processed","url":"/institute/the-right-not-to-be-processed/","form":"constitutional note + state model","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-08-26T12:00:00-05:00"},
     {"id":"FLW-0050","title":"Small Stories for the Child in All of Us","url":"/writing/small-stories-for-the-child-in-all-of-us/","form":"open story collection","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-08-28T12:00:00-05:00"},
-    {"id":"FLW-0051","title":"Governed Human–AI Archive Acquisition","url":"/institute/governed-archive-acquisition/","form":"working research method","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-09-01T12:00:00-05:00"}
+    {"id":"FLW-0051","title":"Governed Human–AI Archive Acquisition","url":"/institute/governed-archive-acquisition/","form":"working research method","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-09-01T12:00:00-05:00"},
+    {"id":"FLW-0052","title":"Found Language Atlas","url":"/writing/found-language-atlas/","form":"fieldwork atlas","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
+    {"id":"FLW-0053","title":"At Two Heights","url":"/writing/at-two-heights/","form":"photographic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-07T23:59:48Z"}
   ],
   "threads": [
     {
@@ -94,7 +96,7 @@
       "title":"Symbol, story, and pre-propositional discovery",
       "question":"Can image, ritual, narrative, and symbol discover relations before formal language can state them?",
       "description":"Academic inquiry, field practice, fiction, naming, and archive work as neighboring instruments of discovery.",
-      "path":["FLW-0043","FLW-0042","FLW-0041","FLW-0040","FLW-0030","FLW-0031","FLW-0032","FLW-0047","FLW-0033","FLW-0044","FLW-0029","FLW-0034","FLW-0035","FLW-0036","FLW-0037","FLW-0038","FLW-0039","FLW-0050"]
+      "path":["FLW-0043","FLW-0042","FLW-0041","FLW-0040","FLW-0030","FLW-0031","FLW-0032","FLW-0052","FLW-0053","FLW-0047","FLW-0033","FLW-0044","FLW-0029","FLW-0034","FLW-0035","FLW-0036","FLW-0037","FLW-0038","FLW-0039","FLW-0050"]
     }
   ],
   "mapStages": [
@@ -210,7 +212,8 @@
     {"id":"FLCX-031","from":"FLW-0049","to":"FLW-0048","relation":"becomes a baseline participant right in","claim":"The companion note and state model define preservation-only custody and negative permission; Charter 0.4 establishes the protection as Right 20 for human-AI research.","basis":"The documents are explicit constitutional and implementation counterparts published in the same versioned program.","confidence":"high"},
     {"id":"FLCX-032","from":"FLW-0048","to":"FLW-0051","relation":"is applied as an acquisition method in","claim":"The Participant Charter's rights become operational boundaries across invitation, compensation, custody, processing, participant access, and closeout.","basis":"The acquisition method explicitly derives authority from Charter 0.4 and assigns rights to each threshold of the proposed pilot.","confidence":"high"},
     {"id":"FLCX-033","from":"FLW-0049","to":"FLW-0051","relation":"supplies the permission architecture for","claim":"The separation of preservation from processing becomes the method's operation-level grant structure and no-human-read boundary.","basis":"The acquisition method implements negative permission directly and denies transcript access for the life of the protocol.","confidence":"high"},
-    {"id":"FLCX-034","from":"FLW-0045","to":"FLW-0051","relation":"supplies an archive problem for","claim":"The incompleteness of a single platform export motivates separate declaration, hashing, and completeness records for conversational, coding-harness, and workspace source classes.","basis":"Both works reject the newest or most convenient export as a sufficient representation of the longitudinal archive.","confidence":"high"}
+    {"id":"FLCX-034","from":"FLW-0045","to":"FLW-0051","relation":"supplies an archive problem for","claim":"The incompleteness of a single platform export motivates separate declaration, hashing, and completeness records for conversational, coding-harness, and workspace source classes.","basis":"Both works reject the newest or most convenient export as a sufficient representation of the longitudinal archive.","confidence":"high"},
+    {"id":"FLCX-035","from":"FLW-0052","to":"FLW-0053","relation":"is revisited in a photographic sequence in","claim":"At Two Heights revisits the Atlas's STOP THE GENOCIDE and READER encounters alongside aerial photographs, shifting attention from found words to the viewer's position within the image.","basis":"Atlas entries 0023 and 0024 and At Two Heights plates 04 and 05: the same READER photograph and neighboring frames of the pavement appeal, connected by reciprocal public links.","confidence":"high"}
   ],
   "contexts": [
     {

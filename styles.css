@@ -6788,6 +6788,7 @@ h3 {
   z-index: 1;
   max-width: 12ch;
   margin: 0;
+  color: #fff8ea;
   font-size: clamp(4.5rem, 14vw, 12rem);
   line-height: 0.82;
   letter-spacing: -0.09em;
@@ -6940,6 +6941,7 @@ h3 {
 
 .small-stories-title-block h1 {
   margin: 0;
+  color: #fff8ea;
   max-width: 9ch;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(5.6rem, 15vw, 12.5rem);

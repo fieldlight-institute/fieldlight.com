@@ -348,6 +348,7 @@
       .finding-card:last-child { border-bottom: 0; }
       footer { flex-direction: column; }
     }
+    .entry[id] { scroll-margin-top: 6rem; }
   </style>
 </head>
 <body>
@@ -544,14 +545,14 @@
         <div><div class="entry-id">0022</div><h3 class="quote">“Salty's Club / MEMBERS ONLY”</h3><div class="tags"><span class="tag">sweatshirt</span><span class="tag">found self-name</span><span class="tag">belonging</span></div><dl class="meta"><dt>Captured</dt><dd>Embedded 20 Sep 2025 · 15:11:56; offset unavailable</dd><dt>Place</dt><dd>Not yet verified</dd><dt>Record</dt><dd>Preserved source photograph</dd><dt>Evidence</dt><dd>Central visible language; creator-name relation observable</dd></dl><p class="connection">SALTY returns, now not as a solitary name but as a club with an explicit inside and outside.</p></div>
       </article>
 
-      <article class="entry" data-cluster="resistance city">
+      <article class="entry" id="entry-0023" data-cluster="resistance city">
         <figure class="art"><a href="assets/SFA-FLA-0023-stop-genocide.jpg"><img loading="lazy" decoding="async" src="assets/SFA-FLA-0023-stop-genocide.jpg" alt="Mission sidewalk inscription reading Stop the Genocide"></a></figure>
-        <div><div class="entry-id">0023</div><h3 class="quote">“STOP THE GENOCIDE”</h3><div class="tags"><span class="tag">Mission sidewalk</span><span class="tag">ethical demand</span><span class="tag">political speech</span></div><dl class="meta"><dt>Captured</dt><dd>20 Sep 2025 · 15:31:56 PDT</dd><dt>Place</dt><dd>San Francisco, California</dd><dt>Record</dt><dd>Preserved source photograph</dd><dt>Unknown</dt><dd>Author, addressee, and specific conflict</dd></dl><p class="connection">The language names a category of mass violence and directs the passerby toward refusal. Its unspecified context leaves the imperative open across conflicts.</p></div>
+        <div><div class="entry-id">0023</div><h3 class="quote">“STOP THE GENOCIDE”</h3><div class="tags"><span class="tag">Mission sidewalk</span><span class="tag">ethical demand</span><span class="tag">political speech</span></div><dl class="meta"><dt>Captured</dt><dd>20 Sep 2025 · 15:31:56 PDT</dd><dt>Place</dt><dd>San Francisco, California</dd><dt>Record</dt><dd>Preserved source photograph</dd><dt>Unknown</dt><dd>Author, addressee, and specific conflict</dd></dl><p class="connection">The language names a category of mass violence and directs the passerby toward refusal. Its unspecified context leaves the imperative open across conflicts.</p><p class="source-note"><a href="../at-two-heights/#address-title">Revisited in At Two Heights →</a></p></div>
       </article>
 
-      <article class="entry" data-cluster="identity city">
+      <article class="entry" id="entry-0024" data-cluster="identity city">
         <figure class="art"><a href="assets/SFA-FLA-0024-reader.jpg"><img loading="lazy" decoding="async" src="assets/SFA-FLA-0024-reader.jpg" alt="Mission sidewalk chalk word Reader above a face"></a></figure>
-        <div><div class="entry-id">0024</div><h3 class="quote">“READER”</h3><div class="tags"><span class="tag">Mission sidewalk</span><span class="tag">named public role</span><span class="tag">chalk face</span></div><dl class="meta"><dt>Captured</dt><dd>20 Sep 2025 · 15:36:50 PDT</dd><dt>Place</dt><dd>San Francisco, California</dd><dt>Record</dt><dd>Preserved source photograph</dd><dt>Evidence</dt><dd>Visible word and face; maker unknown</dd></dl><p class="connection">The atlas repeatedly addresses a passerby; here that passerby is explicitly named as a reader. Later reader-continuity work gives the encounter a new afterlife.</p></div>
+        <div><div class="entry-id">0024</div><h3 class="quote">“READER”</h3><div class="tags"><span class="tag">Mission sidewalk</span><span class="tag">named public role</span><span class="tag">chalk face</span></div><dl class="meta"><dt>Captured</dt><dd>20 Sep 2025 · 15:36:50 PDT</dd><dt>Place</dt><dd>San Francisco, California</dd><dt>Record</dt><dd>Preserved source photograph</dd><dt>Evidence</dt><dd>Visible word and face; maker unknown</dd></dl><p class="connection">The atlas repeatedly addresses a passerby; here that passerby is explicitly named as a reader. Later reader-continuity work gives the encounter a new afterlife.</p><p class="source-note"><a href="../at-two-heights/#address-title">Revisited in At Two Heights →</a></p></div>
       </article>
 
       <article class="entry" data-cluster="advice city">
@@ -643,6 +644,7 @@
       entries.forEach(entry => entry.hidden = filter !== 'all' && !entry.dataset.cluster.split(' ').includes(filter));
     }));
   </script>
+  <script src="/continuity/reader-continuity.js?v=5" defer></script>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "a8ece4976a604339bac4dbb72a6c5856"}'></script>
   <!-- End Cloudflare Web Analytics -->
