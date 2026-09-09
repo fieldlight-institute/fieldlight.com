@@ -7,9 +7,9 @@ Fieldlight Institute develops public research, working systems, and institutiona
 ## Public architecture
 
 - `index.html` is the institutional front door.
-- `writing/index.html` is the complete catalog of 49 public writing entries by Anni McHenry.
+- `writing/index.html` is the complete catalog of 50 public writing entries by Anni McHenry.
 - `writing/*/index.html` contains the individual Fieldlight reading surfaces.
-- `continuity/` maps evidence-backed connections across 53 registered reading surfaces, records an explicit public baseline, and provides device-local reader state.
+- `continuity/` maps evidence-backed connections across 54 registered reading surfaces, records an explicit public baseline, and provides device-local reader state.
 - `writing/on/` publishes the five-part literary collage *On…*, preserving its source order, migrating refrain, and marginal rabbit motion.
 - `institute/index.html` is the full six-part Fieldlight Institute surface.
 - `institute/participant-charter/` publishes the Participant Charter.

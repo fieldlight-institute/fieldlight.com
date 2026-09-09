@@ -1,0 +1,70 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:#f5f2ea;color:#252d2d;font-family:Georgia,"Times New Roman",serif}a{color:inherit;text-underline-offset:4px}a:hover{color:#496d78}a:focus-visible{outline:2px solid #496d78;outline-offset:6px}.skip{position:absolute;left:20px;top:-100px}.skip:focus{top:15px;background:#fff;z-index:5}header{display:flex;align-items:center;justify-content:space-between;gap:25px;margin:0 5vw;padding:27px 0;border-bottom:1px solid #c9c9bd;font-family:Arial,sans-serif;font-size:13px}.brand{text-decoration:none;font-weight:600;letter-spacing:.03em}nav{display:flex;gap:26px}nav a{text-decoration:none}.hero{position:relative;min-height:610px;display:flex;align-items:center;overflow:hidden;border-bottom:1px solid #c9c9bd}.hero-copy{position:relative;z-index:1;padding:72px 0 66px;margin-left:max(7vw,calc((100vw - 1160px)/2));width:60%}.eyebrow{font:10px/1.5 Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#607474}h1{font-size:clamp(50px,5.8vw,86px);line-height:1.02;font-weight:400;letter-spacing:-.045em;margin:32px 0 25px}h1 em{font-weight:400}.deck{font-size:21px;line-height:1.5;color:#536164}.byline{font:12px/1.8 Arial,sans-serif;margin-top:30px}.byline a{text-decoration:none}.byline span{display:block;color:#6b7470;font-size:11px}.begin{display:inline-block;margin-top:27px;font:11px Arial,sans-serif;text-decoration:none;text-transform:uppercase;letter-spacing:.12em}.begin span{margin-left:25px}.channel-art{position:absolute;right:0;top:0;width:47%;bottom:0;background-image:linear-gradient(90deg,#f5f2ea00,#f5f2ea00),url('assets/before-i-had-a-proposition-share-2026-09-09.jpg?v=1');background-size:auto 100%;background-position:right center;opacity:.75;mask-image:linear-gradient(90deg,transparent,#000 24%)}.reading-layout{max-width:1160px;margin:0 auto;padding:88px 32px 65px;display:grid;grid-template-columns:180px minmax(0,660px);gap:62px;justify-content:start}aside{font:12px/1.9 Arial,sans-serif;color:#6b7776;padding-top:12px}aside p{line-height:2}aside a{display:block;margin-top:28px}article{font-size:21px;line-height:1.78}article p{margin:0 0 1.35em}article>p:first-child{font-size:29px;line-height:1.5;color:#355c66}article hr{border:0;height:35px;margin:57px 0;position:relative}article hr:after{content:'∴';position:absolute;color:#718d91;font-size:26px;left:0;top:0}article .source-rule{height:1px;background:#c9c9bd;margin-bottom:32px}article .source-rule:after{content:none}article h2{font:11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.15em;margin:0 0 25px}article h2~p{font:14px/1.8 Arial,sans-serif;color:#52605f}footer{border-top:1px solid #c9c9bd;margin:0 5vw;padding:30px 0 45px;display:flex;align-items:center;gap:25px;font:11px/1.6 Arial,sans-serif}footer p{margin-right:auto}footer span{color:#6b7470}@media(min-width:1550px){.hero-copy{width:800px}.channel-art{width:44%}}@media(max-width:800px){header{align-items:flex-start}nav{gap:16px;font-size:11px}.hero{min-height:530px}.hero-copy{width:88%;margin-left:7%;padding:65px 0}.channel-art{width:40%;opacity:.2}.reading-layout{display:block;padding:52px 7%}aside{display:none}article{font-size:19px;line-height:1.75}article>p:first-child{font-size:25px}.deck{font-size:19px}footer{flex-wrap:wrap;gap:18px}footer p{width:100%}}@media(max-width:420px){header{font-size:11px}nav{gap:10px}nav a:last-child{display:none}h1{font-size:49px}.wide{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{header,aside,.begin,.channel-art,footer,.skip{display:none}.hero{min-height:0}.hero-copy{padding:20px 0}.reading-layout{display:block;padding:20px 0}body{background:white}article{font-size:12pt}h1{font-size:36pt}}
+
+/* Editorial rhythm drawn from Fieldlight's institutional and literary surfaces. */
+:root{--ink:#0b2230;--night:#071a23;--violet:#8267dc;--gold:#d7aa4b;--book:"Iowan Old Style",Baskerville,"Baskerville Old Face","Palatino Linotype",Georgia,serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--didot:Didot,"Bodoni 72","Bodoni MT","Times New Roman",serif}body{color:var(--ink);font-family:var(--book)}html{scroll-padding-top:155px}.masthead{position:sticky;z-index:20;top:0;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:78px;margin:0;padding:15px clamp(24px,4.8vw,88px);color:var(--ink);background:rgba(248,245,238,.96);border-bottom:1px solid rgba(11,34,48,.22);backdrop-filter:blur(14px)}.wordmark{font-family:var(--didot);font-size:clamp(23px,2vw,29px);font-weight:400;letter-spacing:.005em;line-height:1;text-decoration:none;white-space:nowrap}.masthead nav{display:flex;gap:clamp(18px,2.5vw,42px);color:#56616b;font:13px var(--sans);overflow-x:auto}.masthead nav a{padding:8px 0;border-bottom:1px solid transparent;white-space:nowrap}.masthead nav a:hover,.masthead nav a[aria-current]{color:var(--ink);border-bottom-color:var(--violet)}.hero h1{font-family:var(--didot);font-size:clamp(60px,6.8vw,104px)}.hero h1 em{color:#254d5f}.hero-copy{padding-top:65px;padding-bottom:58px}.hero .eyebrow{color:#6c54a3;font-weight:600}.byline{font-family:var(--sans)}.begin{border-bottom:1px solid #8267dc;padding-bottom:9px}.reading-rail{position:sticky;top:78px;z-index:15;display:flex;justify-content:space-between;gap:20px;padding:19px 5vw;background:#102433;color:#f2ecdf;font:11px/1.5 var(--sans);overflow-x:auto}.reading-rail a{white-space:nowrap;text-decoration:none}.reading-rail span{color:#c7b3ff;margin-right:8px;font-size:10px}.reading-rail a:hover{color:#e1c574}.essay-section,.source-section{position:relative;display:grid;grid-template-columns:200px minmax(0,700px);column-gap:70px;justify-content:center;padding:85px 6vw 90px;border-bottom:1px solid #bac3bf}.section-margin{padding-top:8px;font-family:var(--sans)}.folio{display:block;font:italic 68px/1 var(--didot);color:#6a858b;letter-spacing:-.07em}.section-margin p{font:13px/1.5 var(--sans);margin:21px 0 12px;max-width:155px}.margin-note{display:block;font:10px/1.7 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:#687779;max-width:150px}.prose{min-width:0;font:22px/1.72 var(--book)}.prose p{margin:0 0 1.25em}.prose p:last-child{margin-bottom:0}.prose .opening-line{font:42px/1.2 var(--book);letter-spacing:-.025em;margin-bottom:34px;max-width:640px}.section-1 .prose>p:nth-child(2)::first-letter{float:left;font:88px/.75 var(--didot);padding:8px 10px 0 0;color:#496d78}.prose .emphasis{position:relative;font:italic 36px/1.35 var(--book);letter-spacing:-.025em;margin:45px 0;padding:25px 0 25px 28px;border-left:2px solid var(--violet);color:#274f60}.section-2{background:#e8ece6}.section-2 .emphasis{font-size:48px;line-height:1.15;max-width:630px;border:0;padding:30px 0;color:#284f57}.section-3{background:#eee8dc}.section-3 .folio{color:#907544}.section-3 .emphasis{border-color:#b39453}.section-4{background:var(--night);color:#f2ecdf;padding-top:100px;padding-bottom:100px;border-bottom:0}.section-4 .folio{color:#bba1ef}.section-4 .margin-note{color:#aab8bc}.section-4 .emphasis{color:#e3ccfa;border-color:#9874d6;font-size:39px}.section-5{padding-top:100px;background:#f5f2ea}.section-5 .return-to-city{margin-top:60px;border-top:1px solid #bec7c2;padding-top:40px}.section-5 .emphasis{font-size:45px;padding-left:0;border:0;color:#244c5a}.source-section{background:#e7e5dd;padding-top:50px;padding-bottom:60px}.source-section .folio{font-size:45px}.source-copy{font:14px/1.85 var(--sans)}.source-copy h2{font:11px var(--sans);letter-spacing:.16em;margin-bottom:25px}.source-copy p{margin:0 0 22px}.source-copy h2~p{color:#46575b;font:14px/1.85 var(--sans)}footer{margin:0;padding:30px 5vw 40px;background:#102433;color:#eee6da;border:0;font-family:var(--sans)}footer span{color:#b8c6c7}footer a:hover{color:#d7aa4b}.skip:focus{z-index:30}
+@media(max-width:1050px){.masthead{flex-wrap:wrap;gap:12px;padding-block:14px}.masthead nav{width:100%;justify-content:space-between;gap:20px}.reading-rail{position:relative;top:0}.essay-section,.source-section{grid-template-columns:150px minmax(0,660px);gap:35px}html{scroll-padding-top:130px}.prose{font-size:21px}}
+@media(max-width:700px){.masthead{padding:16px 6vw 12px}.wordmark{font-size:26px}.masthead nav{font-size:11px}.masthead nav a:last-child{display:block}.hero h1{font-size:clamp(49px,10.6vw,70px)}.hero-copy{padding-top:54px}.reading-rail{padding:16px 6vw;gap:25px}.essay-section,.source-section{display:block;padding:46px 7vw 52px}.section-margin{display:grid;grid-template-columns:45px 1fr;gap:0 14px;margin-bottom:28px;padding:0}.folio{font-size:42px;grid-row:1/3}.section-margin p{font-size:13px;max-width:none;margin:0}.margin-note{max-width:none;font-size:9px;margin-top:5px}.prose{font-size:20px;line-height:1.7}.prose .opening-line{font-size:32px;line-height:1.27;margin-bottom:30px}.prose .emphasis,.section-4 .emphasis{font-size:29px;padding:15px 0 15px 19px;margin:32px 0}.section-2 .emphasis,.section-5 .emphasis{font-size:35px;padding-left:0}.section-4{padding-block:60px}.source-copy{font-size:13px}.section-1 .prose>p:nth-child(2)::first-letter{font-size:72px}footer{padding-inline:7vw}.source-section .section-margin{margin-bottom:35px}}
+@media print{.masthead,.reading-rail,.section-margin{display:none}.essay-section,.source-section{display:block;background:white;color:black;padding:20px 0;border:0}.prose{font-size:12pt}.prose .emphasis{color:black;font-size:17pt}.source-copy{font-size:10pt}.hero h1{font-size:36pt}}
+
+/* Shared reading-page components, sourced from styles.css. */
+.article-breadcrumb {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 24px;
+  align-items: center;
+  min-height: 52px;
+  padding: 10px clamp(20px, 5vw, 72px);
+  color: #5d6870;
+  background: #f2ecdf;
+  border-bottom: 1px solid rgba(11, 34, 48, 0.2);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.article-breadcrumb-path {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  min-width: 0;
+}
+.article-breadcrumb-path a,
+.article-source-link {
+  text-decoration: none;
+}
+.article-breadcrumb-path span[aria-current="page"] {
+  overflow: hidden;
+  color: var(--ink);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.article-breadcrumb-separator {
+  color: rgba(11, 34, 48, 0.35);
+}
+.article-source-link {
+  text-decoration: none;
+}
+.article-context {
+  position: sticky;
+  top: 104px;
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 14px 40px rgba(16, 33, 49, 0.06);
+}
+.article-context p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.article-context a {
+  width: fit-content;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 800;
+}
+.article-breadcrumb{font-family:var(--sans)}.article-context{position:static;margin-top:36px;padding:20px 17px;font-family:var(--sans);max-width:none}.article-context .eyebrow{font:10px/1.5 var(--sans);letter-spacing:.12em;margin:0 0 13px;max-width:none;color:#6c54a3}.article-context p:not(.eyebrow){max-width:none;font-size:12px;line-height:1.7;margin:0 0 16px}.article-context a{font:12px/1.6 var(--sans);margin:0 0 19px}.reader-continuity-rail{font-family:var(--sans)}.reader-continuity-rail a{display:block}.reader-continuity-rail .reader-continuity-eyebrow{font:11px var(--sans)}@media(max-width:700px){.article-breadcrumb{grid-template-columns:1fr;gap:9px;padding:12px 6vw;font-size:9px}.article-breadcrumb-path{flex-wrap:wrap;gap:6px}.article-source-link{justify-self:start}.article-context{grid-column:1/-1;margin:22px 0 0;padding:20px}.section-1 .section-margin{margin-bottom:35px}}
+
+:root{--line:rgba(11,34,48,.2);--muted:#5d6870}.article-source-link{padding-bottom:3px;border-bottom:1px solid #8267dc;white-space:nowrap}

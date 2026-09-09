@@ -65,6 +65,8 @@ Public systems catalog: https://fieldlight.com/systems/
 - Fieldlight Proofs: https://github.com/annimch04/fieldlight-proofs
 - Sanctum Zero: https://github.com/annimch04/sanctum-zero
 
+- Before I Had a Proposition: https://fieldlight.com/writing/before-i-had-a-proposition/
+
 ## Authorship and use
 
 Article pages identify their author and publisher. Canonical Markdown sources preserve Anni McHenry's authorship record. Cite the named author and link to the public reading page or canonical source when summarizing or discussing the work.
