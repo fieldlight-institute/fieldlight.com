@@ -47,6 +47,8 @@
     state.visits[publication.id] = new Date().toISOString();
     setState(state);
 
+    if (document.querySelector('[data-reader-continuity="inline"]')) return;
+
     const map = publicationMap(data);
     const related = (data.connections || []).filter((item) => item.from === publication.id || item.to === publication.id);
 

@@ -56,7 +56,8 @@
     {"id":"FLW-0051","title":"Governed Human–AI Archive Acquisition","url":"/institute/governed-archive-acquisition/","form":"working research method","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-09-01T12:00:00-05:00"},
     {"id":"FLW-0052","title":"Found Language Atlas","url":"/writing/found-language-atlas/","form":"fieldwork atlas","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
     {"id":"FLW-0053","title":"At Two Heights","url":"/writing/at-two-heights/","form":"photographic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-07T23:59:48Z"},
-    {"id":"FLW-0054","title":"Before I Had a Proposition","url":"/writing/before-i-had-a-proposition/","form":"essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","governed-memory","relational-cognition"]}
+    {"id":"FLW-0054","title":"Before I Had a Proposition","url":"/writing/before-i-had-a-proposition/","form":"essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","governed-memory","relational-cognition"]},
+    {"id":"FLW-0055","title":"Fieldlight at 1AM","url":"/writing/fieldlight-at-1am/","form":"photographic exhibition","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-10T20:42:13.898605Z"}
   ],
   "threads": [
     {
@@ -97,7 +98,7 @@
       "title":"Symbol, story, and pre-propositional discovery",
       "question":"Can image, ritual, narrative, and symbol discover relations before formal language can state them?",
       "description":"Academic inquiry, field practice, fiction, naming, and archive work as neighboring instruments of discovery.",
-      "path":["FLW-0043","FLW-0042","FLW-0041","FLW-0040","FLW-0030","FLW-0031","FLW-0032","FLW-0052","FLW-0053","FLW-0047","FLW-0033","FLW-0044","FLW-0029","FLW-0034","FLW-0035","FLW-0036","FLW-0037","FLW-0038","FLW-0039","FLW-0050","FLW-0054"]
+      "path":["FLW-0043","FLW-0042","FLW-0041","FLW-0040","FLW-0030","FLW-0031","FLW-0032","FLW-0052","FLW-0053","FLW-0047","FLW-0033","FLW-0044","FLW-0029","FLW-0034","FLW-0035","FLW-0036","FLW-0037","FLW-0038","FLW-0039","FLW-0050","FLW-0054","FLW-0055"]
     }
   ],
   "mapStages": [
