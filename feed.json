@@ -12,6 +12,20 @@
   ],
   "items": [
     {
+      "id": "https://fieldlight.com/writing/fieldlight-at-1am/",
+      "url": "https://fieldlight.com/writing/fieldlight-at-1am/",
+      "title": "Fieldlight at 1AM",
+      "summary": "Five arrangements of art, photographed at home. A domestic exhibition by Anni McHenry.",
+      "date_published": "2026-09-10T20:44:41.373202+00:00",
+      "image": "https://fieldlight.com/assets/fieldlight-at-1am-social-20260910.jpg",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ]
+    },
+    {
       "id": "https://fieldlight.com/writing/before-i-had-a-proposition/",
       "url": "https://fieldlight.com/writing/before-i-had-a-proposition/",
       "title": "Before I Had a Proposition",
