@@ -4,7 +4,10 @@ subtitle: "Private work, borrowed authority, and the right to finish your own st
 author: "Anni McHenry"
 status: "published"
 date: "2026-09-11"
-composition_date: "2026-09-11"
+writing_started: "2026-09-10"
+revision_date: "2026-09-11"
+publication_date: "2026-09-11"
+drafting_history: "Writing began September 10; version 8 was reached September 11, before publication of version 9."
 version: 9
 previous_title: "What the Machine Kept"
 canonical_category: "Runtime, Trust, and Governance"
