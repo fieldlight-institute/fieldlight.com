@@ -12,6 +12,20 @@
   ],
   "items": [
     {
+      "id": "https://fieldlight.com/writing/i-was-still-writing/",
+      "url": "https://fieldlight.com/writing/i-was-still-writing/",
+      "title": "I Was Still Writing",
+      "summary": "Private work, borrowed authority, and the right to finish your own story.",
+      "date_published": "2026-09-11T23:16:12.903238+00:00",
+      "image": "https://fieldlight.com/writing/i-was-still-writing/assets/i-was-still-writing-social-20260911-v5.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ]
+    },
+    {
       "id": "https://fieldlight.com/writing/fieldlight-at-1am/",
       "url": "https://fieldlight.com/writing/fieldlight-at-1am/",
       "title": "Fieldlight at 1AM",

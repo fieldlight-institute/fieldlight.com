@@ -26,11 +26,11 @@
 
 .writing-index-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(340px, 0.8fr);
-  gap: clamp(48px, 8vw, 144px);
-  align-items: end;
-  min-height: 72vh;
-  padding: clamp(80px, 10vw, 164px) clamp(24px, 7vw, 132px) clamp(72px, 8vw, 132px);
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(40px, 6vw, 100px);
+  align-items: center;
+  min-height: 0;
+  padding: clamp(44px, 5vw, 76px) clamp(24px, 6vw, 112px);
   color: var(--writing-cream);
   background:
     repeating-linear-gradient(90deg, transparent 0, transparent calc(8.333% - 1px), rgba(215, 170, 75, 0.07) calc(8.333% - 1px), rgba(215, 170, 75, 0.07) 8.333%),
@@ -39,7 +39,7 @@
 }
 
 .writing-index-kicker {
-  margin: 0 0 34px;
+  margin: 0 0 24px;
   color: var(--writing-gold);
   font-size: 12px;
   font-weight: 800;
@@ -52,10 +52,10 @@
   margin: 0;
   color: var(--writing-cream);
   font-family: var(--writing-book);
-  font-size: clamp(62px, 7.4vw, 132px);
+  font-size: clamp(54px, 5.6vw, 90px);
   font-weight: 400;
   letter-spacing: -0.055em;
-  line-height: 0.93;
+  line-height: 1.02;
 }
 
 .writing-index-intro > p:first-child {
@@ -70,7 +70,7 @@
   display: flex;
   gap: 18px;
   align-items: baseline;
-  margin: 58px 0 0;
+  margin: 24px 0 0;
   padding-top: 22px;
   border-top: 1px solid rgba(255, 248, 236, 0.24);
 }
@@ -78,7 +78,7 @@
 .writing-index-count strong {
   color: var(--writing-gold);
   font-family: var(--writing-book);
-  font-size: 52px;
+  font-size: 36px;
   font-weight: 400;
 }
 
@@ -95,8 +95,8 @@
   grid-template-columns: minmax(0, 1fr) 24px;
   gap: 8px 18px;
   align-items: center;
-  margin-top: 30px;
-  padding: 22px 0;
+  margin-top: 18px;
+  padding: 15px 0;
   border-top: 1px solid rgba(255, 248, 236, 0.24);
   border-bottom: 1px solid rgba(255, 248, 236, 0.24);
   text-decoration: none;
@@ -264,6 +264,75 @@
   text-transform: uppercase;
 }
 
+
+.writing-index-deck {
+  max-width: 32em;
+  margin: 24px 0 0;
+  color: rgba(255, 248, 236, .76);
+  font-family: var(--writing-book);
+  font-size: clamp(18px, 1.5vw, 22px);
+  line-height: 1.5;
+}
+.writing-index-heading { min-width: 0; }
+.writing-feature {
+  display: block;
+  min-width: 0;
+  color: var(--writing-cream);
+  text-decoration: none;
+}
+.writing-feature-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+  color: var(--writing-gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.writing-feature-meta time { color: rgba(255, 248, 236, .65); }
+.writing-feature img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1734 / 907;
+  border: 1px solid rgba(255, 248, 236, .18);
+}
+.writing-feature-copy { padding: 22px 0 0; }
+.writing-feature h2 {
+  margin: 0;
+  color: var(--writing-cream);
+  font-family: var(--writing-book);
+  font-size: clamp(32px, 3vw, 46px);
+  font-weight: 400;
+  letter-spacing: -.025em;
+  line-height: 1.1;
+}
+.writing-feature p {
+  max-width: 32em;
+  margin: 12px 0 20px;
+  color: rgba(255, 248, 236, .72);
+  font-family: var(--writing-book);
+  font-size: 19px;
+  line-height: 1.4;
+}
+.writing-feature-copy > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 248, 236, .24);
+  color: var(--writing-gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.writing-feature-copy i { font-size: 22px; font-style: normal; }
+.writing-feature:hover h2 { color: var(--writing-gold); }
+.writing-feature:focus-visible { outline: 2px solid var(--writing-gold); outline-offset: 8px; }
+
 @media (max-width: 900px) {
   .writing-index-hero,
   .writing-index-shelves > article {
@@ -302,7 +371,7 @@
 
   .writing-index-hero {
     gap: 46px;
-    padding-top: 64px;
+    padding-top: 36px;
   }
 
   .writing-index-hero h1 {

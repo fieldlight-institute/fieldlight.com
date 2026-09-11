@@ -57,7 +57,8 @@
     {"id":"FLW-0052","title":"Found Language Atlas","url":"/writing/found-language-atlas/","form":"fieldwork atlas","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
     {"id":"FLW-0053","title":"At Two Heights","url":"/writing/at-two-heights/","form":"photographic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-07T23:59:48Z"},
     {"id":"FLW-0054","title":"Before I Had a Proposition","url":"/writing/before-i-had-a-proposition/","form":"essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","governed-memory","relational-cognition"]},
-    {"id":"FLW-0055","title":"Fieldlight at 1AM","url":"/writing/fieldlight-at-1am/","form":"photographic exhibition","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-10T20:42:13.898605Z"}
+    {"id":"FLW-0055","title":"Fieldlight at 1AM","url":"/writing/fieldlight-at-1am/","form":"photographic exhibition","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-10T20:42:13.898605Z"},
+    {"id":"FLW-0056","title":"I Was Still Writing","url":"/writing/i-was-still-writing/","form":"investigative essay","primaryThread":"governed-memory","threads":["governed-memory","human-owned-intelligence"],"changedAt":"2026-09-11T23:16:12.903238+00:00"}
   ],
   "threads": [
     {
@@ -66,7 +67,7 @@
       "title":"Human-owned intelligence",
       "question":"What must remain human-owned when intelligence becomes intimate?",
       "description":"Consent, memory, authorship, identity, and the terms under which AI may enter lived human systems.",
-      "path":["FLW-0003","FLW-0006","FLW-0004","FLW-0005","FLW-0002","FLW-0001","FLW-0026","FLW-0027","FLW-0028","FLW-0048","FLW-0049","FLW-0051"]
+      "path":["FLW-0003","FLW-0006","FLW-0004","FLW-0005","FLW-0002","FLW-0001","FLW-0026","FLW-0027","FLW-0028","FLW-0048","FLW-0049","FLW-0051","FLW-0056"]
     },
     {
       "id":"local-intelligence",
@@ -82,7 +83,7 @@
       "title":"Governed memory and accountable systems",
       "question":"How can a system change without erasing who changed it, what it knew, or why?",
       "description":"Governance, routing, institutional transition, feedback loops, and archival method as inspectable infrastructure.",
-      "path":["FLW-0016","FLW-0015","FLW-0014","FLW-0017","FLW-0018","FLW-0019","FLW-0020","FLW-0045","FLW-0047","FLW-0048","FLW-0049","FLW-0051"]
+      "path":["FLW-0016","FLW-0015","FLW-0014","FLW-0017","FLW-0018","FLW-0019","FLW-0020","FLW-0045","FLW-0047","FLW-0048","FLW-0049","FLW-0051","FLW-0056"]
     },
     {
       "id":"relational-cognition",

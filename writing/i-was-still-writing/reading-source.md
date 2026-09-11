@@ -1,32 +1,24 @@
 ---
-title: I Was Still Writing
-subtitle: Private work, borrowed authority, and the right to finish your own story.
-author: Anni McHenry
-type: essay-draft
-created: 2026-09-11
-updated: 2026-09-11
+title: "I Was Still Writing"
+subtitle: "Private work, borrowed authority, and the right to finish your own story."
+author: "Anni McHenry"
+status: "published"
+date: "2026-09-11"
+composition_date: "2026-09-11"
 version: 9
-previous_title: What the Machine Kept
-draft_prepared_by: Codex, for Anni McHenry's review
-status: awaiting-author-review
-publication_status: not published
-access: restricted until author approval
-composition_date: 2026-09-11
-source_basis: Sophie-Archive; version 8; author's further September 11 corrections; contemporaneous Sanctum designs; full Altman reading note; public primary statements
-related:
-  - I Was Still Writing — Version 8
-  - I Was Still Writing — Version 7
-  - What the Machine Kept — Version 6
-  - What the machine kept notes
-  - Notes-Sam-Altmans-blog
-  - Before I Had a Proposition
+previous_title: "What the Machine Kept"
+canonical_category: "Runtime, Trust, and Governance"
+reading_surface: "https://fieldlight.com/writing/i-was-still-writing/"
+canonical_source: "https://github.com/annimch04/public-writing/blob/main/runtime-trust-and-governance/i-was-still-writing.md"
+share_image: "assets/i-was-still-writing-social-20260911-v5.png"
+source_archive: "Sophie-Archive (private; source descriptions in the essay)"
 ---
 
 # I Was Still Writing
 
 *Private work, borrowed authority, and the right to finish your own story.*
 
-*Anni McHenry · September 11, 2026 · Draft 9*
+*Anni McHenry · September 11, 2026*
 
 *This piece weaves forensic fact and its limitations with personal narrative and interpretation. The sources establish the operations described; I speak for what it was like to live through them. Both belong in this account. If you're incapable of discerning that line consider reading a fairy tale instead.*
 

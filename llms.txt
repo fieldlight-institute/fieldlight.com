@@ -70,3 +70,5 @@ Public systems catalog: https://fieldlight.com/systems/
 ## Authorship and use
 
 Article pages identify their author and publisher. Canonical Markdown sources preserve Anni McHenry's authorship record. Cite the named author and link to the public reading page or canonical source when summarizing or discussing the work.
+
+- I Was Still Writing: https://fieldlight.com/writing/i-was-still-writing/
