@@ -5,7 +5,7 @@
 .reader-preface{padding-top:40px;padding-bottom:0}
 .preface-copy{grid-column:2;padding-top:0}
 .section-opening{padding-top:38px}
-.section-opening>.section-margin{position:static}
+
 .article-context{position:static;display:grid;gap:12px;margin-top:36px;padding:20px 17px;border:1px solid var(--line);background:rgba(255,255,255,.78);box-shadow:0 14px 40px rgba(16,33,49,.06);font-family:var(--sans);max-width:none;color:var(--ink)}
 .article-context .eyebrow{font:10px/1.5 var(--sans);letter-spacing:.12em;margin:0 0 13px;color:#6c54a3}
 .article-context p:not(.eyebrow){color:var(--muted);font-size:12px;line-height:1.7;margin:0 0 16px}
