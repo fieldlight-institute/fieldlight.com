@@ -235,7 +235,7 @@ I am still the author.
 
 [^math]: OpenAI, [*On the Navier–Stokes Millennium Prize Problem*](https://openai.com/index/navier-stokes-solution/), September 8, updated September 10, 2026. The company's announcement and Buckmaster's statement document contemporaneous work in fluid dynamics. The essay examines the conditions of independent research and control over its timing and public account.
 
-[^terms]: Sam Altman, [*A founder-friendly term sheet*](https://blog.samaltman.com/a-founder-friendly-term-sheet). His published terms give founders time to decide and freedom to discuss an offer. The essay draws an explicit comparison between those stated principles and the later researcher/company encounter.
+[^terms]: Sam Altman, [*A founder-friendly term sheet*](https://blog.samaltman.com/a-founder-friendly-term-sheet). His published terms give founders time to decide and freedom to discuss an offer. The essay draws an explicit comparison between those stated principles and the later researcher/company encounter. Anni McHenry’s reading note, “founder friendly term sheet,” is dated August 20, 2026, 12:49 p.m.; the later comparison in this essay was made September 11.
 
 [^bubeck]: Sébastien Bubeck, [September 8 response](https://x.com/SebastienBubeck/status/2097379411691516310), including his acknowledgment of the career-risk remark and his own description of care. The essay quotes that description as an example of the institution's framing of its intervention.
 
@@ -245,4 +245,4 @@ I am still the author.
 
 [^monitoring]: OpenAI, [*Detecting misbehavior in frontier reasoning models*](https://openai.com/index/chain-of-thought-monitoring/), March 10, 2025; [*GPT-6 Astra: A new generation of intelligence*](https://openai.com/index/gpt-6-astra/), September 3, 2026; Jakub Pachocki, [*An Alien Mind*](https://openai.com/index/an-alien-mind/), September 6. These sources concern chain-of-thought monitoring and the stated conditions of evasion tests, alongside continued oversight research.
 
-[^altman-growth]: Sam Altman, [*Growth and Government*](https://blog.samaltman.com/growth-and-government). The original comparison concerns perception of economic improvement. Applying it to normalized institutional reach is the author's interpretation, developed from her ongoing reading notes.
+[^altman-growth]: Sam Altman, [*Growth and Government*](https://blog.samaltman.com/growth-and-government). The original comparison concerns perception of economic improvement. Applying it to normalized institutional reach is the author's interpretation, developed from her ongoing reading notes. Anni McHenry’s “Growth and government” entry is dated August 20, 2026, 11:33 a.m., the earliest dated entry in her Altman reading note. That reading and writing preceded this essay’s September 11 publication by 22 days.
