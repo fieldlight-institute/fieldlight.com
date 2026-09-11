@@ -13,3 +13,5 @@
 .article-context a:last-child{margin-bottom:0}
 @media(max-width:700px){.reader-preface{display:block;padding-top:30px;padding-bottom:0}.section-opening{padding-top:30px}.article-context{grid-column:1/-1;margin:22px 0 0;padding:20px}}
 @media print{.article-context{display:none}}
+
+.article-context h2{font:24px/1.15 var(--display);margin:0 0 16px;max-width:none;color:var(--ink)}
