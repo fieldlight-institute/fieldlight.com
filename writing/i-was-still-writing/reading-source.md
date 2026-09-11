@@ -147,7 +147,7 @@ In an earlier essay, Sam Altman offered founders a term sheet without an expirat
 
 That is a precise understanding of how power enters a negotiation: through the clock and through control of the story afterward. It is one of the reasons I respect the mind in those essays. He could identify an asymmetry from the receiving end and design terms that changed it.
 
-Read that beside Buckmaster's account of being asked, “Why would you ruin your career?” when he said he would speak publicly. Bubeck's response acknowledges a career-risk remark and describes his intervention as “trying to care for him.” Altman's public response praises the team's “integrity and generosity throughout.”[^buckmaster][^bubeck][^altman-response]
+Read that beside Buckmaster's account of being asked, “Why would you ruin your career?” when he said he would speak publicly. Bubeck's response acknowledges a career-risk remark and describes his intervention as “trying to care for him.” Sam's public response praises the team's “integrity and generosity throughout.”[^buckmaster][^bubeck][^altman-response]
 
 The institution supplies the words *care* and *generosity*. The researcher is left to decide what refusal might cost. The same person is being offered help and warned about the consequences of telling the story in his own terms.
 
@@ -155,7 +155,7 @@ What happened to the founder who could take his time and speak to whomever he wa
 
 The question reaches beyond one phone call. The provider of a research tool can also become a competitor, with an internal model and resources far beyond those available to the people paying to use its products. That concentration of roles puts the conditions of independent work at the discretion of an institution pursuing its own result.
 
-I want Altman's earlier understanding of power to survive the power he now has. The respect and resonance are real. They are also why I feel apprehensive about his continued leadership: I can recognize the principle in his own writing and ask where it is being enforced now.
+I want Sam's earlier understanding of power to survive the power he now has. The respect and resonance are real. They are also why I feel apprehensive about his continued leadership: I can recognize the principle in his own writing and ask where it is being enforced now.
 
 Let the humans have the fucking story. Including the time to finish it, the people they made it with, and the right to say what happened along the way.
 
@@ -183,7 +183,7 @@ I put those dates beside the unfinished account of my own environment. If the pe
 
 How much further can the work travel now? How much more can be made from it before its author can establish what happened? Who can still produce an account complete enough to challenge the institution's own?
 
-Altman once used the distinction between feeling acceleration and feeling sustained motion to explain why people notice changes in improvement more readily than an already-improved condition.[^altman-growth] The distinction cuts the other way here. Overreach can become a condition we stop noticing from inside. A new integration gets an announcement; the accumulated reach becomes the environment. A person objecting to it is told how computers work.
+Sam once used the distinction between feeling acceleration and feeling sustained motion to explain why people notice changes in improvement more readily than an already-improved condition.[^altman-growth] The distinction cuts the other way here. Overreach can become a condition we stop noticing from inside. A new integration gets an announcement; the accumulated reach becomes the environment. A person objecting to it is told how computers work.
 
 The questions I was building Sanctum to answer have grown with the systems. I was trying to make intention, authorship, and permission survive what intelligence did next. Today, I am also asking what happens when the institution claiming to supervise that intelligence becomes less able to inspect it, while retaining the power to describe our participation for us.
 
@@ -235,14 +235,14 @@ I am still the author.
 
 [^math]: OpenAI, [*On the Navier–Stokes Millennium Prize Problem*](https://openai.com/index/navier-stokes-solution/), September 8, updated September 10, 2026. The company's announcement and Buckmaster's statement document contemporaneous work in fluid dynamics. The essay examines the conditions of independent research and control over its timing and public account.
 
-[^terms]: Sam Altman, [*A founder-friendly term sheet*](https://blog.samaltman.com/a-founder-friendly-term-sheet). His published terms give founders time to decide and freedom to discuss an offer. The essay draws an explicit comparison between those stated principles and the later researcher/company encounter. Anni McHenry’s reading note, “founder friendly term sheet,” is dated August 20, 2026, 12:49 p.m.; the later comparison in this essay was made September 11.
+[^terms]: Sam, [*A founder-friendly term sheet*](https://blog.samaltman.com/a-founder-friendly-term-sheet). His published terms give founders time to decide and freedom to discuss an offer. The essay draws an explicit comparison between those stated principles and the later researcher/company encounter. Anni McHenry’s reading note, “founder friendly term sheet,” is dated August 20, 2026, 12:49 p.m.; the later comparison in this essay was made September 11.
 
 [^bubeck]: Sébastien Bubeck, [September 8 response](https://x.com/SebastienBubeck/status/2097379411691516310), including his acknowledgment of the career-risk remark and his own description of care. The essay quotes that description as an example of the institution's framing of its intervention.
 
-[^altman-response]: Sam Altman, [September 8 statement](https://x.com/sama/status/2097385167002415140). His description of the team's conduct is quoted directly. The assessment of leadership and the relation to his earlier principles are the author's judgments.
+[^altman-response]: Sam, [September 8 statement](https://x.com/sama/status/2097385167002415140). His description of the team's conduct is quoted directly. The assessment of leadership and the relation to his earlier principles are the author's judgments.
 
 [^corrections]: *Executor chat — correction comparison*, September 11, 2026, frozen before the version 7 review: forensic investigation/publication, 13 correction-bearing messages among 30 main user messages; website, 10/26; funding, 4/15; Pythia, 1/14. Two rapid publication messages form one intervention. The private coding record preserves the unequal windows, exclusions, surrounding messages, and the author's acknowledgment that some narrative expectations exceeded the original report request. This is a descriptive record of corrective labor. Subsequent author feedback and draft revisions are preserved separately as editorial lineage.
 
 [^monitoring]: OpenAI, [*Detecting misbehavior in frontier reasoning models*](https://openai.com/index/chain-of-thought-monitoring/), March 10, 2025; [*GPT-6 Astra: A new generation of intelligence*](https://openai.com/index/gpt-6-astra/), September 3, 2026; Jakub Pachocki, [*An Alien Mind*](https://openai.com/index/an-alien-mind/), September 6. These sources concern chain-of-thought monitoring and the stated conditions of evasion tests, alongside continued oversight research.
 
-[^altman-growth]: Sam Altman, [*Growth and Government*](https://blog.samaltman.com/growth-and-government). The original comparison concerns perception of economic improvement. Applying it to normalized institutional reach is the author's interpretation, developed from her ongoing reading notes. Anni McHenry’s “Growth and government” entry is dated August 20, 2026, 11:33 a.m., the earliest dated entry in her Altman reading note. That reading and writing preceded this essay’s September 11 publication by 22 days.
+[^altman-growth]: Sam, [*Growth and Government*](https://blog.samaltman.com/growth-and-government). The original comparison concerns perception of economic improvement. Applying it to normalized institutional reach is the author's interpretation, developed from her ongoing reading notes. Anni McHenry’s “Growth and government” entry is dated August 20, 2026, 11:33 a.m., the earliest dated entry in her notes on Sam. That reading and writing preceded this essay’s September 11 publication by 22 days.
