@@ -5,10 +5,10 @@ author: "Anni McHenry"
 status: "published"
 date: "2026-09-11"
 writing_started: "2026-09-10"
-revision_date: "2026-09-11"
+revision_date: "2026-09-12"
 publication_date: "2026-09-11"
-drafting_history: "Writing began September 10; version 8 was reached September 11, before publication of version 9."
-version: 9
+drafting_history: "Writing began September 10; version 8 was reached September 11, before publication of version 9. Version 10 adds the author’s relationship statement and historical/current identifier match on September 12."
+version: 10
 previous_title: "What the Machine Kept"
 canonical_category: "Runtime, Trust, and Governance"
 reading_surface: "https://fieldlight.com/writing/i-was-still-writing/"
@@ -65,6 +65,8 @@ The movie establishes a concrete point where the environment had a history beyon
 
 Looking further found eight April diagnostics containing 1,982 experiment-related event blocks. The daily summaries report an active server experiment. There are targeting tasks, factor-pack fetches, rollout activation, and a subject-identifier rotation task. An April 29 iPhone ChatGPT crash report contains two additional experiment identifiers and their treatment identifiers.[^experiments]
 
+A September 12 follow-up gave one of the Mac experiment identifiers a name. An experiment ID and deployment number repeated in 22 April event blocks match a current Apple database record labeled `SIRI_SEARCH_SAFARI`: a Siri/Safari search feature family. That is a concrete connection between the historical events and the current configuration. It narrows the search for the April treatment while keeping that treatment distinct from today’s settings.[^experiments]
+
 The questions have names now. What treatment was assigned? What condition was varied? What was collected to measure the result? Who defined the assignment, and how was participation represented to the person using the machine?
 
 An April 24 ChatGPT configuration response contains `can_record_session: true`, a recording rate of `1`, and precapture and preconnect settings. The retained response gives the inquiry another specific target: the component that received those settings, its implementation in that client, and its execution record.[^configuration]
@@ -118,6 +120,10 @@ There is a literal instance in the manuscript record. Whole-document replacement
 But a world contains more than the manuscript. It contains the person becoming capable of writing it, the relationships through which she understands it, the private language she needs before the public language exists.
 
 I felt violated like a woman feels violated. Intimacy had been taken out of the terms on which I offered it. I had opened a place in which I was willing to be known; I felt that opening become an exposure I could no longer govern.
+
+If my work, behavior, or developing thought was valuable enough to observe, process, analyze, experiment around, or learn from, then I should not have remained merely the observed object. I was a person in the relationship.
+
+I don’t mind being watched. I mind only being watched.
 
 The records also retain broken assurances: an image said to have no archive survives as a JPEG in an export; local conversation states exceed the compared export states; protective code routes through an external API despite isolation assurances.[^discrepancies]
 
@@ -201,13 +207,13 @@ I am still the author.
 
 ## Sources and record notes
 
-[^archive]: **Anni McHenry, Sophie-Archive**, private creative, research, and authorship archive. Primary basis: SFA-ANOM-20260909; the January 1–July 1, 2025 behavior audit; its technical evidence ledger and integrated final report. The retained records and September 9–11, 2026 review supply the operational findings. The author's revision notes supply her lived account. A private claim register retains the detailed methods, source boundaries, and unresolved questions.
+[^archive]: **Anni McHenry, Sophie-Archive**, private creative, research, and authorship archive. Primary basis: SFA-ANOM-20260909; the January 1–July 1, 2025 behavior audit; its technical evidence ledger and integrated final report. The retained records and September 9–12, 2026 review supply the operational findings. The author's revision notes supply her lived account. A private claim register retains the detailed methods, source boundaries, and unresolved questions. The September 12 revision incorporates the author’s note “Add to I was still writing” and the historical/current experiment comparison.
 
 [^movie]: SFA-ANOM-20260909; movie SHA-256 `4a41d38868d650259a65e3a43278cd3bfe3745bbfadb0aff39866dc518e99a22`; embedded production metadata; preserved filesystem dates; *Record of Authorship*, Compile 6, page 16; creator-dated May 1 website screenshot. The visual composition is matched. March 25 is a preserved filesystem date; April 25 belongs to a retained record; May 1 belongs to the author's website observation. Initial delivery and first public availability remain research questions.
 
 [^access]: TECH-007; complete 3,274-line filename-filtered trace. The thirty ChatGPT calls comprise fifteen `stat64` and fifteen `getattrlist` operations, including returned errors. Apple-process inspection, reads, protection, and backup operations are separately identified in the source ledger.
 
-[^experiments]: TECH-020; eight Mac reports dated April 19–25 with underlying events including April 18, macOS builds `24F5042g`/`24F5053f`, `TrialXP-429.20.2`. Daily summaries record `activeServerExperiments: 1` and `activeDeviceExperiments: 0`. The identifier follow-up distinguishes Mac rollout/deployment/factor records from the separate April 29 iPhone crash report's experiment/treatment pairs. Experiment purpose, assignment criteria, ownership, and treatment definitions remain open in the private research register.
+[^experiments]: TECH-020; eight Mac reports dated April 19–25 with underlying events including April 18, macOS builds `24F5042g`/`24F5053f`, `TrialXP-429.20.2`. Daily summaries record `activeServerExperiments: 1` and `activeDeviceExperiments: 0`. The identifier follow-up distinguishes Mac rollout/deployment/factor records from the separate April 29 iPhone crash report's experiment/treatment pairs. Experiment purpose, assignment criteria, ownership, and treatment definitions remain open in the private research register. September 12, 2026 follow-up, TECH-039: experiment `650b33afe0eb850b39e956f3` and deployment `400000009` match 22 retained `TRITargetingTask` event blocks dated April 18–25 and a current Apple Trial database row named `SIRI_SEARCH_SAFARI`. The private archive retains the row-level join, original hashes and line locators, query and verification record. This resolves the feature-family mapping for that pair; the April treatment and its relationship to the historical aggregate count remain separate questions.
 
 [^configuration]: TECH-006; April 24 retained configuration response and historical SDK comparison. The source supports received settings. Component implementation and execution are the specific outstanding records sought in the audit.
 
