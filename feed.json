@@ -12,6 +12,20 @@
   ],
   "items": [
     {
+      "id": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+      "url": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+      "title": "Vault Flower: Memory Between Agents",
+      "summary": "An architecture for memory that persists, travels between agents, and makes their work cumulative.",
+      "date_published": "2026-09-14T23:24:43.035050+00:00",
+      "image": "https://fieldlight.com/writing/vault-flower-memory-between-agents/assets/vault-flower-social-v1.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ]
+    },
+    {
       "id": "https://fieldlight.com/writing/i-was-still-writing/",
       "url": "https://fieldlight.com/writing/i-was-still-writing/",
       "title": "I Was Still Writing",
