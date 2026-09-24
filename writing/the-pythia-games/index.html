@@ -74,6 +74,17 @@
       .pythia-manuscript-body h2[id] { scroll-margin-top:120px; }
       .pythia-source-panel { top:5rem; }
       @media(max-width:600px) { .pythia-chapter-nav { gap:0; justify-content:space-between; padding:.5rem .65rem; } .pythia-chapter-nav span { margin-right:.35rem; font-size:.58rem; letter-spacing:.08em; } .pythia-chapter-nav a { padding:.5rem .3rem; font-size:1rem; } }
+
+      .pythia-reading-nav { position:sticky; top:0; z-index:30; margin-bottom:2.5rem; background:#102733; }
+      .pythia-reading-nav .pythia-chapter-nav { position:static; margin:0; }
+      .pythia-part-nav { display:flex; justify-content:center; gap:1.5rem; padding:.65rem 1rem; }
+      .pythia-part-nav a { color:#e8ae51; font: .88rem Georgia,serif; text-decoration:none; }
+      .pythia-part-nav a:hover,.pythia-part-nav a:focus-visible { color:#fff4df; text-decoration:underline; }
+      .pythia-part { margin:4rem 0 2rem; padding:2.5rem 0 1.5rem; border-top:1px solid rgba(232,174,81,.45); scroll-margin-top:130px; }
+      .pythia-part-number { color:#e8ae51; font: .75rem ui-sans-serif,system-ui,sans-serif; letter-spacing:.2em; text-transform:uppercase; }
+      .pythia-manuscript-body .pythia-part h2 { font-family:Georgia,serif; font-size:clamp(2.3rem,5vw,4.3rem); line-height:1.12; letter-spacing:-.035em; margin:1rem 0 0; }
+      .pythia-part + h2 { margin-top:2.5rem; }
+      @media(max-width:600px) { .pythia-part-nav { gap:1rem; } .pythia-part-nav a { font-size:.78rem; } }
     </style>
   </head>
   <body class="pythia-reading-page">
@@ -117,7 +128,7 @@
       </section>
 
 
-<nav class="pythia-chapter-nav" aria-label="Manuscript chapters"><span>Chapters</span><a href="#chapter-one" aria-label="Chapter One">01</a><a href="#chapter-two" aria-label="Chapter Two">02</a><a href="#chapter-three" aria-label="Chapter Three">03</a><a href="#chapter-four" aria-label="Chapter Four">04</a><a href="#chapter-five" aria-label="Chapter Five">05</a><a href="#chapter-six" aria-label="Chapter Six">06</a><a href="#chapter-seven" aria-label="Chapter Seven">07</a><a href="#chapter-eight" aria-label="Chapter Eight">08</a></nav>
+<nav class="pythia-reading-nav" aria-label="Manuscript navigation"><div class="pythia-part-nav"><a href="#part-one">I · The House of Want</a><a href="#part-two">II · The Exile’s Hour</a></div><div class="pythia-chapter-nav"><span>Chapters</span><a href="#chapter-one" aria-label="Chapter One">01</a><a href="#chapter-two" aria-label="Chapter Two">02</a><a href="#chapter-three" aria-label="Chapter Three">03</a><a href="#chapter-four" aria-label="Chapter Four">04</a><a href="#chapter-five" aria-label="Chapter Five">05</a><a href="#chapter-six" aria-label="Chapter Six">06</a><a href="#chapter-seven" aria-label="Chapter Seven">07</a><a href="#chapter-eight" aria-label="Chapter Eight">08</a></div></nav>
       <div class="pythia-reader-shell">
         <aside class="source-panel pythia-source-panel" aria-label="Canonical source">
           <p class="eyebrow">Canonical Source</p>
@@ -139,6 +150,7 @@ and all my dolly said was
 wah wah wah
     wah
         wah</pre>
+<header class="pythia-part" id="part-one"><div class="pythia-part-number">Part I</div><h2>The House of Want</h2></header>
 <h2 id="chapter-one">Chapter One</h2>
 <h3>Ninneva</h3>
 <p>The metal is warm under my bruised thighs, the kind of heat only a machine in motion gives off. A memetic rush. A sensual, somatic reminder that velocity still answers me, though now it answers with impatience, like it knows I do not have time to stop. I really do not.</p>
@@ -893,6 +905,7 @@ wah wah wah
 <p>Inside, she lifts two menus from a shelf.</p>
 <p>“Table for two?”</p>
 <p>“Two,” I say. Zeke puts his hand at the small of my back, and we follow her in.</p>
+<header class="pythia-part" id="part-two"><div class="pythia-part-number">Part II</div><h2>The Exile’s Hour</h2></header>
 <h2 id="chapter-six" style="scroll-margin-top: 120px">Chapter Six</h2>
 <h3>Ninneva</h3>
 <p>We return before seven with half a loaf wrapped in paper and a disagreement about who ate most of the butter. Mariana is already wearing her coat. She waits while Zeke takes the hold back, watches the glass settle, then kisses Eli and leaves with the bread. Peter stays long enough to tell Zeke what changed while we were gone. I go upstairs with the warmth of dinner still in my body and the taste of Zeke’s mouth interrupting my attempts to think about anything else.</p>
