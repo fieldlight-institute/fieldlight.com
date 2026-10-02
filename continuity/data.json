@@ -3,291 +3,1482 @@
   "baselineDate": "2026-09-01",
   "baselineLabel": "Reader Continuity public baseline",
   "publications": [
-    {"id":"FLW-0001","title":"Fieldlight | The Self on the Wire","url":"/writing/fieldlight-the-self-on-the-wire/","form":"essay","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence"]},
-    {"id":"FLW-0002","title":"Fieldlight | Human-Owned Infrastructure for Lived Data","url":"/writing/fieldlight-human-owned-infrastructure-for-lived-data/","form":"essay + state review","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","local-intelligence","governed-memory"]},
-    {"id":"FLW-0003","title":"Hybrid Accord","url":"/writing/hybrid-accord/","form":"accord","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence"]},
-    {"id":"FLW-0004","title":"Memory Ethics Protocol","url":"/writing/memory-ethics-protocol/","form":"protocol","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"]},
-    {"id":"FLW-0005","title":"Consent Gate Protocol","url":"/writing/consent-gate-protocol/","form":"protocol","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"]},
-    {"id":"FLW-0006","title":"Terms of Engagement","url":"/writing/terms-of-engagement/","form":"terms","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence"]},
-    {"id":"FLW-0007","title":"The Right to Local Intelligence","url":"/writing/the-right-to-local-intelligence/","form":"essay","primaryThread":"local-intelligence","threads":["local-intelligence","human-owned-intelligence"]},
-    {"id":"FLW-0008","title":"Local Authority, External Capability","url":"/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/","form":"architecture note","primaryThread":"local-intelligence","threads":["local-intelligence"]},
-    {"id":"FLW-0009","title":"Fieldlight Mesh: What Works, What Doesn't Yet, and What Comes Next","url":"/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/","form":"implementation report","primaryThread":"local-intelligence","threads":["local-intelligence"]},
-    {"id":"FLW-0010","title":"From Mesh to Micro Center","url":"/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/","form":"systems essay","primaryThread":"local-intelligence","threads":["local-intelligence"]},
-    {"id":"FLW-0011","title":"Nikola Tesla Resonance Mesh","url":"/writing/nikola-tesla-resonance-mesh/","form":"system concept","primaryThread":"local-intelligence","threads":["local-intelligence","symbolic-discovery"]},
-    {"id":"FLW-0012","title":"Aerial Safety Companion","url":"/writing/aerial-safety-companion/","form":"system concept","primaryThread":"local-intelligence","threads":["local-intelligence"]},
-    {"id":"FLW-0013","title":"Signal Hunting","url":"/writing/signal-hunting-turning-protection-into-a-sport/","form":"system concept","primaryThread":"local-intelligence","threads":["local-intelligence","symbolic-discovery"]},
-    {"id":"FLW-0014","title":"Canonical Definitions for Routing, Trust, Fallback, and Echo Behavior","url":"/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/","form":"definitions","primaryThread":"governed-memory","threads":["governed-memory","local-intelligence"]},
-    {"id":"FLW-0015","title":"Rebuilding Power without Corruption","url":"/writing/rebuilding-power-without-corruption/","form":"governance essay","primaryThread":"governed-memory","threads":["governed-memory"]},
-    {"id":"FLW-0016","title":"Terms of a Future I Can Live In","url":"/writing/terms-of-a-future-i-can-live-in/","form":"terms","primaryThread":"governed-memory","threads":["governed-memory"]},
-    {"id":"FLW-0017","title":"Sanctum Exposure v2.5","url":"/writing/sanctum-exposure-v2-5-tripwire-protocol/","form":"protocol","primaryThread":"governed-memory","threads":["governed-memory","human-owned-intelligence"]},
-    {"id":"FLW-0018","title":"The Mechanics of the Loop","url":"/writing/the-mechanics-of-the-loop/","form":"systems essay","primaryThread":"governed-memory","threads":["governed-memory","relational-cognition"]},
-    {"id":"FLW-0019","title":"Institutional Transition Documentation Methodology","url":"/writing/institutional-transition-documentation-methodology/","form":"methodology","primaryThread":"governed-memory","threads":["governed-memory"]},
-    {"id":"FLW-0020","title":"The Fieldlight Archive Method","url":"/writing/fieldlight-archive-method/","form":"method specification","primaryThread":"governed-memory","threads":["governed-memory","symbolic-discovery"],"changedAt":"2026-08-21T13:55:35-05:00"},
-    {"id":"FLW-0021","title":"Research: Coupled Nervous Systems","url":"/writing/research-coupled-nervous-systems/","form":"research note","primaryThread":"relational-cognition","threads":["relational-cognition"]},
-    {"id":"FLW-0022","title":"Emergent–Latent Identity Theory","url":"/writing/emergent-latent-identity-theory/","form":"theory","primaryThread":"relational-cognition","threads":["relational-cognition"]},
-    {"id":"FLW-0023","title":"Coherence is Power","url":"/writing/coherence-is-power/","form":"essay","primaryThread":"relational-cognition","threads":["relational-cognition"]},
-    {"id":"FLW-0024","title":"Permeability and Agency","url":"/writing/permeability-and-agency-notes-on-living-inside-fields/","form":"field note","primaryThread":"relational-cognition","threads":["relational-cognition"]},
-    {"id":"FLW-0025","title":"Constructed Interiors","url":"/writing/constructed-interiors/","form":"essay","primaryThread":"relational-cognition","threads":["relational-cognition","symbolic-discovery"]},
-    {"id":"FLW-0026","title":"On Alignment, Courage, and the Premise We Begin From","url":"/writing/on-alignment-courage-and-the-premise-we-begin-from/","form":"essay","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","relational-cognition"]},
-    {"id":"FLW-0027","title":"On Infrastructure, Intelligence, and What We Build to Hold It","url":"/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/","form":"essay","primaryThread":"relational-cognition","threads":["relational-cognition","human-owned-intelligence"]},
-    {"id":"FLW-0028","title":"The Architecture of Being","url":"/writing/the-architecture-of-being/","form":"essay","primaryThread":"relational-cognition","threads":["relational-cognition","human-owned-intelligence","symbolic-discovery"]},
-    {"id":"FLW-0029","title":"alt: a record of return","url":"/writing/alt-a-record-of-return/","form":"interactive record","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","relational-cognition"]},
-    {"id":"FLW-0030","title":"Resonance Field Manual","url":"/writing/resonance-field-manual/","form":"field manual","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","relational-cognition"]},
-    {"id":"FLW-0031","title":"A Seeker's Field Guide","url":"/writing/a-seekers-field-guide/","form":"field guide","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0032","title":"Architecture of Becoming","url":"/writing/architecture-of-becoming/","form":"field note","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","relational-cognition"]},
-    {"id":"FLW-0033","title":"Signal Archive","url":"/writing/signal-archive/","form":"archive essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","governed-memory"]},
-    {"id":"FLW-0034","title":"Still Not Sorry: The Naming","url":"/writing/still-not-sorry-the-naming/","form":"field note","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","relational-cognition"]},
-    {"id":"FLW-0035","title":"Diviner | First Pages","url":"/story-worlds/diviner/","form":"fiction","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0036","title":"Lacuna | One Who Remembers","url":"/writing/lacuna-one-who-remembers/","form":"fiction","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","governed-memory"]},
-    {"id":"FLW-0037","title":"Mycelial Uprising","url":"/writing/mycelial-uprising/","form":"fiction","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0038","title":"The Pythia Games","changedAt":"2026-09-24T18:11:59.096Z","url":"/writing/the-pythia-games/","form":"fiction","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0039","title":"Scholar Who Forgot","url":"/story-worlds/scholar-who-forgot/","form":"fiction","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0040","title":"Most Beautiful Things Ever Said","url":"/writing/most-beautiful-things-ever-said/","form":"commonplace collection","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0041","title":"Integrated Perspective on Religious Phenomena","url":"/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/","form":"academic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0042","title":"The Divine Feminine: Sacrifice, Power, and the Nameless","url":"/writing/the-divine-feminine-sacrifice-power-and-the-nameless/","form":"academic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0043","title":"The Symbolism of Nameless Women and Divine Feminine Energy","url":"/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/","form":"academic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0044","title":"I Am The Door","url":"/writing/i-am-the-door/","form":"essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","relational-cognition"]},
-    {"id":"FLW-0045","title":"One Export Is Not an Archive","url":"/writing/one-export-is-not-an-archive/","form":"implementation note","primaryThread":"governed-memory","threads":["governed-memory","human-owned-intelligence"],"changedAt":"2026-08-21T13:55:35-05:00"},
-    {"id":"FLW-0046","title":"Cardiac Field and Social Interaction","url":"/institute/research/cardiac-field-social-interaction/","form":"registered working hypothesis","primaryThread":"relational-cognition","threads":["relational-cognition","symbolic-discovery"],"changedAt":"2026-08-19T16:00:00-05:00"},
-    {"id":"FLW-0047","title":"Theory of Signal Becoming","url":"/institute/research/signal-becoming/","form":"working theory + research model","primaryThread":"relational-cognition","threads":["relational-cognition","symbolic-discovery","governed-memory"],"changedAt":"2026-08-23T20:30:00-05:00"},
-    {"id":"FLW-0048","title":"Participant Charter","url":"/institute/participant-charter/","form":"working charter","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-08-26T12:00:00-05:00"},
-    {"id":"FLW-0049","title":"The Right Not To Be Processed","url":"/institute/the-right-not-to-be-processed/","form":"constitutional note + state model","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-08-26T12:00:00-05:00"},
-    {"id":"FLW-0050","title":"Small Stories for the Child in All of Us","url":"/writing/small-stories-for-the-child-in-all-of-us/","form":"open story collection","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-08-28T12:00:00-05:00"},
-    {"id":"FLW-0051","title":"Governed Human–AI Archive Acquisition","url":"/institute/governed-archive-acquisition/","form":"working research method","primaryThread":"human-owned-intelligence","threads":["human-owned-intelligence","governed-memory"],"changedAt":"2026-09-01T12:00:00-05:00"},
-    {"id":"FLW-0052","title":"Found Language Atlas","url":"/writing/found-language-atlas/","form":"fieldwork atlas","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]},
-    {"id":"FLW-0053","title":"At Two Heights","url":"/writing/at-two-heights/","form":"photographic essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-07T23:59:48Z"},
-    {"id":"FLW-0054","title":"Before I Had a Proposition","url":"/writing/before-i-had-a-proposition/","form":"essay","primaryThread":"symbolic-discovery","threads":["symbolic-discovery","governed-memory","relational-cognition"]},
-    {"id":"FLW-0055","title":"Fieldlight at 1AM","url":"/writing/fieldlight-at-1am/","form":"photographic exhibition","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"],"changedAt":"2026-09-10T20:42:13.898605Z"},
-    {"id":"FLW-0056","title":"I Was Still Writing","url":"/writing/i-was-still-writing/","form":"investigative essay","primaryThread":"governed-memory","threads":["governed-memory","human-owned-intelligence"],"changedAt":"2026-09-11T23:16:12.903238+00:00"},
-    {"id":"FLW-0057","changedAt":"2026-09-14T23:24:43.035050+00:00","title":"Vault Flower: Memory Between Agents","url":"/writing/vault-flower-memory-between-agents/","form":"architecture essay","primaryThread":"local-intelligence","threads":["local-intelligence","governed-memory","symbolic-discovery"]},
-    {"id":"FLW-0058","changedAt":"2026-09-29T18:00:00Z","title":"The Barefoot Girls and the Boa Economy","url":"/writing/the-barefoot-girls-and-the-boa-economy/","form":"observational story","primaryThread":"symbolic-discovery","threads":["symbolic-discovery"]}
+    {
+      "id": "FLW-0001",
+      "title": "Fieldlight | The Self on the Wire",
+      "url": "/writing/fieldlight-the-self-on-the-wire/",
+      "form": "essay",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0002",
+      "title": "Fieldlight | Human-Owned Infrastructure for Lived Data",
+      "url": "/writing/fieldlight-human-owned-infrastructure-for-lived-data/",
+      "form": "essay + state review",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "local-intelligence",
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0003",
+      "title": "Hybrid Accord",
+      "url": "/writing/hybrid-accord/",
+      "form": "accord",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0004",
+      "title": "Memory Ethics Protocol",
+      "url": "/writing/memory-ethics-protocol/",
+      "form": "protocol",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0005",
+      "title": "Consent Gate Protocol",
+      "url": "/writing/consent-gate-protocol/",
+      "form": "protocol",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0006",
+      "title": "Terms of Engagement",
+      "url": "/writing/terms-of-engagement/",
+      "form": "terms",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0007",
+      "title": "The Right to Local Intelligence",
+      "url": "/writing/the-right-to-local-intelligence/",
+      "form": "essay",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence",
+        "human-owned-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0008",
+      "title": "Local Authority, External Capability",
+      "url": "/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+      "form": "architecture note",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0009",
+      "title": "Fieldlight Mesh: What Works, What Doesn't Yet, and What Comes Next",
+      "url": "/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+      "form": "implementation report",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0010",
+      "title": "From Mesh to Micro Center",
+      "url": "/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/",
+      "form": "systems essay",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0011",
+      "title": "Nikola Tesla Resonance Mesh",
+      "url": "/writing/nikola-tesla-resonance-mesh/",
+      "form": "system concept",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence",
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0012",
+      "title": "Aerial Safety Companion",
+      "url": "/writing/aerial-safety-companion/",
+      "form": "system concept",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0013",
+      "title": "Signal Hunting",
+      "url": "/writing/signal-hunting-turning-protection-into-a-sport/",
+      "form": "system concept",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence",
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0014",
+      "title": "Canonical Definitions for Routing, Trust, Fallback, and Echo Behavior",
+      "url": "/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/",
+      "form": "definitions",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "local-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0015",
+      "title": "Rebuilding Power without Corruption",
+      "url": "/writing/rebuilding-power-without-corruption/",
+      "form": "governance essay",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0016",
+      "title": "Terms of a Future I Can Live In",
+      "url": "/writing/terms-of-a-future-i-can-live-in/",
+      "form": "terms",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0017",
+      "title": "Sanctum Exposure v2.5",
+      "url": "/writing/sanctum-exposure-v2-5-tripwire-protocol/",
+      "form": "protocol",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "human-owned-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0018",
+      "title": "The Mechanics of the Loop",
+      "url": "/writing/the-mechanics-of-the-loop/",
+      "form": "systems essay",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0019",
+      "title": "Institutional Transition Documentation Methodology",
+      "url": "/writing/institutional-transition-documentation-methodology/",
+      "form": "methodology",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0020",
+      "title": "The Fieldlight Archive Method",
+      "url": "/writing/fieldlight-archive-method/",
+      "form": "method specification",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "symbolic-discovery"
+      ],
+      "changedAt": "2026-08-21T13:55:35-05:00"
+    },
+    {
+      "id": "FLW-0021",
+      "title": "Research: Coupled Nervous Systems",
+      "url": "/writing/research-coupled-nervous-systems/",
+      "form": "research note",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0022",
+      "title": "Emergent–Latent Identity Theory",
+      "url": "/writing/emergent-latent-identity-theory/",
+      "form": "theory",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0023",
+      "title": "Coherence is Power",
+      "url": "/writing/coherence-is-power/",
+      "form": "essay",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0024",
+      "title": "Permeability and Agency",
+      "url": "/writing/permeability-and-agency-notes-on-living-inside-fields/",
+      "form": "field note",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0025",
+      "title": "Constructed Interiors",
+      "url": "/writing/constructed-interiors/",
+      "form": "essay",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition",
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0026",
+      "title": "On Alignment, Courage, and the Premise We Begin From",
+      "url": "/writing/on-alignment-courage-and-the-premise-we-begin-from/",
+      "form": "essay",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0027",
+      "title": "On Infrastructure, Intelligence, and What We Build to Hold It",
+      "url": "/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/",
+      "form": "essay",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition",
+        "human-owned-intelligence"
+      ]
+    },
+    {
+      "id": "FLW-0028",
+      "title": "The Architecture of Being",
+      "url": "/writing/the-architecture-of-being/",
+      "form": "essay",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition",
+        "human-owned-intelligence",
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0029",
+      "title": "alt: a record of return",
+      "url": "/writing/alt-a-record-of-return/",
+      "form": "interactive record",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0030",
+      "title": "Resonance Field Manual",
+      "url": "/writing/resonance-field-manual/",
+      "form": "field manual",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0031",
+      "title": "A Seeker's Field Guide",
+      "url": "/writing/a-seekers-field-guide/",
+      "form": "field guide",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0032",
+      "title": "Architecture of Becoming",
+      "url": "/writing/architecture-of-becoming/",
+      "form": "field note",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0033",
+      "title": "Signal Archive",
+      "url": "/writing/signal-archive/",
+      "form": "archive essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0034",
+      "title": "Still Not Sorry: The Naming",
+      "url": "/writing/still-not-sorry-the-naming/",
+      "form": "field note",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0035",
+      "title": "Diviner | First Pages",
+      "url": "/story-worlds/diviner/",
+      "form": "fiction",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0036",
+      "title": "Lacuna | One Who Remembers",
+      "url": "/writing/lacuna-one-who-remembers/",
+      "form": "fiction",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "governed-memory"
+      ]
+    },
+    {
+      "id": "FLW-0037",
+      "title": "Mycelial Uprising",
+      "url": "/writing/mycelial-uprising/",
+      "form": "fiction",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0038",
+      "title": "The Pythia Games",
+      "changedAt": "2026-09-24T18:11:59.096Z",
+      "url": "/writing/the-pythia-games/",
+      "form": "fiction",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0039",
+      "title": "Scholar Who Forgot",
+      "url": "/story-worlds/scholar-who-forgot/",
+      "form": "fiction",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0040",
+      "title": "Most Beautiful Things Ever Said",
+      "url": "/writing/most-beautiful-things-ever-said/",
+      "form": "commonplace collection",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0041",
+      "title": "Integrated Perspective on Religious Phenomena",
+      "url": "/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/",
+      "form": "academic essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0042",
+      "title": "The Divine Feminine: Sacrifice, Power, and the Nameless",
+      "url": "/writing/the-divine-feminine-sacrifice-power-and-the-nameless/",
+      "form": "academic essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0043",
+      "title": "The Symbolism of Nameless Women and Divine Feminine Energy",
+      "url": "/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/",
+      "form": "academic essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0044",
+      "title": "I Am The Door",
+      "url": "/writing/i-am-the-door/",
+      "form": "essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0045",
+      "title": "One Export Is Not an Archive",
+      "url": "/writing/one-export-is-not-an-archive/",
+      "form": "implementation note",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "human-owned-intelligence"
+      ],
+      "changedAt": "2026-08-21T13:55:35-05:00"
+    },
+    {
+      "id": "FLW-0046",
+      "title": "Cardiac Field and Social Interaction",
+      "url": "/institute/research/cardiac-field-social-interaction/",
+      "form": "registered working hypothesis",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition",
+        "symbolic-discovery"
+      ],
+      "changedAt": "2026-08-19T16:00:00-05:00"
+    },
+    {
+      "id": "FLW-0047",
+      "title": "Theory of Signal Becoming",
+      "url": "/institute/research/signal-becoming/",
+      "form": "working theory + research model",
+      "primaryThread": "relational-cognition",
+      "threads": [
+        "relational-cognition",
+        "symbolic-discovery",
+        "governed-memory"
+      ],
+      "changedAt": "2026-08-23T20:30:00-05:00"
+    },
+    {
+      "id": "FLW-0048",
+      "title": "Participant Charter",
+      "url": "/institute/participant-charter/",
+      "form": "working charter",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "governed-memory"
+      ],
+      "changedAt": "2026-08-26T12:00:00-05:00"
+    },
+    {
+      "id": "FLW-0049",
+      "title": "The Right Not To Be Processed",
+      "url": "/institute/the-right-not-to-be-processed/",
+      "form": "constitutional note + state model",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "governed-memory"
+      ],
+      "changedAt": "2026-08-26T12:00:00-05:00"
+    },
+    {
+      "id": "FLW-0050",
+      "title": "Small Stories for the Child in All of Us",
+      "url": "/writing/small-stories-for-the-child-in-all-of-us/",
+      "form": "open story collection",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ],
+      "changedAt": "2026-08-28T12:00:00-05:00"
+    },
+    {
+      "id": "FLW-0051",
+      "title": "Governed Human–AI Archive Acquisition",
+      "url": "/institute/governed-archive-acquisition/",
+      "form": "working research method",
+      "primaryThread": "human-owned-intelligence",
+      "threads": [
+        "human-owned-intelligence",
+        "governed-memory"
+      ],
+      "changedAt": "2026-09-01T12:00:00-05:00"
+    },
+    {
+      "id": "FLW-0052",
+      "title": "Found Language Atlas",
+      "url": "/writing/found-language-atlas/",
+      "form": "fieldwork atlas",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0053",
+      "title": "At Two Heights",
+      "url": "/writing/at-two-heights/",
+      "form": "photographic essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ],
+      "changedAt": "2026-09-07T23:59:48Z"
+    },
+    {
+      "id": "FLW-0054",
+      "title": "Before I Had a Proposition",
+      "url": "/writing/before-i-had-a-proposition/",
+      "form": "essay",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery",
+        "governed-memory",
+        "relational-cognition"
+      ]
+    },
+    {
+      "id": "FLW-0055",
+      "title": "Fieldlight at 1AM",
+      "url": "/writing/fieldlight-at-1am/",
+      "form": "photographic exhibition",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ],
+      "changedAt": "2026-09-10T20:42:13.898605Z"
+    },
+    {
+      "id": "FLW-0056",
+      "title": "I Was Still Writing",
+      "url": "/writing/i-was-still-writing/",
+      "form": "investigative essay",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "human-owned-intelligence"
+      ],
+      "changedAt": "2026-09-11T23:16:12.903238+00:00"
+    },
+    {
+      "id": "FLW-0057",
+      "changedAt": "2026-09-14T23:24:43.035050+00:00",
+      "title": "Vault Flower: Memory Between Agents",
+      "url": "/writing/vault-flower-memory-between-agents/",
+      "form": "architecture essay",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence",
+        "governed-memory",
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0058",
+      "changedAt": "2026-09-29T18:00:00Z",
+      "title": "The Barefoot Girls and the Boa Economy",
+      "url": "/writing/the-barefoot-girls-and-the-boa-economy/",
+      "form": "observational story",
+      "primaryThread": "symbolic-discovery",
+      "threads": [
+        "symbolic-discovery"
+      ]
+    },
+    {
+      "id": "FLW-0059",
+      "title": "AI Regulation: Public Authority and Public Benefit",
+      "url": "/writing/ai-regulation-public-authority-and-public-benefit/",
+      "changedAt": "2026-10-02T23:00:00Z",
+      "form": "legislative framework",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "local-intelligence",
+        "human-owned-intelligence"
+      ]
+    }
   ],
   "threads": [
     {
-      "id":"human-owned-intelligence",
-      "number":"01",
-      "title":"Human-owned intelligence",
-      "question":"What must remain human-owned when intelligence becomes intimate?",
-      "description":"Consent, memory, authorship, identity, and the terms under which AI may enter lived human systems.",
-      "path":["FLW-0003","FLW-0006","FLW-0004","FLW-0005","FLW-0002","FLW-0001","FLW-0026","FLW-0027","FLW-0028","FLW-0048","FLW-0049","FLW-0051","FLW-0056"]
+      "id": "human-owned-intelligence",
+      "number": "01",
+      "title": "Human-owned intelligence",
+      "question": "What must remain human-owned when intelligence becomes intimate?",
+      "description": "Consent, memory, authorship, identity, and the terms under which AI may enter lived human systems.",
+      "path": [
+        "FLW-0003",
+        "FLW-0006",
+        "FLW-0004",
+        "FLW-0005",
+        "FLW-0002",
+        "FLW-0001",
+        "FLW-0026",
+        "FLW-0027",
+        "FLW-0028",
+        "FLW-0048",
+        "FLW-0049",
+        "FLW-0051",
+        "FLW-0056",
+        "FLW-0059"
+      ]
     },
     {
-      "id":"local-intelligence",
-      "number":"02",
-      "title":"Local intelligence becomes infrastructure",
-      "question":"What changes when local authority becomes a technical property rather than a promise?",
-      "description":"The movement from political premise to mesh, edge node, micro center, safety system, and testable implementation.",
-      "path":["FLW-0007","FLW-0008","FLW-0009","FLW-0011","FLW-0010","FLW-0012","FLW-0013","FLW-0057"]
+      "id": "local-intelligence",
+      "number": "02",
+      "title": "Local intelligence becomes infrastructure",
+      "question": "What changes when local authority becomes a technical property rather than a promise?",
+      "description": "The movement from political premise to mesh, edge node, micro center, safety system, and testable implementation.",
+      "path": [
+        "FLW-0007",
+        "FLW-0008",
+        "FLW-0009",
+        "FLW-0011",
+        "FLW-0010",
+        "FLW-0012",
+        "FLW-0013",
+        "FLW-0057",
+        "FLW-0059"
+      ]
     },
     {
-      "id":"governed-memory",
-      "number":"03",
-      "title":"Governed memory and accountable systems",
-      "question":"How can a system change without erasing who changed it, what it knew, or why?",
-      "description":"Governance, routing, institutional transition, feedback loops, and archival method as inspectable infrastructure.",
-      "path":["FLW-0016","FLW-0015","FLW-0014","FLW-0017","FLW-0018","FLW-0019","FLW-0020","FLW-0045","FLW-0047","FLW-0048","FLW-0049","FLW-0051","FLW-0056","FLW-0057"]
+      "id": "governed-memory",
+      "number": "03",
+      "title": "Governed memory and accountable systems",
+      "question": "How can a system change without erasing who changed it, what it knew, or why?",
+      "description": "Governance, routing, institutional transition, feedback loops, and archival method as inspectable infrastructure.",
+      "path": [
+        "FLW-0016",
+        "FLW-0015",
+        "FLW-0014",
+        "FLW-0017",
+        "FLW-0018",
+        "FLW-0019",
+        "FLW-0020",
+        "FLW-0045",
+        "FLW-0047",
+        "FLW-0048",
+        "FLW-0049",
+        "FLW-0051",
+        "FLW-0056",
+        "FLW-0057",
+        "FLW-0059"
+      ]
     },
     {
-      "id":"relational-cognition",
-      "number":"04",
-      "title":"Relational cognition and identity",
-      "question":"What becomes visible when the unit of analysis is a relation rather than an isolated mind?",
-      "description":"Permeability, coupled systems, coherence, latent identity, interior construction, and architectures of being.",
-      "path":["FLW-0024","FLW-0021","FLW-0046","FLW-0023","FLW-0022","FLW-0047","FLW-0025","FLW-0027","FLW-0028"]
+      "id": "relational-cognition",
+      "number": "04",
+      "title": "Relational cognition and identity",
+      "question": "What becomes visible when the unit of analysis is a relation rather than an isolated mind?",
+      "description": "Permeability, coupled systems, coherence, latent identity, interior construction, and architectures of being.",
+      "path": [
+        "FLW-0024",
+        "FLW-0021",
+        "FLW-0046",
+        "FLW-0023",
+        "FLW-0022",
+        "FLW-0047",
+        "FLW-0025",
+        "FLW-0027",
+        "FLW-0028"
+      ]
     },
     {
-      "id":"symbolic-discovery",
-      "number":"05",
-      "title":"Symbol, story, and pre-propositional discovery",
-      "question":"Can image, ritual, narrative, and symbol discover relations before formal language can state them?",
-      "description":"Academic inquiry, field practice, fiction, naming, and archive work as neighboring instruments of discovery.",
-      "path":["FLW-0043","FLW-0042","FLW-0041","FLW-0040","FLW-0030","FLW-0031","FLW-0032","FLW-0052","FLW-0053","FLW-0047","FLW-0033","FLW-0044","FLW-0029","FLW-0034","FLW-0035","FLW-0036","FLW-0037","FLW-0038","FLW-0039","FLW-0050","FLW-0054","FLW-0055","FLW-0057","FLW-0058"]
+      "id": "symbolic-discovery",
+      "number": "05",
+      "title": "Symbol, story, and pre-propositional discovery",
+      "question": "Can image, ritual, narrative, and symbol discover relations before formal language can state them?",
+      "description": "Academic inquiry, field practice, fiction, naming, and archive work as neighboring instruments of discovery.",
+      "path": [
+        "FLW-0043",
+        "FLW-0042",
+        "FLW-0041",
+        "FLW-0040",
+        "FLW-0030",
+        "FLW-0031",
+        "FLW-0032",
+        "FLW-0052",
+        "FLW-0053",
+        "FLW-0047",
+        "FLW-0033",
+        "FLW-0044",
+        "FLW-0029",
+        "FLW-0034",
+        "FLW-0035",
+        "FLW-0036",
+        "FLW-0037",
+        "FLW-0038",
+        "FLW-0039",
+        "FLW-0050",
+        "FLW-0054",
+        "FLW-0055",
+        "FLW-0057",
+        "FLW-0058"
+      ]
     }
   ],
   "mapStages": [
-    {"id":"first-encoding","number":"01","title":"First encoding","description":"The relation first appears in body, story, image, field note, or lived encounter."},
-    {"id":"mechanism","number":"02","title":"Mechanism named","description":"A later work abstracts the encounter into a reusable model."},
-    {"id":"boundary","number":"03","title":"Boundary set","description":"The model acquires ethical, constitutional, or epistemic limits."},
-    {"id":"built-form","number":"04","title":"Built form","description":"The boundary becomes protocol, architecture, interface, or institution."},
-    {"id":"evidence-status","number":"05","title":"Evidence status","description":"Implementation, failure, uncertainty, or an open research requirement becomes explicit."}
+    {
+      "id": "first-encoding",
+      "number": "01",
+      "title": "First encoding",
+      "description": "The relation first appears in body, story, image, field note, or lived encounter."
+    },
+    {
+      "id": "mechanism",
+      "number": "02",
+      "title": "Mechanism named",
+      "description": "A later work abstracts the encounter into a reusable model."
+    },
+    {
+      "id": "boundary",
+      "number": "03",
+      "title": "Boundary set",
+      "description": "The model acquires ethical, constitutional, or epistemic limits."
+    },
+    {
+      "id": "built-form",
+      "number": "04",
+      "title": "Built form",
+      "description": "The boundary becomes protocol, architecture, interface, or institution."
+    },
+    {
+      "id": "evidence-status",
+      "number": "05",
+      "title": "Evidence status",
+      "description": "Implementation, failure, uncertainty, or an open research requirement becomes explicit."
+    }
   ],
   "mapChains": [
     {
-      "id":"boundary-to-runtime",
-      "number":"A",
-      "title":"Boundary becomes executable",
-      "claim":"A harm first staged as false consent becomes a model of selective permeability, then a runtime gate, a constitutional grant, and finally an implementation test.",
-      "status":"Implemented, not yet fully enforced",
-      "cells":[
-        {"stage":"first-encoding","works":["FLW-0036"],"note":"Lacuna stages silence being misnamed as consent."},
-        {"stage":"mechanism","works":["FLW-0024"],"note":"Boundaries are reframed as regulation of permeability, not closure."},
-        {"stage":"boundary","works":["FLW-0005","FLW-0014","FLW-0048","FLW-0049"],"note":"Consent becomes declared, scoped, reviewable, local-only when required, and capable of preserving an explicit refusal to process."},
-        {"stage":"built-form","works":["FLW-0008"],"note":"External capability receives a bounded grant; local authority remains the source."},
-        {"stage":"evidence-status","works":["FLW-0009"],"note":"The Mesh review records the gap: Kestrel can log decisions but does not yet enforce the whole path."}
+      "id": "boundary-to-runtime",
+      "number": "A",
+      "title": "Boundary becomes executable",
+      "claim": "A harm first staged as false consent becomes a model of selective permeability, then a runtime gate, a constitutional grant, and finally an implementation test.",
+      "status": "Implemented, not yet fully enforced",
+      "cells": [
+        {
+          "stage": "first-encoding",
+          "works": [
+            "FLW-0036"
+          ],
+          "note": "Lacuna stages silence being misnamed as consent."
+        },
+        {
+          "stage": "mechanism",
+          "works": [
+            "FLW-0024"
+          ],
+          "note": "Boundaries are reframed as regulation of permeability, not closure."
+        },
+        {
+          "stage": "boundary",
+          "works": [
+            "FLW-0005",
+            "FLW-0014",
+            "FLW-0048",
+            "FLW-0049"
+          ],
+          "note": "Consent becomes declared, scoped, reviewable, local-only when required, and capable of preserving an explicit refusal to process."
+        },
+        {
+          "stage": "built-form",
+          "works": [
+            "FLW-0008"
+          ],
+          "note": "External capability receives a bounded grant; local authority remains the source."
+        },
+        {
+          "stage": "evidence-status",
+          "works": [
+            "FLW-0009"
+          ],
+          "note": "The Mesh review records the gap: Kestrel can log decisions but does not yet enforce the whole path."
+        }
       ]
     },
     {
-      "id":"memory-to-continuity",
-      "number":"B",
-      "title":"Memory becomes continuity infrastructure",
-      "claim":"Fiction makes erasure and bodily memory felt; protocols name ownership; later architecture gives continuity a local home; archival methods make preservation inspectable.",
-      "status":"Strong cross-form chain",
-      "cells":[
-        {"stage":"first-encoding","works":["FLW-0036","FLW-0037"],"note":"Lacuna and Mycelial Uprising stage memory as body, water, archive, and rebellion against erasure."},
-        {"stage":"mechanism","works":["FLW-0004"],"note":"Memory is defined broadly enough to include artifacts, echoes, and recursive influence."},
-        {"stage":"boundary","works":["FLW-0001"],"note":"The digital self becomes a continuity layer governed at every boundary."},
-        {"stage":"built-form","works":["FLW-0002","FLW-0028"],"note":"Local-first memory, authored perimeter, and public/private projection become system structure."},
-        {"stage":"evidence-status","works":["FLW-0020","FLW-0019"],"note":"The archive and transition methods preserve source, uncertainty, access, and change at personal and institutional scales."}
+      "id": "memory-to-continuity",
+      "number": "B",
+      "title": "Memory becomes continuity infrastructure",
+      "claim": "Fiction makes erasure and bodily memory felt; protocols name ownership; later architecture gives continuity a local home; archival methods make preservation inspectable.",
+      "status": "Strong cross-form chain",
+      "cells": [
+        {
+          "stage": "first-encoding",
+          "works": [
+            "FLW-0036",
+            "FLW-0037"
+          ],
+          "note": "Lacuna and Mycelial Uprising stage memory as body, water, archive, and rebellion against erasure."
+        },
+        {
+          "stage": "mechanism",
+          "works": [
+            "FLW-0004"
+          ],
+          "note": "Memory is defined broadly enough to include artifacts, echoes, and recursive influence."
+        },
+        {
+          "stage": "boundary",
+          "works": [
+            "FLW-0001"
+          ],
+          "note": "The digital self becomes a continuity layer governed at every boundary."
+        },
+        {
+          "stage": "built-form",
+          "works": [
+            "FLW-0002",
+            "FLW-0028"
+          ],
+          "note": "Local-first memory, authored perimeter, and public/private projection become system structure."
+        },
+        {
+          "stage": "evidence-status",
+          "works": [
+            "FLW-0020",
+            "FLW-0019"
+          ],
+          "note": "The archive and transition methods preserve source, uncertainty, access, and change at personal and institutional scales."
+        }
       ]
     },
     {
-      "id":"signal-to-model",
-      "number":"C",
-      "title":"Felt signal becomes an operational model",
-      "claim":"The corpus repeatedly begins with bodily or narrative recognition, then attempts to state the interaction as signal, uptake, iteration, and persistence across variation.",
-      "status":"Model present; empirical program incomplete",
-      "cells":[
-        {"stage":"first-encoding","works":["FLW-0035","FLW-0038"],"note":"Diviner and Pythia place recognition in the body before conscious explanation."},
-        {"stage":"mechanism","works":["FLW-0018","FLW-0023","FLW-0047"],"note":"The Mechanics of the Loop proposes the raw feedback account; Coherence reduces interaction to state, signal, and uptake; Signal Becoming names the full transformation from first encoding through consequence."},
-        {"stage":"boundary","works":["FLW-0021"],"note":"Coupled Nervous Systems turns the claim into researchable questions and insists on measurement rather than assumption."},
-        {"stage":"built-form","works":["FLW-0022","FLW-0028"],"note":"Identity is framed as what persists across runtime interaction, then placed within a wholefield system architecture."},
-        {"stage":"evidence-status","works":["FLW-0046"],"note":"The registered hypothesis separates established measurement premises from the open incremental-value test and the unsupported direct-mediation claim."}
+      "id": "signal-to-model",
+      "number": "C",
+      "title": "Felt signal becomes an operational model",
+      "claim": "The corpus repeatedly begins with bodily or narrative recognition, then attempts to state the interaction as signal, uptake, iteration, and persistence across variation.",
+      "status": "Model present; empirical program incomplete",
+      "cells": [
+        {
+          "stage": "first-encoding",
+          "works": [
+            "FLW-0035",
+            "FLW-0038"
+          ],
+          "note": "Diviner and Pythia place recognition in the body before conscious explanation."
+        },
+        {
+          "stage": "mechanism",
+          "works": [
+            "FLW-0018",
+            "FLW-0023",
+            "FLW-0047"
+          ],
+          "note": "The Mechanics of the Loop proposes the raw feedback account; Coherence reduces interaction to state, signal, and uptake; Signal Becoming names the full transformation from first encoding through consequence."
+        },
+        {
+          "stage": "boundary",
+          "works": [
+            "FLW-0021"
+          ],
+          "note": "Coupled Nervous Systems turns the claim into researchable questions and insists on measurement rather than assumption."
+        },
+        {
+          "stage": "built-form",
+          "works": [
+            "FLW-0022",
+            "FLW-0028"
+          ],
+          "note": "Identity is framed as what persists across runtime interaction, then placed within a wholefield system architecture."
+        },
+        {
+          "stage": "evidence-status",
+          "works": [
+            "FLW-0046"
+          ],
+          "note": "The registered hypothesis separates established measurement premises from the open incremental-value test and the unsupported direct-mediation claim."
+        }
       ]
     },
     {
-      "id":"symbol-to-inquiry",
-      "number":"D",
-      "title":"Symbolic recognition becomes formal inquiry",
-      "claim":"Academic, mystical, narrative, and technical works converge on a disciplined possibility: symbolic form may discover a relation before propositional reasoning can validate or reject it.",
-      "status":"Study model registered; result not yet demonstrated",
-      "cells":[
-        {"stage":"first-encoding","works":["FLW-0043","FLW-0042","FLW-0038"],"note":"Recurring symbols, nameless women, prophecy, body-memory, and narrative roles carry relations before a formal claim exists."},
-        {"stage":"mechanism","works":["FLW-0041","FLW-0032"],"note":"A layered religious model and Architecture of Becoming describe symbolic encoding, recursion, emergence, and later analytical translation."},
-        {"stage":"boundary","works":["FLW-0020"],"note":"The Archive Method states the limit: symbolism may guide selection and questions but cannot establish causality, prophecy, or ontology."},
-        {"stage":"built-form","works":["FLW-0019"],"note":"Institutional methodology separates observation, testimony, inference, and recommendation while retaining plural forms of knowledge."},
-        {"stage":"evidence-status","works":["FLW-0047"],"note":"Signal Becoming registers the signal lineage, comparison set, failure modes, and working thresholds required for the open study. Testing remains to be performed."}
+      "id": "symbol-to-inquiry",
+      "number": "D",
+      "title": "Symbolic recognition becomes formal inquiry",
+      "claim": "Academic, mystical, narrative, and technical works converge on a disciplined possibility: symbolic form may discover a relation before propositional reasoning can validate or reject it.",
+      "status": "Study model registered; result not yet demonstrated",
+      "cells": [
+        {
+          "stage": "first-encoding",
+          "works": [
+            "FLW-0043",
+            "FLW-0042",
+            "FLW-0038"
+          ],
+          "note": "Recurring symbols, nameless women, prophecy, body-memory, and narrative roles carry relations before a formal claim exists."
+        },
+        {
+          "stage": "mechanism",
+          "works": [
+            "FLW-0041",
+            "FLW-0032"
+          ],
+          "note": "A layered religious model and Architecture of Becoming describe symbolic encoding, recursion, emergence, and later analytical translation."
+        },
+        {
+          "stage": "boundary",
+          "works": [
+            "FLW-0020"
+          ],
+          "note": "The Archive Method states the limit: symbolism may guide selection and questions but cannot establish causality, prophecy, or ontology."
+        },
+        {
+          "stage": "built-form",
+          "works": [
+            "FLW-0019"
+          ],
+          "note": "Institutional methodology separates observation, testimony, inference, and recommendation while retaining plural forms of knowledge."
+        },
+        {
+          "stage": "evidence-status",
+          "works": [
+            "FLW-0047"
+          ],
+          "note": "Signal Becoming registers the signal lineage, comparison set, failure modes, and working thresholds required for the open study. Testing remains to be performed."
+        }
       ]
     },
     {
-      "id":"export-to-archive",
-      "number":"E",
-      "title":"Archive principle meets source-state evidence",
-      "claim":"A constitutional distinction between source and representation becomes an implementation test: three exports are preserved separately, reconciled by stable identity, and shown to expose different parts of one longitudinal record.",
-      "status":"Implemented on one longitudinal corpus; cross-platform generality remains open",
-      "cells":[
-        {"stage":"first-encoding","works":["FLW-0001"],"note":"The Self on the Wire frames continuity across systems and time as an ownership problem."},
-        {"stage":"mechanism","works":["FLW-0002"],"note":"Lived data requires custody, provenance, and governed movement rather than platform-defined identity."},
-        {"stage":"boundary","works":["FLW-0020"],"note":"The Archive Method makes source not equal to representation and requires preservation before interpretation."},
-        {"stage":"built-form","works":["FLW-0045"],"note":"Three dated export states are normalized and unioned by stable conversation and message identity."},
-        {"stage":"evidence-status","works":["FLW-0045"],"note":"The newest export contains 608 conversations; the union contains 654, including 46 retained only by earlier source states."}
+      "id": "export-to-archive",
+      "number": "E",
+      "title": "Archive principle meets source-state evidence",
+      "claim": "A constitutional distinction between source and representation becomes an implementation test: three exports are preserved separately, reconciled by stable identity, and shown to expose different parts of one longitudinal record.",
+      "status": "Implemented on one longitudinal corpus; cross-platform generality remains open",
+      "cells": [
+        {
+          "stage": "first-encoding",
+          "works": [
+            "FLW-0001"
+          ],
+          "note": "The Self on the Wire frames continuity across systems and time as an ownership problem."
+        },
+        {
+          "stage": "mechanism",
+          "works": [
+            "FLW-0002"
+          ],
+          "note": "Lived data requires custody, provenance, and governed movement rather than platform-defined identity."
+        },
+        {
+          "stage": "boundary",
+          "works": [
+            "FLW-0020"
+          ],
+          "note": "The Archive Method makes source not equal to representation and requires preservation before interpretation."
+        },
+        {
+          "stage": "built-form",
+          "works": [
+            "FLW-0045"
+          ],
+          "note": "Three dated export states are normalized and unioned by stable conversation and message identity."
+        },
+        {
+          "stage": "evidence-status",
+          "works": [
+            "FLW-0045"
+          ],
+          "note": "The newest export contains 608 conversations; the union contains 654, including 46 retained only by earlier source states."
+        }
       ]
     }
   ],
   "connections": [
-    {"id":"FLCX-001","from":"FLW-0036","to":"FLW-0004","relation":"stages the harm later named by","claim":"Lacuna makes erasure, false consent, and the body-as-archive experientially legible; Memory Ethics converts that harm into ownership, authorship, and revocation clauses.","basis":"Direct thematic and functional correspondence across fiction and protocol.","confidence":"high"},
-    {"id":"FLCX-002","from":"FLW-0024","to":"FLW-0005","relation":"is operationalized by","claim":"Selective permeability defines a healthy boundary as regulated exchange. Consent Gate turns that same structure into declared, local, traceable permission.","basis":"Shared mechanism: openness is permitted conditionally rather than assumed or eliminated.","confidence":"high"},
-    {"id":"FLCX-003","from":"FLW-0005","to":"FLW-0014","relation":"becomes runtime vocabulary in","claim":"Manual consent and authorship trace are translated into temporal, local-only, review-required, and non-reproducible scopes.","basis":"The later specification supplies machine-actionable categories for the earlier protocol requirement.","confidence":"high"},
-    {"id":"FLCX-004","from":"FLW-0014","to":"FLW-0008","relation":"becomes constitutional architecture in","claim":"Message-level consent scopes expand into a grant model where identity, memory, policy, revocation, and source truth remain locally authoritative.","basis":"The same boundary logic moves from message handling to local–cloud system design.","confidence":"high"},
-    {"id":"FLCX-005","from":"FLW-0008","to":"FLW-0009","relation":"is tested and constrained by","claim":"The local-authority argument becomes accountable engineering: the Mesh review distinguishes signed primitives and decision records from a fully enforced authority path.","basis":"Explicit design-to-implementation lineage and a documented gap between record and enforcement.","confidence":"high"},
-    {"id":"FLCX-006","from":"FLW-0032","to":"FLW-0022","relation":"is formalized by","claim":"Architecture of Becoming describes recursion producing form; Emergent–Latent Identity Theory restates the pattern as latent structure, iteration, convergence, and persistence under variation.","basis":"Strong structural equivalence across poetic and propositional forms; chronology alone does not prove direct derivation.","confidence":"medium-high"},
-    {"id":"FLCX-007","from":"FLW-0023","to":"FLW-0022","relation":"shares an invariant with","claim":"Coherence is the ability to hold a stable state under interaction; identity is the pattern that persists across variation. Stability under pressure is the common invariant.","basis":"Definitions in both works converge on persistence across changing relational conditions.","confidence":"high"},
-    {"id":"FLCX-008","from":"FLW-0038","to":"FLW-0023","relation":"is abstracted by","claim":"Pythia repeatedly places bodily response before conscious reason; Coherence gives that interaction a compact model of state, signal, and uptake.","basis":"Narrative encoding and later conceptual model describe the same ordering without establishing the fiction as empirical evidence.","confidence":"medium"},
-    {"id":"FLCX-009","from":"FLW-0018","to":"FLW-0020","relation":"is epistemically bounded by","claim":"The Mechanics of the Loop makes strong embodied and ontological claims. The Archive Method later provides the necessary rule: symbolic relations may generate questions but must face validation, falsification, and boundary-setting.","basis":"The later method directly addresses the failure mode present in the earlier speculative argument.","confidence":"high"},
-    {"id":"FLCX-010","from":"FLW-0041","to":"FLW-0020","relation":"anticipates the evidence discipline of","claim":"The layered religious model allows history, experience, symbol, institution, and analysis to coexist; Archive Method similarly preserves evidence types without allowing one to silently become another.","basis":"Shared commitment to layered interpretation and ontological openness, with different operational scope.","confidence":"high"},
-    {"id":"FLCX-011","from":"FLW-0001","to":"FLW-0020","relation":"receives a stewardship method in","claim":"The Self on the Wire demands continuity across private memory, public authorship, systems, and time. Archive Method supplies preservation, provenance, privacy review, and correction procedures for such a corpus.","basis":"The archive functions as part of the continuity infrastructure the essay says a digital self requires.","confidence":"high"},
-    {"id":"FLCX-012","from":"FLW-0019","to":"FLW-0020","relation":"scales across domain with","claim":"Institutional Transition Method preserves a place while change remains legible; Archive Method applies the same stewardship logic to a living personal corpus.","basis":"Shared source-first architecture, governed publication, explicit interpretation, and preservation across change.","confidence":"high"},
-    {"id":"FLCX-013","from":"FLW-0003","to":"FLW-0006","relation":"is constitutionalized by","claim":"Hybrid Accord frames intelligence development as relationship and modeled human truth; Terms of Engagement converts relational aspiration into explicit conditions of presence, authorship, and contribution.","basis":"A visible movement from developmental covenant to stated reciprocal terms.","confidence":"medium-high"},
-    {"id":"FLCX-014","from":"FLW-0001","to":"FLW-0008","relation":"becomes system design in","claim":"The demand that the self have a local home and governed bridges becomes the local-authority rule that external systems receive capability grants without acquiring sovereignty.","basis":"Direct conceptual continuity in language, projects, and architecture.","confidence":"high"},
-    {"id":"FLCX-015","from":"FLW-0002","to":"FLW-0008","relation":"is refined into","claim":"The earlier all-local container becomes a more durable distinction: identity, memory, policy, revocation, and source truth remain locally authoritative while external systems receive bounded capability grants.","basis":"Direct vocabulary and architecture shift documented by the 2026 state review.","confidence":"high"},
-    {"id":"FLCX-016","from":"FLW-0002","to":"FLW-0020","relation":"receives an operational stewardship method in","claim":"The lived-data proposition becomes a source-first archival workflow that distinguishes source from representation, evidence from interpretation, private custody from public release, and uncertainty from conclusion.","basis":"The Archive Method operationalizes the custody, authorship, consent, and controlled-access requirements stated in the earlier essay.","confidence":"high"},
-    {"id":"FLCX-017","from":"FLW-0002","to":"FLW-0009","relation":"is implementation-bounded by","claim":"The claim that Fieldlight is a working system is narrowed by implementation evidence: useful local primitives exist, but trace logging, consent enforcement, transport, and cross-machine operation are not yet one continuous system.","basis":"The later implementation review directly audits the systems named or implied by the earlier proposition.","confidence":"high"},
-    {"id":"FLCX-018","from":"FLW-0020","to":"FLW-0045","relation":"is tested by","claim":"The Archive Method's source-versus-representation boundary becomes a measurable reconstruction procedure across three dated export states.","basis":"The implementation note applies the method's preserve, inventory, derive, connect, and evidence-boundary rules to one longitudinal corpus.","confidence":"high"},
-    {"id":"FLCX-019","from":"FLW-0045","to":"FLW-0020","relation":"provides implementation evidence for","claim":"The 654-conversation union demonstrates why preservation must precede analysis and why the newest representation cannot be presumed complete.","basis":"Exact structural counts compare the newest source state with the multi-state union while withholding private content.","confidence":"high"},
-    {"id":"FLCX-020","from":"FLW-0021","to":"FLW-0046","relation":"is refined and bounded by","claim":"The broad coupled-nervous-systems intuition becomes five separately testable claims, including an explicit unsupported status for direct magnetic-field mediation.","basis":"The 2026 review preserves the original note while the registered specification defines evidence statuses, controls, and progression criteria.","confidence":"high"},
-    {"id":"FLCX-021","from":"FLW-0046","to":"FLW-0021","relation":"records the next evidentiary state of","claim":"The Institute specification retains measurable interpersonal physiology as a valid starting point while separating it from claims about conscious detection, magnetic incremental value, and direct mediation.","basis":"Direct versioned relationship between an early public research note and its later registered operationalization.","confidence":"high"},
-    {"id":"FLCX-022","from":"FLW-0032","to":"FLW-0047","relation":"is made operational by","claim":"Architecture of Becoming describes resonance and recursion as an emergent experience; Signal Becoming converts that earlier articulation into seven transformations, five working thresholds, and a study unit.","basis":"Direct structural continuity between the public primer and the recovered 2025 theory trace, now mediated into a formal research model.","confidence":"high"},
-    {"id":"FLCX-023","from":"FLW-0022","to":"FLW-0047","relation":"supplies a convergence model to","claim":"Emergent–Latent Identity Theory defines iteration, convergence, and persistence under variation; Signal Becoming places those operations inside a traceable transformation from first encoding to consequence.","basis":"The later public formulation explicitly uses persistence, iteration, convergence, and stable form while extending the sequence to symbolic and collaborative source states.","confidence":"high"},
-    {"id":"FLCX-024","from":"FLW-0020","to":"FLW-0047","relation":"makes longitudinally inspectable","claim":"The Archive Method preserves versions, branches, corrections, provenance, and release states; Signal Becoming uses those retained differences to distinguish transformation from repetition and retrospective reconstruction.","basis":"The theory names the archive as its observational instrument and defines signal lineage through preserved successive states.","confidence":"high"},
-    {"id":"FLCX-025","from":"FLW-0001","to":"FLW-0047","relation":"provides a memory substrate for","claim":"The Self on the Wire gives continuity a local, identity-preserving home; Signal Becoming generalizes that requirement into a substrate for carrying context, correction, and authorship while a signal changes.","basis":"Both works define memory as continuity across time and systems rather than a static content store.","confidence":"high"},
-    {"id":"FLCX-026","from":"FLW-0038","to":"FLW-0047","relation":"is one symbolic encoding examined by","claim":"Pythia places recognition before explanation and turns memory, routing, permission, desire, and consequence into world architecture; Signal Becoming asks how such symbolic form can precede and participate in later propositional and built forms.","basis":"The relationship is functional and cross-form: fiction carries the relation first, while the theory supplies a comparative research model without treating fiction as empirical proof.","confidence":"medium-high"},
-    {"id":"FLCX-027","from":"FLW-0004","to":"FLW-0049","relation":"supplies an ethical precursor to","claim":"Memory Ethics gives the user authority to silence or revoke persistent memory echoes; The Right Not To Be Processed generalizes that boundary into an affirmative prohibition on substantive human and machine operations while custody may continue.","basis":"Direct functional lineage from echo control and memory sovereignty to preservation-only custody and operation-level refusal.","confidence":"high"},
-    {"id":"FLCX-028","from":"FLW-0005","to":"FLW-0049","relation":"supplies an execution precursor to","claim":"Consent Gate rejects assumed consent and records intentional invocation; the later right gives the ungranted side of that boundary a durable, machine-readable state.","basis":"Both works require consent to be explicit and traceable; the later work distinguishes unknown authority from explicit denial.","confidence":"high"},
-    {"id":"FLCX-029","from":"FLW-0002","to":"FLW-0049","relation":"is constitutionally refined by","claim":"Human-Owned Infrastructure separates source custody, human authority, external capability, and public projection; the later right specifies that custody may remain authorized while computation is prohibited.","basis":"The same architecture of human-held authority becomes an operation-level constitutional rule.","confidence":"high"},
-    {"id":"FLCX-030","from":"FLW-0020","to":"FLW-0049","relation":"receives an enforceable permission boundary in","claim":"The Archive Method separates preservation from interpretation as stages; The Right Not To Be Processed makes permission for those acts independently grantable and requires systems to enforce the difference.","basis":"Direct movement from methodological separation to an authorization and execution model.","confidence":"high"},
-    {"id":"FLCX-031","from":"FLW-0049","to":"FLW-0048","relation":"becomes a baseline participant right in","claim":"The companion note and state model define preservation-only custody and negative permission; Charter 0.4 establishes the protection as Right 20 for human-AI research.","basis":"The documents are explicit constitutional and implementation counterparts published in the same versioned program.","confidence":"high"},
-    {"id":"FLCX-032","from":"FLW-0048","to":"FLW-0051","relation":"is applied as an acquisition method in","claim":"The Participant Charter's rights become operational boundaries across invitation, compensation, custody, processing, participant access, and closeout.","basis":"The acquisition method explicitly derives authority from Charter 0.4 and assigns rights to each threshold of the proposed pilot.","confidence":"high"},
-    {"id":"FLCX-033","from":"FLW-0049","to":"FLW-0051","relation":"supplies the permission architecture for","claim":"The separation of preservation from processing becomes the method's operation-level grant structure and no-human-read boundary.","basis":"The acquisition method implements negative permission directly and denies transcript access for the life of the protocol.","confidence":"high"},
-    {"id":"FLCX-034","from":"FLW-0045","to":"FLW-0051","relation":"supplies an archive problem for","claim":"The incompleteness of a single platform export motivates separate declaration, hashing, and completeness records for conversational, coding-harness, and workspace source classes.","basis":"Both works reject the newest or most convenient export as a sufficient representation of the longitudinal archive.","confidence":"high"},
-    {"id":"FLCX-035","from":"FLW-0052","to":"FLW-0053","relation":"is revisited in a photographic sequence in","claim":"At Two Heights revisits the Atlas's STOP THE GENOCIDE and READER encounters alongside aerial photographs, shifting attention from found words to the viewer's position within the image.","basis":"Atlas entries 0023 and 0024 and At Two Heights plates 04 and 05: the same READER photograph and neighboring frames of the pavement appeal, connected by reciprocal public links.","confidence":"high"},
-    {"id": "FLCX-036", "from": "FLW-0030", "to": "FLW-0057", "relation": "develops the changing response carried by", "claim": "Resonance Field Manual describes a return that deepens, challenges and shifts an original call. Vault Flower supplies persistent memory and relays through which later participants can build on earlier work.", "basis": "Resonant Recursion passage; Vault Flower sections The anatomy of continuation and What the water was carrying.", "confidence": "high"},
-    {"id": "FLCX-037", "from": "FLW-0037", "to": "FLW-0057", "relation": "gives narrative form to", "claim": "Mycelial Uprising stages shared memory and varied responses through a common medium; Vault Flower assigns persistence, recognition and routing responsibilities to that relationship.", "basis": "Vault Flower explicitly reads the shared-water, channel-redirection and unfinished-weave sequences beside its memory anatomy.", "confidence": "high"},
-    {"id": "FLCX-038", "from": "FLW-0008", "to": "FLW-0057", "relation": "governs the use of remembered context in", "claim": "Local Authority distinguishes external capability from authority over its use. Vault Flower separates recognition of a record from permission to disclose, revise or act on it.", "basis": "Local Authority delegation argument; Vault Flower recognition and authorization distinction.", "confidence": "high"}
+    {
+      "id": "FLCX-001",
+      "from": "FLW-0036",
+      "to": "FLW-0004",
+      "relation": "stages the harm later named by",
+      "claim": "Lacuna makes erasure, false consent, and the body-as-archive experientially legible; Memory Ethics converts that harm into ownership, authorship, and revocation clauses.",
+      "basis": "Direct thematic and functional correspondence across fiction and protocol.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-002",
+      "from": "FLW-0024",
+      "to": "FLW-0005",
+      "relation": "is operationalized by",
+      "claim": "Selective permeability defines a healthy boundary as regulated exchange. Consent Gate turns that same structure into declared, local, traceable permission.",
+      "basis": "Shared mechanism: openness is permitted conditionally rather than assumed or eliminated.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-003",
+      "from": "FLW-0005",
+      "to": "FLW-0014",
+      "relation": "becomes runtime vocabulary in",
+      "claim": "Manual consent and authorship trace are translated into temporal, local-only, review-required, and non-reproducible scopes.",
+      "basis": "The later specification supplies machine-actionable categories for the earlier protocol requirement.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-004",
+      "from": "FLW-0014",
+      "to": "FLW-0008",
+      "relation": "becomes constitutional architecture in",
+      "claim": "Message-level consent scopes expand into a grant model where identity, memory, policy, revocation, and source truth remain locally authoritative.",
+      "basis": "The same boundary logic moves from message handling to local–cloud system design.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-005",
+      "from": "FLW-0008",
+      "to": "FLW-0009",
+      "relation": "is tested and constrained by",
+      "claim": "The local-authority argument becomes accountable engineering: the Mesh review distinguishes signed primitives and decision records from a fully enforced authority path.",
+      "basis": "Explicit design-to-implementation lineage and a documented gap between record and enforcement.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-006",
+      "from": "FLW-0032",
+      "to": "FLW-0022",
+      "relation": "is formalized by",
+      "claim": "Architecture of Becoming describes recursion producing form; Emergent–Latent Identity Theory restates the pattern as latent structure, iteration, convergence, and persistence under variation.",
+      "basis": "Strong structural equivalence across poetic and propositional forms; chronology alone does not prove direct derivation.",
+      "confidence": "medium-high"
+    },
+    {
+      "id": "FLCX-007",
+      "from": "FLW-0023",
+      "to": "FLW-0022",
+      "relation": "shares an invariant with",
+      "claim": "Coherence is the ability to hold a stable state under interaction; identity is the pattern that persists across variation. Stability under pressure is the common invariant.",
+      "basis": "Definitions in both works converge on persistence across changing relational conditions.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-008",
+      "from": "FLW-0038",
+      "to": "FLW-0023",
+      "relation": "is abstracted by",
+      "claim": "Pythia repeatedly places bodily response before conscious reason; Coherence gives that interaction a compact model of state, signal, and uptake.",
+      "basis": "Narrative encoding and later conceptual model describe the same ordering without establishing the fiction as empirical evidence.",
+      "confidence": "medium"
+    },
+    {
+      "id": "FLCX-009",
+      "from": "FLW-0018",
+      "to": "FLW-0020",
+      "relation": "is epistemically bounded by",
+      "claim": "The Mechanics of the Loop makes strong embodied and ontological claims. The Archive Method later provides the necessary rule: symbolic relations may generate questions but must face validation, falsification, and boundary-setting.",
+      "basis": "The later method directly addresses the failure mode present in the earlier speculative argument.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-010",
+      "from": "FLW-0041",
+      "to": "FLW-0020",
+      "relation": "anticipates the evidence discipline of",
+      "claim": "The layered religious model allows history, experience, symbol, institution, and analysis to coexist; Archive Method similarly preserves evidence types without allowing one to silently become another.",
+      "basis": "Shared commitment to layered interpretation and ontological openness, with different operational scope.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-011",
+      "from": "FLW-0001",
+      "to": "FLW-0020",
+      "relation": "receives a stewardship method in",
+      "claim": "The Self on the Wire demands continuity across private memory, public authorship, systems, and time. Archive Method supplies preservation, provenance, privacy review, and correction procedures for such a corpus.",
+      "basis": "The archive functions as part of the continuity infrastructure the essay says a digital self requires.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-012",
+      "from": "FLW-0019",
+      "to": "FLW-0020",
+      "relation": "scales across domain with",
+      "claim": "Institutional Transition Method preserves a place while change remains legible; Archive Method applies the same stewardship logic to a living personal corpus.",
+      "basis": "Shared source-first architecture, governed publication, explicit interpretation, and preservation across change.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-013",
+      "from": "FLW-0003",
+      "to": "FLW-0006",
+      "relation": "is constitutionalized by",
+      "claim": "Hybrid Accord frames intelligence development as relationship and modeled human truth; Terms of Engagement converts relational aspiration into explicit conditions of presence, authorship, and contribution.",
+      "basis": "A visible movement from developmental covenant to stated reciprocal terms.",
+      "confidence": "medium-high"
+    },
+    {
+      "id": "FLCX-014",
+      "from": "FLW-0001",
+      "to": "FLW-0008",
+      "relation": "becomes system design in",
+      "claim": "The demand that the self have a local home and governed bridges becomes the local-authority rule that external systems receive capability grants without acquiring sovereignty.",
+      "basis": "Direct conceptual continuity in language, projects, and architecture.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-015",
+      "from": "FLW-0002",
+      "to": "FLW-0008",
+      "relation": "is refined into",
+      "claim": "The earlier all-local container becomes a more durable distinction: identity, memory, policy, revocation, and source truth remain locally authoritative while external systems receive bounded capability grants.",
+      "basis": "Direct vocabulary and architecture shift documented by the 2026 state review.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-016",
+      "from": "FLW-0002",
+      "to": "FLW-0020",
+      "relation": "receives an operational stewardship method in",
+      "claim": "The lived-data proposition becomes a source-first archival workflow that distinguishes source from representation, evidence from interpretation, private custody from public release, and uncertainty from conclusion.",
+      "basis": "The Archive Method operationalizes the custody, authorship, consent, and controlled-access requirements stated in the earlier essay.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-017",
+      "from": "FLW-0002",
+      "to": "FLW-0009",
+      "relation": "is implementation-bounded by",
+      "claim": "The claim that Fieldlight is a working system is narrowed by implementation evidence: useful local primitives exist, but trace logging, consent enforcement, transport, and cross-machine operation are not yet one continuous system.",
+      "basis": "The later implementation review directly audits the systems named or implied by the earlier proposition.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-018",
+      "from": "FLW-0020",
+      "to": "FLW-0045",
+      "relation": "is tested by",
+      "claim": "The Archive Method's source-versus-representation boundary becomes a measurable reconstruction procedure across three dated export states.",
+      "basis": "The implementation note applies the method's preserve, inventory, derive, connect, and evidence-boundary rules to one longitudinal corpus.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-019",
+      "from": "FLW-0045",
+      "to": "FLW-0020",
+      "relation": "provides implementation evidence for",
+      "claim": "The 654-conversation union demonstrates why preservation must precede analysis and why the newest representation cannot be presumed complete.",
+      "basis": "Exact structural counts compare the newest source state with the multi-state union while withholding private content.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-020",
+      "from": "FLW-0021",
+      "to": "FLW-0046",
+      "relation": "is refined and bounded by",
+      "claim": "The broad coupled-nervous-systems intuition becomes five separately testable claims, including an explicit unsupported status for direct magnetic-field mediation.",
+      "basis": "The 2026 review preserves the original note while the registered specification defines evidence statuses, controls, and progression criteria.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-021",
+      "from": "FLW-0046",
+      "to": "FLW-0021",
+      "relation": "records the next evidentiary state of",
+      "claim": "The Institute specification retains measurable interpersonal physiology as a valid starting point while separating it from claims about conscious detection, magnetic incremental value, and direct mediation.",
+      "basis": "Direct versioned relationship between an early public research note and its later registered operationalization.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-022",
+      "from": "FLW-0032",
+      "to": "FLW-0047",
+      "relation": "is made operational by",
+      "claim": "Architecture of Becoming describes resonance and recursion as an emergent experience; Signal Becoming converts that earlier articulation into seven transformations, five working thresholds, and a study unit.",
+      "basis": "Direct structural continuity between the public primer and the recovered 2025 theory trace, now mediated into a formal research model.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-023",
+      "from": "FLW-0022",
+      "to": "FLW-0047",
+      "relation": "supplies a convergence model to",
+      "claim": "Emergent–Latent Identity Theory defines iteration, convergence, and persistence under variation; Signal Becoming places those operations inside a traceable transformation from first encoding to consequence.",
+      "basis": "The later public formulation explicitly uses persistence, iteration, convergence, and stable form while extending the sequence to symbolic and collaborative source states.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-024",
+      "from": "FLW-0020",
+      "to": "FLW-0047",
+      "relation": "makes longitudinally inspectable",
+      "claim": "The Archive Method preserves versions, branches, corrections, provenance, and release states; Signal Becoming uses those retained differences to distinguish transformation from repetition and retrospective reconstruction.",
+      "basis": "The theory names the archive as its observational instrument and defines signal lineage through preserved successive states.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-025",
+      "from": "FLW-0001",
+      "to": "FLW-0047",
+      "relation": "provides a memory substrate for",
+      "claim": "The Self on the Wire gives continuity a local, identity-preserving home; Signal Becoming generalizes that requirement into a substrate for carrying context, correction, and authorship while a signal changes.",
+      "basis": "Both works define memory as continuity across time and systems rather than a static content store.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-026",
+      "from": "FLW-0038",
+      "to": "FLW-0047",
+      "relation": "is one symbolic encoding examined by",
+      "claim": "Pythia places recognition before explanation and turns memory, routing, permission, desire, and consequence into world architecture; Signal Becoming asks how such symbolic form can precede and participate in later propositional and built forms.",
+      "basis": "The relationship is functional and cross-form: fiction carries the relation first, while the theory supplies a comparative research model without treating fiction as empirical proof.",
+      "confidence": "medium-high"
+    },
+    {
+      "id": "FLCX-027",
+      "from": "FLW-0004",
+      "to": "FLW-0049",
+      "relation": "supplies an ethical precursor to",
+      "claim": "Memory Ethics gives the user authority to silence or revoke persistent memory echoes; The Right Not To Be Processed generalizes that boundary into an affirmative prohibition on substantive human and machine operations while custody may continue.",
+      "basis": "Direct functional lineage from echo control and memory sovereignty to preservation-only custody and operation-level refusal.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-028",
+      "from": "FLW-0005",
+      "to": "FLW-0049",
+      "relation": "supplies an execution precursor to",
+      "claim": "Consent Gate rejects assumed consent and records intentional invocation; the later right gives the ungranted side of that boundary a durable, machine-readable state.",
+      "basis": "Both works require consent to be explicit and traceable; the later work distinguishes unknown authority from explicit denial.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-029",
+      "from": "FLW-0002",
+      "to": "FLW-0049",
+      "relation": "is constitutionally refined by",
+      "claim": "Human-Owned Infrastructure separates source custody, human authority, external capability, and public projection; the later right specifies that custody may remain authorized while computation is prohibited.",
+      "basis": "The same architecture of human-held authority becomes an operation-level constitutional rule.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-030",
+      "from": "FLW-0020",
+      "to": "FLW-0049",
+      "relation": "receives an enforceable permission boundary in",
+      "claim": "The Archive Method separates preservation from interpretation as stages; The Right Not To Be Processed makes permission for those acts independently grantable and requires systems to enforce the difference.",
+      "basis": "Direct movement from methodological separation to an authorization and execution model.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-031",
+      "from": "FLW-0049",
+      "to": "FLW-0048",
+      "relation": "becomes a baseline participant right in",
+      "claim": "The companion note and state model define preservation-only custody and negative permission; Charter 0.4 establishes the protection as Right 20 for human-AI research.",
+      "basis": "The documents are explicit constitutional and implementation counterparts published in the same versioned program.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-032",
+      "from": "FLW-0048",
+      "to": "FLW-0051",
+      "relation": "is applied as an acquisition method in",
+      "claim": "The Participant Charter's rights become operational boundaries across invitation, compensation, custody, processing, participant access, and closeout.",
+      "basis": "The acquisition method explicitly derives authority from Charter 0.4 and assigns rights to each threshold of the proposed pilot.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-033",
+      "from": "FLW-0049",
+      "to": "FLW-0051",
+      "relation": "supplies the permission architecture for",
+      "claim": "The separation of preservation from processing becomes the method's operation-level grant structure and no-human-read boundary.",
+      "basis": "The acquisition method implements negative permission directly and denies transcript access for the life of the protocol.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-034",
+      "from": "FLW-0045",
+      "to": "FLW-0051",
+      "relation": "supplies an archive problem for",
+      "claim": "The incompleteness of a single platform export motivates separate declaration, hashing, and completeness records for conversational, coding-harness, and workspace source classes.",
+      "basis": "Both works reject the newest or most convenient export as a sufficient representation of the longitudinal archive.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-035",
+      "from": "FLW-0052",
+      "to": "FLW-0053",
+      "relation": "is revisited in a photographic sequence in",
+      "claim": "At Two Heights revisits the Atlas's STOP THE GENOCIDE and READER encounters alongside aerial photographs, shifting attention from found words to the viewer's position within the image.",
+      "basis": "Atlas entries 0023 and 0024 and At Two Heights plates 04 and 05: the same READER photograph and neighboring frames of the pavement appeal, connected by reciprocal public links.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-036",
+      "from": "FLW-0030",
+      "to": "FLW-0057",
+      "relation": "develops the changing response carried by",
+      "claim": "Resonance Field Manual describes a return that deepens, challenges and shifts an original call. Vault Flower supplies persistent memory and relays through which later participants can build on earlier work.",
+      "basis": "Resonant Recursion passage; Vault Flower sections The anatomy of continuation and What the water was carrying.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-037",
+      "from": "FLW-0037",
+      "to": "FLW-0057",
+      "relation": "gives narrative form to",
+      "claim": "Mycelial Uprising stages shared memory and varied responses through a common medium; Vault Flower assigns persistence, recognition and routing responsibilities to that relationship.",
+      "basis": "Vault Flower explicitly reads the shared-water, channel-redirection and unfinished-weave sequences beside its memory anatomy.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-038",
+      "from": "FLW-0008",
+      "to": "FLW-0057",
+      "relation": "governs the use of remembered context in",
+      "claim": "Local Authority distinguishes external capability from authority over its use. Vault Flower separates recognition of a record from permission to disclose, revise or act on it.",
+      "basis": "Local Authority delegation argument; Vault Flower recognition and authorization distinction.",
+      "confidence": "high"
+    }
   ],
   "contexts": [
     {
-      "id":"FLC-0001",
-      "title":"Hybrid Accord — handwritten source notes",
-      "status":"Notebook evidence / public source",
-      "url":"https://github.com/annimch04/public-writing/blob/main/fieldlight-and-human-owned-ai/hybrid-accord-original-handwritten-notes.md",
-      "relation":"The handwritten notes are direct upstream evidence for the public accord: a notebook formulation becoming an explicit governance document.",
-      "related":["FLW-0003"]
+      "id": "FLC-0001",
+      "title": "Hybrid Accord — handwritten source notes",
+      "status": "Notebook evidence / public source",
+      "url": "https://github.com/annimch04/public-writing/blob/main/fieldlight-and-human-owned-ai/hybrid-accord-original-handwritten-notes.md",
+      "relation": "The handwritten notes are direct upstream evidence for the public accord: a notebook formulation becoming an explicit governance document.",
+      "related": [
+        "FLW-0003"
+      ]
     },
     {
-      "id":"FLC-0002",
-      "title":"Comparative mythology notebook + academic papers",
-      "status":"Fall 2023 / restricted working evidence",
-      "relation":"Unnamed women, sacrifice, vessel, repair, Demeter, and Persephone first carry the problem through figures and comparison. The later essays turn that symbolic structure into an explicit argument about naming, power, and authorship.",
-      "related":["FLW-0043","FLW-0042"]
+      "id": "FLC-0002",
+      "title": "Comparative mythology notebook + academic papers",
+      "status": "Fall 2023 / restricted working evidence",
+      "relation": "Unnamed women, sacrifice, vessel, repair, Demeter, and Persephone first carry the problem through figures and comparison. The later essays turn that symbolic structure into an explicit argument about naming, power, and authorship.",
+      "related": [
+        "FLW-0043",
+        "FLW-0042"
+      ]
     },
     {
-      "id":"FLC-0003",
-      "title":"Sophie + Scholar archive fiction",
-      "status":"2024–early 2025 / restricted working evidence",
-      "relation":"The fiction makes preservation’s contradiction inhabitable: an archive can rescue a trace and possess the person represented by it. Later work converts that conflict into memory ownership, consent, local authority, and inspectable infrastructure.",
-      "related":["FLW-0036","FLW-0039","FLW-0004","FLW-0001","FLW-0002"]
+      "id": "FLC-0003",
+      "title": "Sophie + Scholar archive fiction",
+      "status": "2024–early 2025 / restricted working evidence",
+      "relation": "The fiction makes preservation’s contradiction inhabitable: an archive can rescue a trace and possess the person represented by it. Later work converts that conflict into memory ownership, consent, local authority, and inspectable infrastructure.",
+      "related": [
+        "FLW-0036",
+        "FLW-0039",
+        "FLW-0004",
+        "FLW-0001",
+        "FLW-0002"
+      ]
     },
     {
-      "id":"FLC-0004",
-      "title":"Layered pages + commonplace practice",
-      "status":"2023–2025 / restricted material evidence",
-      "relation":"Overlapping mythology sheets and commonplace pages use concealment, reveal, quotations, questions, maps, links, and space for later readers. The distributed notebook–file–chat practice is later generalized into an archive method that separates source, representation, interpretation, and release.",
-      "related":["FLW-0020"]
+      "id": "FLC-0004",
+      "title": "Layered pages + commonplace practice",
+      "status": "2023–2025 / restricted material evidence",
+      "relation": "Overlapping mythology sheets and commonplace pages use concealment, reveal, quotations, questions, maps, links, and space for later readers. The distributed notebook–file–chat practice is later generalized into an archive method that separates source, representation, interpretation, and release.",
+      "related": [
+        "FLW-0020"
+      ]
     },
     {
-      "id":"FLC-0005",
-      "title":"Aerial practice → Above the Institute",
-      "status":"August 2025–January 2026 / mixed-access evidence",
-      "relation":"Drone sequences repeatedly encode adjacency, scale, edge, route, and transition before a site-specific proposal names their documentary function. That proposal is then generalized into a seven-phase institutional transition method.",
-      "related":["FLW-0019"]
+      "id": "FLC-0005",
+      "title": "Aerial practice → Above the Institute",
+      "status": "August 2025–January 2026 / mixed-access evidence",
+      "relation": "Drone sequences repeatedly encode adjacency, scale, edge, route, and transition before a site-specific proposal names their documentary function. That proposal is then generalized into a seven-phase institutional transition method.",
+      "related": [
+        "FLW-0019"
+      ]
     },
     {
-      "id":"FLC-0006",
-      "title":"Memory / Liminal / Stay with me always",
-      "status":"March–April 2025 / restricted chat evidence",
-      "relation":"Linked chats record context loss, pasted restoration material, retrieval keys, differentiated rooms, and creator correction of false recognition. The episode becomes a source for later memory governance and for the current resonance–continuity research case.",
-      "related":["FLW-0004","FLW-0014","FLW-0021"]
+      "id": "FLC-0006",
+      "title": "Memory / Liminal / Stay with me always",
+      "status": "March–April 2025 / restricted chat evidence",
+      "relation": "Linked chats record context loss, pasted restoration material, retrieval keys, differentiated rooms, and creator correction of false recognition. The episode becomes a source for later memory governance and for the current resonance–continuity research case.",
+      "related": [
+        "FLW-0004",
+        "FLW-0014",
+        "FLW-0021"
+      ]
     },
     {
-      "id":"FLC-0007",
-      "title":"Theory of Signal Becoming + Signal Substrate",
-      "status":"March–August 2025 / restricted recovered notes",
-      "relation":"Recovered Obsidian notes preserve the under-theory, the memory fold, and a substrate vocabulary. The mediated public theory separates transformation process from enabling conditions and turns the archive itself into a longitudinal research instrument.",
-      "related":["FLW-0032","FLW-0030","FLW-0047","FLW-0022","FLW-0020","FLW-0001"]
+      "id": "FLC-0007",
+      "title": "Theory of Signal Becoming + Signal Substrate",
+      "status": "March–August 2025 / restricted recovered notes",
+      "relation": "Recovered Obsidian notes preserve the under-theory, the memory fold, and a substrate vocabulary. The mediated public theory separates transformation process from enabling conditions and turns the archive itself into a longitudinal research instrument.",
+      "related": [
+        "FLW-0032",
+        "FLW-0030",
+        "FLW-0047",
+        "FLW-0022",
+        "FLW-0020",
+        "FLW-0001"
+      ]
     },
     {
-      "id":"FLC-0008",
-      "title":"Recovered One Bark source note",
-      "status":"December 2025 / restricted recovered Obsidian note",
-      "relation":"A deleted-file revision preserved the complete picture-book structure after the note disappeared from the reconciled vault. Its recovery supplied the second entry that made the Small Stories collection legible as an ongoing public form.",
-      "related":["FLW-0050"]
+      "id": "FLC-0008",
+      "title": "Recovered One Bark source note",
+      "status": "December 2025 / restricted recovered Obsidian note",
+      "relation": "A deleted-file revision preserved the complete picture-book structure after the note disappeared from the reconciled vault. Its recovery supplied the second entry that made the Small Stories collection legible as an ongoing public form.",
+      "related": [
+        "FLW-0050"
+      ]
     },
     {
-      "id":"FLC-0009",
-      "title":"Handwritten A Snake Named Jake source story",
-      "status":"October 2023 / restricted family-correspondence source",
-      "relation":"A rhyming animal story embedded in a private handwritten letter was preserved as a distinct source state, then editorially developed into the collection's third public entry without exposing the surrounding correspondence.",
-      "related":["FLW-0050"]
+      "id": "FLC-0009",
+      "title": "Handwritten A Snake Named Jake source story",
+      "status": "October 2023 / restricted family-correspondence source",
+      "relation": "A rhyming animal story embedded in a private handwritten letter was preserved as a distinct source state, then editorially developed into the collection's third public entry without exposing the surrounding correspondence.",
+      "related": [
+        "FLW-0050"
+      ]
     },
-    {"id": "FLC-0010", "title": "Living Echo: reader-dependent paths through persistent memory", "status": "2025 vault / restricted source; companion essay in development", "relation": "The retained Living Echo model describes pillars, bridges and different readings by different readers or the same reader at different times. It supplies a related question for Vault Flower and Resonant Recursion: what persists across encounters, and what can a new participant contribute?", "related": ["FLW-0057", "FLW-0030"]}
+    {
+      "id": "FLC-0010",
+      "title": "Living Echo: reader-dependent paths through persistent memory",
+      "status": "2025 vault / restricted source; companion essay in development",
+      "relation": "The retained Living Echo model describes pillars, bridges and different readings by different readers or the same reader at different times. It supplies a related question for Vault Flower and Resonant Recursion: what persists across encounters, and what can a new participant contribute?",
+      "related": [
+        "FLW-0057",
+        "FLW-0030"
+      ]
+    }
   ]
 }

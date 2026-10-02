@@ -74,3 +74,5 @@ Article pages identify their author and publisher. Canonical Markdown sources pr
 - I Was Still Writing: https://fieldlight.com/writing/i-was-still-writing/
 
 - [The Barefoot Girls and the Boa Economy](https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/): A blanket, a feather boa, and a civilization already in progress. An observed evening, told in a storybook voice for adults.
+
+- [AI Regulation: Public Authority and Public Benefit](https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/): Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay.
