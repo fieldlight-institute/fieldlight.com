@@ -644,6 +644,20 @@
         "local-intelligence",
         "human-owned-intelligence"
       ]
+    },
+    {
+      "id": "FLW-0060",
+      "title": "Fascia as Infrastructure",
+      "url": "/writing/fascia-as-infrastructure/",
+      "changedAt": "2026-10-06T15:00:00Z",
+      "form": "research essay",
+      "primaryThread": "local-intelligence",
+      "threads": [
+        "local-intelligence",
+        "relational-cognition",
+        "governed-memory",
+        "symbolic-discovery"
+      ]
     }
   ],
   "threads": [
@@ -685,7 +699,8 @@
         "FLW-0012",
         "FLW-0013",
         "FLW-0057",
-        "FLW-0059"
+        "FLW-0059",
+        "FLW-0060"
       ]
     },
     {
@@ -709,7 +724,8 @@
         "FLW-0051",
         "FLW-0056",
         "FLW-0057",
-        "FLW-0059"
+        "FLW-0059",
+        "FLW-0060"
       ]
     },
     {
@@ -727,7 +743,8 @@
         "FLW-0047",
         "FLW-0025",
         "FLW-0027",
-        "FLW-0028"
+        "FLW-0028",
+        "FLW-0060"
       ]
     },
     {
@@ -760,7 +777,8 @@
         "FLW-0054",
         "FLW-0055",
         "FLW-0057",
-        "FLW-0058"
+        "FLW-0058",
+        "FLW-0060"
       ]
     }
   ],
@@ -1372,6 +1390,24 @@
       "relation": "governs the use of remembered context in",
       "claim": "Local Authority distinguishes external capability from authority over its use. Vault Flower separates recognition of a record from permission to disclose, revise or act on it.",
       "basis": "Local Authority delegation argument; Vault Flower recognition and authorization distinction.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-039",
+      "from": "FLW-0057",
+      "to": "FLW-0060",
+      "relation": "extends memory into the connections in",
+      "claim": "Fascia extends Vault Flower’s persistent organization by asking how a responsive medium can retain history and change the next encounter.",
+      "basis": "Fascia as Infrastructure, Memory changes the next encounter.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-040",
+      "from": "FLW-0008",
+      "to": "FLW-0060",
+      "relation": "places authority boundaries around",
+      "claim": "Fascia applies Local Authority to adaptive connections: prominence acquired through use must not become permission, and participants must be able to revise, refuse, and retain their own record.",
+      "basis": "Fascia as Infrastructure, Memory changes the next encounter.",
       "confidence": "high"
     }
   ],

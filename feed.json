@@ -12,6 +12,19 @@
   ],
   "items": [
     {
+      "id": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+      "url": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+      "title": "Fascia as Infrastructure",
+      "summary": "What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?",
+      "date_published": "2026-10-06T15:00:00Z",
+      "image": "https://fieldlight.com/writing/fascia-as-infrastructure/assets/fascia-share-v5.png",
+      "authors": [
+        {
+          "name": "Anni McHenry"
+        }
+      ]
+    },
+    {
       "id": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
       "url": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
       "title": "AI Regulation: Public Authority and Public Benefit",
