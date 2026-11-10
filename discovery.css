@@ -46,3 +46,5 @@
 .fl-email-form #fl-email-consent{margin:12px 0 0;color:#40525b;font-size:12px;line-height:1.6;max-width:52ch}
 .fl-email-form a{font-size:inherit}
 .fl-follow,.fl-start,.fl-next{scroll-margin-top:150px}
+
+@media print{.fl-discovery,.fl-start,.fl-offer{display:none!important}}
