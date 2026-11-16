@@ -104,3 +104,29 @@ A successful artifact includes `stream/deployment.json` with the website and can
 `scripts/prepare-pages.py` packages only tracked public HTML, styles, scripts, reader data, and media into a new directory under `RUNNER_TEMP`, then adds `.nojekyll`. It excludes repository metadata, workflow files, Markdown, tests, implementation scripts, documentation, templates, and the preserved feed baseline. The canonical source checkout is a sibling directory and is never packaged. Symbolic links are rejected; files are copied as regular files.
 
 The public-feed content hash remains the confirmation of a particular post revision. A saved canonical record, a website commit, a successful Pages deployment, and a verified public post are separate states.
+
+## Agent handoff
+
+All running publishing code, tests, and workflows are in the two GitHub repositories. This website owns the composer, public rendering, and Pages deployment; [public-writing](https://github.com/annimch04/public-writing) owns canonical posts and cleaned media. Read this guide and its [authoring guide](https://github.com/annimch04/public-writing/blob/main/stream/README.md) first. Keep the current GitHub Pages and Actions architecture; a separate self-hosted publisher is outside this implementation.
+
+Start with these files:
+
+- `post/composer.js`: editor, IndexedDB drafts/photos, and exact-version publication checks.
+- `post/publisher.js`: GitHub connection, photo cleaning, atomic canonical writes, retry identity, and edit conflicts.
+- `post/connection.js`: optional encrypted key storage and unlock/sign-out behavior.
+- `post/index.html`, `post/post.css`, `post/manifest.webmanifest`, and `post/sw.js`: Fieldlight's interface and narrowly cached Home Screen shell.
+- `scripts/build-stream.py`, `scripts/prepare-pages.py`, and `.github/workflows/publish.yml`: generation, validation, packaging, and scheduled Pages deployment.
+- In `public-writing`, `tools/publish_stream.py`, `tools/stream_workflow.py`, and `.github/workflows/publish-stream.yml` maintain the legacy issue-form fallback.
+
+Use Node 24 and Python 3.12, matching the website workflow. From this website checkout, with a current sibling source checkout:
+
+```sh
+node --test tests/*.mjs
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 scripts/build-stream.py --source ../public-writing --check
+python3 scripts/check-reader-continuity.py
+```
+
+Adjust the source path to the actual checkout. The authoring guide contains the separate issue-publisher tests and pinned image dependencies. A build or passing test does not establish live publication; check the public feed's exact content hash, or `stream/deployment.json` when confirming a site deployment.
+
+Browser drafts, original draft photos, and the optional encrypted connection are device-local state, not GitHub backups. A fresh checkout restores code and public records, not those drafts or an unlocked session. The unlock password is never stored. Keep keys, passwords, and browser state out of repositories and handoff notes; normal website builds need only the public source and the workflow's own GitHub token.

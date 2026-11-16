@@ -21,8 +21,8 @@ Fieldlight Institute develops public research, working systems, and institutiona
 - `stream/` is Anni’s chronological stream, with Everything and Publications views.
 - `stream/feed.xml` and `stream/feed.json` deliver Everything, including complete short posts and photographs.
 - `feed.xml` and `feed.json` remain the Publications subscription addresses.
-- `post/` is the phone-and-Mac publishing doorway; GitHub handles author sign-in.
-- See [Stream publishing](docs/stream.md) for generation and deployment.
+- `post/` is Fieldlight's phone-and-Mac text-and-photo composer, with device-local drafts and a restricted connection to the author-owned GitHub repository.
+- See [Stream publishing](docs/stream.md) for use, generation, deployment, and the [agent handoff](docs/stream.md#agent-handoff).
 - `llms.txt` provides a machine-readable institutional and publication index.
 - `sitemap.xml` lists indexable HTML pages.
 
