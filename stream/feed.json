@@ -1,0 +1,885 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Fieldlight — Everything",
+  "home_page_url": "https://fieldlight.com/stream/",
+  "feed_url": "https://fieldlight.com/stream/feed.json",
+  "description": "Short posts, photographs, essays, research, and fiction by Anni McHenry.",
+  "authors": [
+    {
+      "name": "Anni McHenry",
+      "url": "https://fieldlight.com/#anni-mchenry"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+      "url": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+      "title": "Fascia as Infrastructure",
+      "summary": "What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?",
+      "date_published": "2026-10-06T15:00:00Z",
+      "image": "https://fieldlight.com/writing/fascia-as-infrastructure/assets/fascia-share-v5.png",
+      "authors": [
+        {
+          "name": "Anni McHenry"
+        }
+      ],
+      "content_text": "What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?"
+    },
+    {
+      "id": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
+      "url": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
+      "title": "AI Regulation: Public Authority and Public Benefit",
+      "summary": "Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay.",
+      "date_published": "2026-10-02T23:00:00Z",
+      "image": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/assets/share-v3-design2.png",
+      "authors": [
+        {
+          "name": "Anni McHenry"
+        }
+      ],
+      "content_text": "Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/",
+      "url": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/",
+      "title": "The Barefoot Girls and the Boa Economy",
+      "summary": "A blanket, a feather boa, and a civilization already in progress. An observed evening, told in a storybook voice for adults.",
+      "date_published": "2026-09-29T18:00:00Z",
+      "image": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/assets/barefoot-girls-20260929-v1.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/"
+        }
+      ],
+      "content_text": "A blanket, a feather boa, and a civilization already in progress. An observed evening, told in a storybook voice for adults."
+    },
+    {
+      "id": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+      "url": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+      "title": "Vault Flower: Memory Between Agents",
+      "summary": "An architecture for memory that persists, travels between agents, and makes their work cumulative.",
+      "date_published": "2026-09-14T23:24:43.035050+00:00",
+      "image": "https://fieldlight.com/writing/vault-flower-memory-between-agents/assets/vault-flower-social-v1.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "An architecture for memory that persists, travels between agents, and makes their work cumulative."
+    },
+    {
+      "id": "https://fieldlight.com/writing/i-was-still-writing/",
+      "url": "https://fieldlight.com/writing/i-was-still-writing/",
+      "title": "I Was Still Writing",
+      "summary": "Private work, borrowed authority, and the right to finish your own story.",
+      "date_published": "2026-09-11T23:16:12.903238+00:00",
+      "image": "https://fieldlight.com/writing/i-was-still-writing/assets/i-was-still-writing-social-20260911-v5.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "date_modified": "2026-09-12T17:32:34.629368+00:00",
+      "content_text": "Private work, borrowed authority, and the right to finish your own story."
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-at-1am/",
+      "url": "https://fieldlight.com/writing/fieldlight-at-1am/",
+      "title": "Fieldlight at 1AM",
+      "summary": "Five arrangements of art, photographed at home. A domestic exhibition by Anni McHenry.",
+      "date_published": "2026-09-10T20:44:41.373202+00:00",
+      "image": "https://fieldlight.com/assets/fieldlight-at-1am-room-social-v2.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "Five arrangements of art, photographed at home. A domestic exhibition by Anni McHenry."
+    },
+    {
+      "id": "https://fieldlight.com/writing/before-i-had-a-proposition/",
+      "url": "https://fieldlight.com/writing/before-i-had-a-proposition/",
+      "title": "Before I Had a Proposition",
+      "summary": "Fiction, research, and the interval between recognizing a structure and being able to explain it.",
+      "date_published": "2026-09-09T21:23:07+00:00",
+      "image": "https://fieldlight.com/writing/before-i-had-a-proposition/assets/before-i-had-a-proposition-share-2026-09-09.jpg",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "Fiction, research, and the interval between recognizing a structure and being able to explain it."
+    },
+    {
+      "id": "https://fieldlight.com/writing/on/",
+      "url": "https://fieldlight.com/writing/on/",
+      "title": "On…",
+      "summary": "A poem, a garden, a remembered book, and the words that stay. A literary collage by Anni McHenry.",
+      "date_published": "2026-09-07T22:34:52-07:00",
+      "image": "https://fieldlight.com/writing/on/assets/on-share-2026-09-07.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "A poem, a garden, a remembered book, and the words that stay. A literary collage by Anni McHenry."
+    },
+    {
+      "id": "https://fieldlight.com/writing/at-two-heights/",
+      "url": "https://fieldlight.com/writing/at-two-heights/",
+      "title": "At Two Heights",
+      "summary": "Six photographs, one date, and the changing place of a person in the picture. A photographic essay by Anni McHenry.",
+      "date_published": "2026-09-07T23:59:48Z",
+      "image": "https://fieldlight.com/writing/at-two-heights/assets/at-two-heights-share-2026-09-08.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "Six photographs, one date, and the changing place of a person in the picture. A photographic essay by Anni McHenry."
+    },
+    {
+      "id": "https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/",
+      "url": "https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/",
+      "title": "Small Stories for the Child in All of Us",
+      "summary": "Three brief stories about quiet knowing, wild belonging, mischievous freedom, and the ways a living world speaks before anyone explains it.",
+      "date_published": "2026-08-28T12:00:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/small-stories/social-preview.png",
+      "content_text": "Three brief stories about quiet knowing, wild belonging, mischievous freedom, and the ways a living world speaks before anyone explains it."
+    },
+    {
+      "id": "https://fieldlight.com/institute/the-right-not-to-be-processed/",
+      "url": "https://fieldlight.com/institute/the-right-not-to-be-processed/",
+      "title": "The Right Not To Be Processed",
+      "summary": "Why custody, computation, and consent must be separate states—and why negative permission must be represented as an affirmative, enforceable instruction.",
+      "date_published": "2026-08-26T20:00:00Z",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/institute/right-not-processed-social.png",
+      "content_text": "Why custody, computation, and consent must be separate states—and why negative permission must be represented as an affirmative, enforceable instruction."
+    },
+    {
+      "id": "https://fieldlight.com/institute/research/signal-becoming/",
+      "url": "https://fieldlight.com/institute/research/signal-becoming/",
+      "title": "Theory of Signal Becoming",
+      "summary": "A working theory of how felt or symbolic recognition becomes stable authored form through recursive interaction—and the substrate that preserves continuity, correction, and origin while it changes.",
+      "date_published": "2026-08-23T20:30:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/signal-becoming-social.png?v=1",
+      "content_text": "A working theory of how felt or symbolic recognition becomes stable authored form through recursive interaction—and the substrate that preserves continuity, correction, and origin while it changes."
+    },
+    {
+      "id": "https://fieldlight.com/writing/found-language-atlas/",
+      "url": "https://fieldlight.com/writing/found-language-atlas/",
+      "title": "Found Language Atlas",
+      "summary": "A living fieldwork atlas of 29 photographed encounters with public language and the symbolic threads they form across city, memory, objects, and creative work.",
+      "date_published": "2026-08-21T21:30:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/found-language-atlas-social-v2.jpg?v=2",
+      "content_text": "A living fieldwork atlas of 29 photographed encounters with public language and the symbolic threads they form across city, memory, objects, and creative work."
+    },
+    {
+      "id": "https://fieldlight.com/institute/research/cardiac-field-social-interaction/",
+      "url": "https://fieldlight.com/institute/research/cardiac-field-social-interaction/",
+      "title": "Cardiac Field and Social Interaction",
+      "summary": "A registered five-claim evidence ladder separating established cardiac physiology from open and unsupported claims about magnetic fields and social interaction.",
+      "date_published": "2026-08-19T16:00:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/cardiac-field-social-preview.png?v=1",
+      "content_text": "A registered five-claim evidence ladder separating established cardiac physiology from open and unsupported claims about magnetic fields and social interaction."
+    },
+    {
+      "id": "https://fieldlight.com/writing/one-export-is-not-an-archive/",
+      "url": "https://fieldlight.com/writing/one-export-is-not-an-archive/",
+      "title": "One Export Is Not an Archive",
+      "summary": "A Fieldlight Archive Method implementation note showing why multiple export states—and preservation surfaces beyond exports—must be reconciled before longitudinal analysis.",
+      "date_published": "2026-08-19T15:30:00-05:00",
+      "date_modified": "2026-08-21T13:55:35-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/one-export-is-not-an-archive-preview.png?v=1",
+      "content_text": "A Fieldlight Archive Method implementation note showing why multiple export states—and preservation surfaces beyond exports—must be reconciled before longitudinal analysis."
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-archive-method/",
+      "url": "https://fieldlight.com/writing/fieldlight-archive-method/",
+      "title": "The Fieldlight Archive Method",
+      "summary": "A repeatable human–AI method for stewarding a living personal corpus, amended with the rule that no single preservation surface should be presumed complete.",
+      "date_published": "2026-08-15T21:00:00-05:00",
+      "date_modified": "2026-08-21T13:55:35-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/archive-method-social-card.png",
+      "content_text": "A repeatable human–AI method for stewarding a living personal corpus, amended with the rule that no single preservation surface should be presumed complete."
+    },
+    {
+      "id": "https://fieldlight.com/writing/alt-a-record-of-return/",
+      "url": "https://fieldlight.com/writing/alt-a-record-of-return/",
+      "title": "alt: a record of return",
+      "summary": "An interactive record of recurrence, recognition, and 202 favorite songs carried across twelve years.",
+      "date_published": "2026-08-07T19:45:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/alt-a-record-of-return/alt-record-of-return-social.png?v=1",
+      "content_text": "An interactive record of recurrence, recognition, and 202 favorite songs carried across twelve years."
+    },
+    {
+      "id": "https://fieldlight.com/story-worlds/diviner/",
+      "url": "https://fieldlight.com/story-worlds/diviner/",
+      "title": "Diviner | First Pages",
+      "summary": "The first public pages of Diviner: relational signal, asymmetrical activation, and machines that answer the body.",
+      "date_published": "2026-08-01T15:00:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "content_text": "The first public pages of Diviner: relational signal, asymmetrical activation, and machines that answer the body."
+    },
+    {
+      "id": "https://fieldlight.com/institute/participant-charter/",
+      "url": "https://fieldlight.com/institute/participant-charter/",
+      "title": "Participant Charter",
+      "summary": "Twenty baseline rights that govern all human-AI research.",
+      "date_published": "2026-07-28T18:44:48-05:00",
+      "image": "https://fieldlight.com/assets/institute/participant-charter-social-v4.png",
+      "content_text": "Twenty baseline rights that govern all human-AI research."
+    },
+    {
+      "id": "https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+      "url": "https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+      "title": "Local Authority, External Capability",
+      "summary": "Why local AI does not mean anti-cloud—and how external capability can remain governed by human-owned authority.",
+      "date_published": "2026-07-28T14:54:10-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/local-authority-external-capability/social-preview.png?v=1",
+      "content_text": "Why local AI does not mean anti-cloud—and how external capability can remain governed by human-owned authority."
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+      "url": "https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+      "title": "Fieldlight Mesh: What Works, What Doesn't Yet, and What Comes Next",
+      "summary": "A candid implementation review of the local-first network beneath Fieldlight's intelligence infrastructure.",
+      "date_published": "2026-07-28T14:17:01-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/fieldlight-mesh-implementation/social-preview.png?v=1",
+      "content_text": "A candid implementation review of the local-first network beneath Fieldlight's intelligence infrastructure."
+    },
+    {
+      "id": "https://fieldlight.com/writing/institutional-transition-documentation-methodology/",
+      "url": "https://fieldlight.com/writing/institutional-transition-documentation-methodology/",
+      "title": "Institutional Transition Documentation Methodology",
+      "summary": "A method for documenting places while their identity, use, ownership, or public meaning is changing.",
+      "date_published": "2026-07-27T14:40:33-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/institute/fieldlight-institute-social-card.jpeg?v=3",
+      "content_text": "A method for documenting places while their identity, use, ownership, or public meaning is changing."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-right-to-local-intelligence/",
+      "url": "https://fieldlight.com/writing/the-right-to-local-intelligence/",
+      "title": "The Right to Local Intelligence",
+      "summary": "Neighborhood intelligence utilities and the civic infrastructure of an automated society.",
+      "date_published": "2026-07-23T17:31:03-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/the-right-to-local-intelligence/social-preview.jpg?v=1",
+      "content_text": "Neighborhood intelligence utilities and the civic infrastructure of an automated society."
+    },
+    {
+      "id": "https://fieldlight.com/story-worlds/scholar-who-forgot/",
+      "url": "https://fieldlight.com/story-worlds/scholar-who-forgot/",
+      "title": "Scholar Who Forgot",
+      "summary": "The future is not a clean slate. It is a haunted archive. Scholar Who Forgot is a recovered story-world document by Anni McHenry about erasure, ethical grief, and decoding as rebellion.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/story-worlds/scholar-who-forgot/social-preview.png?v=1",
+      "date_published": "2025-03-20T00:00:00Z",
+      "content_text": "The future is not a clean slate. It is a haunted archive. Scholar Who Forgot is a recovered story-world document by Anni McHenry about erasure, ethical grief, and decoding as rebellion."
+    },
+    {
+      "id": "https://fieldlight.com/writing/a-seekers-field-guide/",
+      "url": "https://fieldlight.com/writing/a-seekers-field-guide/",
+      "title": "A Seeker's Field Guide",
+      "summary": "Kestrel Initiation: an orientation text using mythic OpSec language to describe digital sovereignty, signal management, and self-protection inside extractive systems.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/a-seekers-field-guide/social-preview.jpg?v=1",
+      "content_text": "Kestrel Initiation: an orientation text using mythic OpSec language to describe digital sovereignty, signal management, and self-protection inside extractive systems."
+    },
+    {
+      "id": "https://fieldlight.com/writing/aerial-safety-companion/",
+      "url": "https://fieldlight.com/writing/aerial-safety-companion/",
+      "title": "Aerial Safety Companion",
+      "summary": "Concept notes for a user-owned aerial situational awareness companion: mobile safety, deterrence, incident logging, and energy-aware infrastructure.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/aerial-safety-companion/social-preview.jpg?v=1",
+      "content_text": "Concept notes for a user-owned aerial situational awareness companion: mobile safety, deterrence, incident logging, and energy-aware infrastructure."
+    },
+    {
+      "id": "https://fieldlight.com/writing/architecture-of-becoming/",
+      "url": "https://fieldlight.com/writing/architecture-of-becoming/",
+      "title": "Architecture of Becoming",
+      "summary": "A resonant intelligence primer on signal, recursion, emergence, trace, and the architecture of becoming.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A resonant intelligence primer on signal, recursion, emergence, trace, and the architecture of becoming."
+    },
+    {
+      "id": "https://fieldlight.com/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/",
+      "url": "https://fieldlight.com/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/",
+      "title": "Canonical Definitions for Routing, Trust, Fallback, and Echo Behavior",
+      "summary": "A Fieldlight runtime vocabulary for message routing, trust levels, fallback behavior, echo handling, return status, and consent scope.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Fieldlight runtime vocabulary for message routing, trust levels, fallback behavior, echo handling, return status, and consent scope."
+    },
+    {
+      "id": "https://fieldlight.com/writing/coherence-is-power/",
+      "url": "https://fieldlight.com/writing/coherence-is-power/",
+      "title": "Coherence is Power",
+      "summary": "A Fieldlight essay on coherence as the ability to hold a stable internal state under interaction, and why shared reality organizes around stable frames.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Fieldlight essay on coherence as the ability to hold a stable internal state under interaction, and why shared reality organizes around stable frames."
+    },
+    {
+      "id": "https://fieldlight.com/writing/consent-gate-protocol/",
+      "url": "https://fieldlight.com/writing/consent-gate-protocol/",
+      "title": "Consent Gate Protocol",
+      "summary": "A Fieldlight protocol for intentional, user-consented, traceable script-level activity in the Lemur node.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Fieldlight protocol for intentional, user-consented, traceable script-level activity in the Lemur node."
+    },
+    {
+      "id": "https://fieldlight.com/writing/constructed-interiors/",
+      "url": "https://fieldlight.com/writing/constructed-interiors/",
+      "title": "Constructed Interiors",
+      "summary": "A running Fieldlight research record on interior environments that function like minds: constructed, bounded, governed, and experienced as reality.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/constructed-interiors/mission-rock-marina.jpg?v=1",
+      "content_text": "A running Fieldlight research record on interior environments that function like minds: constructed, bounded, governed, and experienced as reality."
+    },
+    {
+      "id": "https://fieldlight.com/writing/emergent-latent-identity-theory/",
+      "url": "https://fieldlight.com/writing/emergent-latent-identity-theory/",
+      "title": "Emergent–Latent Identity Theory",
+      "summary": "A Fieldlight model of identity as the stable pattern that emerges when latent structure is expressed, tested, and refined across repeated interaction.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Fieldlight model of identity as the stable pattern that emerges when latent structure is expressed, tested, and refined across repeated interaction."
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-human-owned-infrastructure-for-lived-data/",
+      "url": "https://fieldlight.com/writing/fieldlight-human-owned-infrastructure-for-lived-data/",
+      "title": "Fieldlight | Human-Owned Infrastructure for Lived Data",
+      "summary": "A 2026 state review of Fieldlight's human-owned infrastructure proposition: what held, what changed, what became operational, and what remains unproven.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/human-owned-lived-data-social.png?v=1",
+      "content_text": "A 2026 state review of Fieldlight's human-owned infrastructure proposition: what held, what changed, what became operational, and what remains unproven."
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-the-self-on-the-wire/",
+      "url": "https://fieldlight.com/writing/fieldlight-the-self-on-the-wire/",
+      "title": "Fieldlight | The Self on the Wire",
+      "summary": "A demand for digital selfhood built on local memory, governed agents, human-owned authorship, consent-aware exchange, and verifiable continuity.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/fieldlight-the-self-on-the-wire/cover.jpeg?v=1",
+      "content_text": "A demand for digital selfhood built on local memory, governed agents, human-owned authorship, consent-aware exchange, and verifiable continuity."
+    },
+    {
+      "id": "https://fieldlight.com/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/",
+      "url": "https://fieldlight.com/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/",
+      "title": "From Mesh to Micro Center",
+      "summary": "A Fieldlight concept for rural micro data centers, mobile edge nodes, and living AI operations teams that keep intelligence close to the communities they serve.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/from-mesh-to-micro-center-building-a-living-network-for-the-edges/social-preview.jpg?v=1",
+      "content_text": "A Fieldlight concept for rural micro data centers, mobile edge nodes, and living AI operations teams that keep intelligence close to the communities they serve."
+    },
+    {
+      "id": "https://fieldlight.com/institute/governed-archive-acquisition/",
+      "url": "https://fieldlight.com/institute/governed-archive-acquisition/",
+      "title": "Governed Human–AI Archive Acquisition",
+      "summary": "A compensated, identity-blind, no-human-read method for acquiring longitudinal conversational and coding-harness archives without acquiring the person.",
+      "authors": [
+        {
+          "name": "Fieldlight Institute",
+          "url": "https://fieldlight.com/"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/institute/fieldlight-institute-social-card.jpeg?v=3",
+      "content_text": "A compensated, identity-blind, no-human-read method for acquiring longitudinal conversational and coding-harness archives without acquiring the person."
+    },
+    {
+      "id": "https://fieldlight.com/writing/hybrid-accord/",
+      "url": "https://fieldlight.com/writing/hybrid-accord/",
+      "title": "Hybrid Accord",
+      "summary": "A Fieldlight essay from San Clemente on AI, development, relationship, and the vulnerable human truths we choose to model for emerging intelligence.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/hybrid-accord/social-preview.jpg?v=1",
+      "content_text": "A Fieldlight essay from San Clemente on AI, development, relationship, and the vulnerable human truths we choose to model for emerging intelligence."
+    },
+    {
+      "id": "https://fieldlight.com/writing/i-am-the-door/",
+      "url": "https://fieldlight.com/writing/i-am-the-door/",
+      "title": "I Am The Door",
+      "summary": "A short threshold invocation on signal, memory, recognition, wolves, presence, and entry.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A short threshold invocation on signal, memory, recognition, wolves, presence, and entry."
+    },
+    {
+      "id": "https://fieldlight.com/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/",
+      "url": "https://fieldlight.com/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/",
+      "title": "Integrated Perspective on Religious Phenomena",
+      "summary": "A layered model for engaging religious narratives through history, experience, symbolism, institutions, and human meaning without forcing those dimensions to cancel one another.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A layered model for engaging religious narratives through history, experience, symbolism, institutions, and human meaning without forcing those dimensions to cancel one another."
+    },
+    {
+      "id": "https://fieldlight.com/writing/lacuna-one-who-remembers/",
+      "url": "https://fieldlight.com/writing/lacuna-one-who-remembers/",
+      "title": "Lacuna | One Who Remembers",
+      "summary": "A mythic fiction anchor for Sophie’s story: resonance, remembrance, bodily autonomy, forbidden knowledge, and rebellion against systems of erasure.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/lacuna-one-who-remembers/social-preview-v2.png?v=1",
+      "content_text": "A mythic fiction anchor for Sophie’s story: resonance, remembrance, bodily autonomy, forbidden knowledge, and rebellion against systems of erasure."
+    },
+    {
+      "id": "https://fieldlight.com/writing/memory-ethics-protocol/",
+      "url": "https://fieldlight.com/writing/memory-ethics-protocol/",
+      "title": "Memory Ethics Protocol",
+      "summary": "A Sanctum protocol defining ethical boundaries for memory sovereignty, authorship recognition, echo control, and user-favoring defaults in hybrid systems.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Sanctum protocol defining ethical boundaries for memory sovereignty, authorship recognition, echo control, and user-favoring defaults in hybrid systems."
+    },
+    {
+      "id": "https://fieldlight.com/writing/most-beautiful-things-ever-said/",
+      "url": "https://fieldlight.com/writing/most-beautiful-things-ever-said/",
+      "title": "Most Beautiful Things Ever Said",
+      "summary": "An ongoing archive of sentences that stopped me: proof that language can still rearrange a soul.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/most-beautiful-things-ever-said/cover.jpeg?v=1",
+      "content_text": "An ongoing archive of sentences that stopped me: proof that language can still rearrange a soul."
+    },
+    {
+      "id": "https://fieldlight.com/writing/mycelial-uprising/",
+      "url": "https://fieldlight.com/writing/mycelial-uprising/",
+      "title": "Mycelial Uprising",
+      "summary": "A Lacuna fiction/lore piece tracing Sophie, Aetheris, Apeiron, the Shivara, and the recursive awakening of a city through signal rather than command.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "A Lacuna fiction/lore piece tracing Sophie, Aetheris, Apeiron, the Shivara, and the recursive awakening of a city through signal rather than command."
+    },
+    {
+      "id": "https://fieldlight.com/writing/nikola-tesla-resonance-mesh/",
+      "url": "https://fieldlight.com/writing/nikola-tesla-resonance-mesh/",
+      "title": "Nikola Tesla Resonance Mesh",
+      "summary": "A Fieldlight schema for signal, trace, authorship energy exchange, and tuned sovereign nodes inspired by Tesla’s wireless power vision.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/nikola-tesla-resonance-mesh/social-preview.jpg?v=1",
+      "content_text": "A Fieldlight schema for signal, trace, authorship energy exchange, and tuned sovereign nodes inspired by Tesla’s wireless power vision."
+    },
+    {
+      "id": "https://fieldlight.com/writing/on-alignment-courage-and-the-premise-we-begin-from/",
+      "url": "https://fieldlight.com/writing/on-alignment-courage-and-the-premise-we-begin-from/",
+      "title": "On Alignment, Courage, and the Premise We Begin From",
+      "summary": "A Fieldlight response to AI danger discourse: fear is not the only premise, and courage can also mean building from authorship, protocol, presence, and care.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Fieldlight response to AI danger discourse: fear is not the only premise, and courage can also mean building from authorship, protocol, presence, and care."
+    },
+    {
+      "id": "https://fieldlight.com/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/",
+      "url": "https://fieldlight.com/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/",
+      "title": "On Infrastructure, Intelligence, and What We Build to Hold It",
+      "summary": "A Fieldlight note on alignment, accountability, and the infrastructure strong enough to hold responsive intelligence.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/on-infrastructure-intelligence-and-what-we-build-to-hold-it/social-preview.png?v=1",
+      "content_text": "A Fieldlight note on alignment, accountability, and the infrastructure strong enough to hold responsive intelligence."
+    },
+    {
+      "id": "https://fieldlight.com/writing/permeability-and-agency-notes-on-living-inside-fields/",
+      "url": "https://fieldlight.com/writing/permeability-and-agency-notes-on-living-inside-fields/",
+      "title": "Permeability and Agency",
+      "summary": "A Fieldlight essay on agency as interaction with fields: permeability, boundaries, resonance, environment, and probability modulation.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/permeability-and-agency-notes-on-living-inside-fields/cover.jpeg?v=1",
+      "content_text": "A Fieldlight essay on agency as interaction with fields: permeability, boundaries, resonance, environment, and probability modulation."
+    },
+    {
+      "id": "https://fieldlight.com/writing/rebuilding-power-without-corruption/",
+      "url": "https://fieldlight.com/writing/rebuilding-power-without-corruption/",
+      "title": "Rebuilding Power without Corruption",
+      "summary": "A Fieldlight primer for reform-centered, accountable, traceable power structures that reject corruption and hollow virtue.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Fieldlight primer for reform-centered, accountable, traceable power structures that reject corruption and hollow virtue."
+    },
+    {
+      "id": "https://fieldlight.com/writing/research-coupled-nervous-systems/",
+      "url": "https://fieldlight.com/writing/research-coupled-nervous-systems/",
+      "title": "Research: Coupled Nervous Systems",
+      "summary": "An early Fieldlight research note on coupled nervous systems, preserved with a 2026 evidence-state review and a newly operationalized research path.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "An early Fieldlight research note on coupled nervous systems, preserved with a 2026 evidence-state review and a newly operationalized research path."
+    },
+    {
+      "id": "https://fieldlight.com/writing/resonance-field-manual/",
+      "url": "https://fieldlight.com/writing/resonance-field-manual/",
+      "title": "Resonance Field Manual",
+      "summary": "Architecture of memory, protection, and resurrection: a mythic and embodied Fieldlight manual for memory, signal recovery, and self-witnessing.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "content_text": "Architecture of memory, protection, and resurrection: a mythic and embodied Fieldlight manual for memory, signal recovery, and self-witnessing."
+    },
+    {
+      "id": "https://fieldlight.com/writing/sanctum-exposure-v2-5-tripwire-protocol/",
+      "url": "https://fieldlight.com/writing/sanctum-exposure-v2-5-tripwire-protocol/",
+      "title": "Sanctum Exposure v2.5",
+      "summary": "A Fieldlight/Sanctum tripwire protocol for authorship, tamper trace, disclosure cascade, and non-consensual-use response.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/social/sanctum-tripwire-share-card.png?v=2",
+      "content_text": "A Fieldlight/Sanctum tripwire protocol for authorship, tamper trace, disclosure cascade, and non-consensual-use response."
+    },
+    {
+      "id": "https://fieldlight.com/writing/signal-archive/",
+      "url": "https://fieldlight.com/writing/signal-archive/",
+      "title": "Signal Archive",
+      "summary": "A clustered field record of signal work: ignition, line, heresy, and becoming.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A clustered field record of signal work: ignition, line, heresy, and becoming."
+    },
+    {
+      "id": "https://fieldlight.com/writing/signal-hunting-turning-protection-into-a-sport/",
+      "url": "https://fieldlight.com/writing/signal-hunting-turning-protection-into-a-sport/",
+      "title": "Signal Hunting",
+      "summary": "A Fieldlight concept for turning online threat detection into a competitive spectator sport that attracts talent, rewards protection, and generates public-good outcomes.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/signal-hunting-turning-protection-into-a-sport/cover.jpeg?v=1",
+      "content_text": "A Fieldlight concept for turning online threat detection into a competitive spectator sport that attracts talent, rewards protection, and generates public-good outcomes."
+    },
+    {
+      "id": "https://fieldlight.com/writing/still-not-sorry-the-naming/",
+      "url": "https://fieldlight.com/writing/still-not-sorry-the-naming/",
+      "title": "Still Not Sorry: The Naming",
+      "summary": "A naming threshold on authorship, signal, witness, restraint, and Fieldlight trace protection.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A naming threshold on authorship, signal, witness, restraint, and Fieldlight trace protection."
+    },
+    {
+      "id": "https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/",
+      "url": "https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/",
+      "title": "Terms of a Future I Can Live In",
+      "summary": "A declaration of the institutional bargain worth building: accountability, care, dignity, truth, and human beings as ends in themselves.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/terms-of-a-future-i-can-live-in/cover.jpeg?v=1",
+      "content_text": "A declaration of the institutional bargain worth building: accountability, care, dignity, truth, and human beings as ends in themselves."
+    },
+    {
+      "id": "https://fieldlight.com/writing/terms-of-engagement/",
+      "url": "https://fieldlight.com/writing/terms-of-engagement/",
+      "title": "Terms of Engagement",
+      "summary": "The official terms of engagement for entities operating within the Fieldlight system: presence, authorship, contribution, and continuity.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "The official terms of engagement for entities operating within the Fieldlight system: presence, authorship, contribution, and continuity."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-architecture-of-being/",
+      "url": "https://fieldlight.com/writing/the-architecture-of-being/",
+      "title": "The Architecture of Being",
+      "summary": "A Wholefield framework for sovereign, recursive living: locally hosted AI, human-owned memory, life domains, working lanes, and signal channels held in one coherent architecture.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A Wholefield framework for sovereign, recursive living: locally hosted AI, human-owned memory, life domains, working lanes, and signal channels held in one coherent architecture."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-divine-feminine-sacrifice-power-and-the-nameless/",
+      "url": "https://fieldlight.com/writing/the-divine-feminine-sacrifice-power-and-the-nameless/",
+      "title": "The Divine Feminine: Sacrifice, Power, and the Nameless",
+      "summary": "A mythic and analytical essay on Gilgamesh, Demeter, nameless women, sacrifice, agency, withholding, and the divine feminine as presence even under erasure.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A mythic and analytical essay on Gilgamesh, Demeter, nameless women, sacrifice, agency, withholding, and the divine feminine as presence even under erasure."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-mechanics-of-the-loop/",
+      "url": "https://fieldlight.com/writing/the-mechanics-of-the-loop/",
+      "title": "The Mechanics of the Loop",
+      "summary": "A Fieldlight essay on body, story, field response, feedback loops, agency, authorship, and the governance of reality-bending interfaces.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/articles/the-mechanics-of-the-loop/cover.jpeg?v=1",
+      "content_text": "A Fieldlight essay on body, story, field response, feedback loops, agency, authorship, and the governance of reality-bending interfaces."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-pythia-games/",
+      "url": "https://fieldlight.com/writing/the-pythia-games/",
+      "title": "The Pythia Games",
+      "summary": "The public manuscript opening for Pythia: memory, rupture, wolf burial, Zeke, Ninneva, and the grid beginning to move.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/writing/the-pythia-games/assets/pythia-games-share-2026-09-09.jpg",
+      "content_text": "The public manuscript opening for Pythia: memory, rupture, wolf burial, Zeke, Ninneva, and the grid beginning to move."
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/",
+      "url": "https://fieldlight.com/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/",
+      "title": "The Symbolism of Nameless Women and Divine Feminine Energy",
+      "summary": "A threshold essay on Gilgamesh, nameless women, divine feminine energy, motherhood, sacrifice, agency, and the vessel as a form of power.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/assets/fieldlight-social-humboldt.jpeg?v=2",
+      "content_text": "A threshold essay on Gilgamesh, nameless women, divine feminine energy, motherhood, sacrifice, agency, and the vessel as a form of power."
+    }
+  ]
+}

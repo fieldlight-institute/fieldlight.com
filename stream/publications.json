@@ -1,0 +1,511 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Fieldlight Institute Reading Feed",
+  "home_page_url": "https://fieldlight.com/",
+  "feed_url": "https://fieldlight.com/feed.json",
+  "description": "Research, systems, methods, and public writing from Fieldlight Institute and Anni McHenry.",
+  "authors": [
+    {
+      "name": "Fieldlight Institute",
+      "url": "https://fieldlight.com/"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+      "url": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+      "title": "Fascia as Infrastructure",
+      "summary": "What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?",
+      "date_published": "2026-10-06T15:00:00Z",
+      "image": "https://fieldlight.com/writing/fascia-as-infrastructure/assets/fascia-share-v5.png",
+      "authors": [
+        {
+          "name": "Anni McHenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/fascia-as-infrastructure/",
+        "guid_attributes": {},
+        "pubDate": "Tue, 06 Oct 2026 15:00:00 GMT"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
+      "url": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
+      "title": "AI Regulation: Public Authority and Public Benefit",
+      "summary": "Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay.",
+      "date_published": "2026-10-02T23:00:00Z",
+      "image": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/assets/share-v3-design2.png",
+      "authors": [
+        {
+          "name": "Anni McHenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/",
+        "guid_attributes": {},
+        "pubDate": "Fri, 02 Oct 2026 23:00:00 GMT"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/",
+      "url": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/",
+      "title": "The Barefoot Girls and the Boa Economy",
+      "summary": "A blanket, a feather boa, and a civilization already in progress. An observed evening, told in a storybook voice for adults.",
+      "date_published": "2026-09-29T18:00:00Z",
+      "image": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/assets/barefoot-girls-20260929-v1.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Tue, 29 Sep 2026 18:00:00 GMT"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+      "url": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+      "title": "Vault Flower: Memory Between Agents",
+      "summary": "An architecture for memory that persists, travels between agents, and makes their work cumulative.",
+      "date_published": "2026-09-14T23:24:43.035050+00:00",
+      "image": "https://fieldlight.com/writing/vault-flower-memory-between-agents/assets/vault-flower-social-v1.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/vault-flower-memory-between-agents/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Mon, 14 Sep 2026 23:24:43 +0000"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/i-was-still-writing/",
+      "url": "https://fieldlight.com/writing/i-was-still-writing/",
+      "title": "I Was Still Writing",
+      "summary": "Private work, borrowed authority, and the right to finish your own story.",
+      "date_published": "2026-09-11T23:16:12.903238+00:00",
+      "image": "https://fieldlight.com/writing/i-was-still-writing/assets/i-was-still-writing-social-20260911-v5.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "date_modified": "2026-09-12T17:32:34.629368+00:00",
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/i-was-still-writing/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Fri, 11 Sep 2026 23:16:12 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-at-1am/",
+      "url": "https://fieldlight.com/writing/fieldlight-at-1am/",
+      "title": "Fieldlight at 1AM",
+      "summary": "Five arrangements of art, photographed at home. A domestic exhibition by Anni McHenry.",
+      "date_published": "2026-09-10T20:44:41.373202+00:00",
+      "image": "https://fieldlight.com/assets/fieldlight-at-1am-room-social-v2.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/fieldlight-at-1am/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Thu, 10 Sep 2026 20:44:41 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/before-i-had-a-proposition/",
+      "url": "https://fieldlight.com/writing/before-i-had-a-proposition/",
+      "title": "Before I Had a Proposition",
+      "summary": "Fiction, research, and the interval between recognizing a structure and being able to explain it.",
+      "date_published": "2026-09-09T21:23:07+00:00",
+      "image": "https://fieldlight.com/writing/before-i-had-a-proposition/assets/before-i-had-a-proposition-share-2026-09-09.jpg",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/before-i-had-a-proposition/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Wed, 09 Sep 2026 21:23:07 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/on/",
+      "url": "https://fieldlight.com/writing/on/",
+      "title": "On…",
+      "summary": "A poem, a garden, a remembered book, and the words that stay. A literary collage by Anni McHenry.",
+      "date_published": "2026-09-07T22:34:52-07:00",
+      "image": "https://fieldlight.com/writing/on/assets/on-share-2026-09-07.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/on/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Tue, 08 Sep 2026 05:34:52 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/at-two-heights/",
+      "url": "https://fieldlight.com/writing/at-two-heights/",
+      "title": "At Two Heights",
+      "summary": "Six photographs, one date, and the changing place of a person in the picture. A photographic essay by Anni McHenry.",
+      "date_published": "2026-09-07T23:59:48Z",
+      "image": "https://fieldlight.com/writing/at-two-heights/assets/at-two-heights-share-2026-09-08.png",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/at-two-heights/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Mon, 07 Sep 2026 23:59:48 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/institute/governed-archive-acquisition/",
+      "url": "https://fieldlight.com/institute/governed-archive-acquisition/",
+      "title": "Governed Human–AI Archive Acquisition",
+      "summary": "A compensated, identity-blind, no-human-read method for acquiring longitudinal conversational and coding-harness archives without acquiring the person.",
+      "authors": [
+        {
+          "name": "Fieldlight Institute",
+          "url": "https://fieldlight.com/"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/institute/governed-archive-acquisition/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        }
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/",
+      "url": "https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/",
+      "title": "Small Stories for the Child in All of Us",
+      "summary": "Three brief stories about quiet knowing, wild belonging, mischievous freedom, and the ways a living world speaks before anyone explains it.",
+      "date_published": "2026-08-28T12:00:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/small-stories-for-the-child-in-all-of-us/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Fri, 28 Aug 2026 17:00:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/institute/the-right-not-to-be-processed/",
+      "url": "https://fieldlight.com/institute/the-right-not-to-be-processed/",
+      "title": "The Right Not To Be Processed",
+      "summary": "Why custody, computation, and consent must be separate states—and why negative permission must be represented as an affirmative, enforceable instruction.",
+      "date_published": "2026-08-26T20:00:00Z",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/institute/the-right-not-to-be-processed/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Wed, 26 Aug 2026 20:00:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/institute/research/signal-becoming/",
+      "url": "https://fieldlight.com/institute/research/signal-becoming/",
+      "title": "Theory of Signal Becoming",
+      "summary": "A working theory of how felt or symbolic recognition becomes stable authored form through recursive interaction—and the substrate that preserves continuity, correction, and origin while it changes.",
+      "date_published": "2026-08-23T20:30:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/institute/research/signal-becoming/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Mon, 24 Aug 2026 01:30:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/found-language-atlas/",
+      "url": "https://fieldlight.com/writing/found-language-atlas/",
+      "title": "Found Language Atlas",
+      "summary": "A living fieldwork atlas of 29 photographed encounters with public language and the symbolic threads they form across city, memory, objects, and creative work.",
+      "date_published": "2026-08-21T21:30:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/found-language-atlas/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Sat, 22 Aug 2026 02:30:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/institute/research/cardiac-field-social-interaction/",
+      "url": "https://fieldlight.com/institute/research/cardiac-field-social-interaction/",
+      "title": "Cardiac Field and Social Interaction",
+      "summary": "A registered five-claim evidence ladder separating established cardiac physiology from open and unsupported claims about magnetic fields and social interaction.",
+      "date_published": "2026-08-19T16:00:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/institute/research/cardiac-field-social-interaction/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Wed, 19 Aug 2026 21:00:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/one-export-is-not-an-archive/",
+      "url": "https://fieldlight.com/writing/one-export-is-not-an-archive/",
+      "title": "One Export Is Not an Archive",
+      "summary": "A Fieldlight Archive Method implementation note showing why multiple export states—and preservation surfaces beyond exports—must be reconciled before longitudinal analysis.",
+      "date_published": "2026-08-19T15:30:00-05:00",
+      "date_modified": "2026-08-21T13:55:35-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/one-export-is-not-an-archive/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Wed, 19 Aug 2026 20:30:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-archive-method/",
+      "url": "https://fieldlight.com/writing/fieldlight-archive-method/",
+      "title": "The Fieldlight Archive Method",
+      "summary": "A repeatable human–AI method for stewarding a living personal corpus, amended with the rule that no single preservation surface should be presumed complete.",
+      "date_published": "2026-08-15T21:00:00-05:00",
+      "date_modified": "2026-08-21T13:55:35-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/fieldlight-archive-method/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Sun, 16 Aug 2026 02:00:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/alt-a-record-of-return/",
+      "url": "https://fieldlight.com/writing/alt-a-record-of-return/",
+      "title": "alt: a record of return",
+      "summary": "An interactive record of recurrence, recognition, and 202 favorite songs carried across twelve years.",
+      "date_published": "2026-08-07T19:45:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/alt-a-record-of-return/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Sat, 08 Aug 2026 00:45:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/story-worlds/diviner/",
+      "url": "https://fieldlight.com/story-worlds/diviner/",
+      "title": "Diviner | First Pages",
+      "summary": "The first public pages of Diviner: relational signal, asymmetrical activation, and machines that answer the body.",
+      "date_published": "2026-08-01T15:00:00-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/story-worlds/diviner/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Sat, 01 Aug 2026 20:00:00 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+      "url": "https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+      "title": "Local Authority, External Capability",
+      "summary": "Why local AI does not mean anti-cloud—and how external capability can remain governed by human-owned authority.",
+      "date_published": "2026-07-28T14:54:10-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Tue, 28 Jul 2026 19:54:10 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+      "url": "https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+      "title": "Fieldlight Mesh: What Works, What Doesn't Yet, and What Comes Next",
+      "summary": "A candid implementation review of the local-first network beneath Fieldlight's intelligence infrastructure.",
+      "date_published": "2026-07-28T14:17:01-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/fieldlight-mesh-what-works-what-doesnt-yet-and-what-comes-next/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Tue, 28 Jul 2026 19:17:01 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/institute/participant-charter/",
+      "url": "https://fieldlight.com/institute/participant-charter/",
+      "title": "Participant Charter",
+      "summary": "Twenty baseline rights that govern all human-AI research.",
+      "date_published": "2026-07-28T18:44:48-05:00",
+      "_rss": {
+        "guid": "https://fieldlight.com/institute/participant-charter/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Tue, 28 Jul 2026 23:44:48 GMT"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/institutional-transition-documentation-methodology/",
+      "url": "https://fieldlight.com/writing/institutional-transition-documentation-methodology/",
+      "title": "Institutional Transition Documentation Methodology",
+      "summary": "A method for documenting places while their identity, use, ownership, or public meaning is changing.",
+      "date_published": "2026-07-27T14:40:33-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/institutional-transition-documentation-methodology/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Sun, 27 Jul 2026 19:40:33 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    },
+    {
+      "id": "https://fieldlight.com/writing/the-right-to-local-intelligence/",
+      "url": "https://fieldlight.com/writing/the-right-to-local-intelligence/",
+      "title": "The Right to Local Intelligence",
+      "summary": "Neighborhood intelligence utilities and the civic infrastructure of an automated society.",
+      "date_published": "2026-07-23T17:31:03-05:00",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#about"
+        }
+      ],
+      "_rss": {
+        "guid": "https://fieldlight.com/writing/the-right-to-local-intelligence/",
+        "guid_attributes": {
+          "isPermaLink": "true"
+        },
+        "pubDate": "Thu, 23 Jul 2026 22:31:03 GMT",
+        "author": "anni@fieldlight.com (Anni McHenry)"
+      }
+    }
+  ]
+}

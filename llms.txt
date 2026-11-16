@@ -78,3 +78,12 @@ Article pages identify their author and publisher. Canonical Markdown sources pr
 - [AI Regulation: Public Authority and Public Benefit](https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/): Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay.
 
 - [Fascia as Infrastructure](https://fieldlight.com/writing/fascia-as-infrastructure/): What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?
+
+
+## Publishing stream
+
+- Everything: https://fieldlight.com/stream/
+- Everything RSS: https://fieldlight.com/stream/feed.xml
+- Publications RSS: https://fieldlight.com/feed.xml
+
+Short posts preserve their own dates and permanent links. They do not replace the existing publication reading surfaces.

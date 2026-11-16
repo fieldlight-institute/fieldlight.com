@@ -1,0 +1,89 @@
+name: Publish Fieldlight website
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '7,17,27,37,47,57 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Serialize checkout, generation, persistence, and deployment. A queued run
+# always checks out current main, rather than the revision that queued it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'fieldlight-institute/fieldlight.com' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    permissions:
+      # Only this repository's generated output can be committed. This token
+      # does not grant write access to the author's separate source repository.
+      contents: write
+    outputs:
+      deploy: ${{ steps.current.outputs.required }}
+    steps:
+      - name: Check out current website
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          path: site
+          fetch-depth: 0
+
+      - name: Read the public canonical source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: annimch04/public-writing
+          ref: main
+          path: source
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+
+      - name: Check whether these revisions are already public
+        id: current
+        env:
+          FORCE_DEPLOY: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
+        run: python site/scripts/prepare-pages.py check --site site --source source
+
+      - name: Build, validate, and preserve generated website files
+        if: steps.current.outputs.required == 'true'
+        run: >-
+          python site/scripts/prepare-pages.py build
+          --site site --source source
+          --manifest "$RUNNER_TEMP/stream-manifest.json"
+          --package "$RUNNER_TEMP/fieldlight-pages"
+
+      - name: Upload the public website
+        if: steps.current.outputs.required == 'true'
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ runner.temp }}/fieldlight-pages
+          retention-days: 1
+
+  deploy:
+    if: needs.build.outputs.deploy == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

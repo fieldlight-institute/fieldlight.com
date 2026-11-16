@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <title>Publishing status — Fieldlight</title>
+  <link rel="icon" href="/assets/fieldlight-burst-48.png" type="image/png">
+  <link rel="stylesheet" href="/styles.css?v=38">
+  <link rel="stylesheet" href="/post/post.css">
+  <script src="/post/status/status.js" defer></script>
+</head>
+<body class="post-desk">
+  <header class="post-header"><a href="/">Fieldlight</a><a href="/post/">Write another post <span aria-hidden="true">↗</span></a></header>
+  <main>
+    <p class="post-eyebrow">Publishing status</p>
+    <div role="status" aria-live="polite" aria-atomic="true">
+      <h1 id="status-title">Checking your post.</h1>
+      <p class="post-deck" id="status-message">Looking for this version in the live Fieldlight feed.</p>
+    </div>
+    <a class="post-primary" id="read-post" hidden>Read your post <span aria-hidden="true">↗</span></a>
+    <p id="status-time" class="post-signin"></p>
+    <section class="post-help">
+      <p id="status-detail">Fieldlight checks for new posts about every ten minutes. GitHub’s publishing queue can take longer. This page checks the actual feed; it won’t call a post live before it arrives.</p>
+      <button id="check-again" type="button">Check again</button>
+    </section>
+    <div class="post-footer-links"><a id="source-post" hidden>Open the source and its publishing status <span aria-hidden="true">↗</span></a><a href="/stream/">Read Everything <span aria-hidden="true">↗</span></a></div>
+    <noscript><p>Open the Everything stream to check for your post. Live status checking requires JavaScript.</p></noscript>
+  </main>
+</body>
+</html>

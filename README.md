@@ -18,7 +18,11 @@ Fieldlight Institute develops public research, working systems, and institutiona
 - `systems/index.html` is the public register of working Fieldlight systems.
 - `story-worlds/` contains explicitly authored creative work and story-worlds.
 - `engage/` gives institutions, teams, funders, and collaborators four concrete routes from public work to consequence.
-- `feed.xml` and `feed.json` expose current publications.
+- `stream/` is Anni’s chronological stream, with Everything and Publications views.
+- `stream/feed.xml` and `stream/feed.json` deliver Everything, including complete short posts and photographs.
+- `feed.xml` and `feed.json` remain the Publications subscription addresses.
+- `post/` is the phone-and-Mac publishing doorway; GitHub handles author sign-in.
+- See [Stream publishing](docs/stream.md) for generation and deployment.
 - `llms.txt` provides a machine-readable institutional and publication index.
 - `sitemap.xml` lists indexable HTML pages.
 

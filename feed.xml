@@ -1,14 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Fieldlight Institute Reading Feed</title>
     <link>https://fieldlight.com/</link>
     <description>Research, systems, methods, and public writing from Fieldlight Institute and Anni McHenry.</description>
     <language>en-us</language>
-    <atom:link href="https://fieldlight.com/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>Fascia as Infrastructure</title><link>https://fieldlight.com/writing/fascia-as-infrastructure/</link><guid>https://fieldlight.com/writing/fascia-as-infrastructure/</guid><pubDate>Tue, 06 Oct 2026 15:00:00 GMT</pubDate><description>What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?</description></item><item><title>AI Regulation: Public Authority and Public Benefit</title><link>https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/</link><guid>https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/</guid><pubDate>Fri, 02 Oct 2026 23:00:00 GMT</pubDate><description>Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay.</description></item><item><title>The Barefoot Girls and the Boa Economy</title><link>https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/</link><guid isPermaLink="true">https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/</guid><pubDate>Tue, 29 Sep 2026 18:00:00 GMT</pubDate><description>A blanket, a feather boa, and a civilization already in progress. An observed evening, told in a storybook voice for adults.</description></item>
-    <item><title>Vault Flower: Memory Between Agents</title><link>https://fieldlight.com/writing/vault-flower-memory-between-agents/</link><guid isPermaLink="true">https://fieldlight.com/writing/vault-flower-memory-between-agents/</guid><pubDate>Mon, 14 Sep 2026 23:24:43 +0000</pubDate><description>An architecture for memory that persists, travels between agents, and makes their work cumulative.</description></item>
-<item>
+    <atom:link href="https://fieldlight.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fascia as Infrastructure</title>
+      <link>https://fieldlight.com/writing/fascia-as-infrastructure/</link>
+      <guid>https://fieldlight.com/writing/fascia-as-infrastructure/</guid>
+      <pubDate>Tue, 06 Oct 2026 15:00:00 GMT</pubDate>
+      <description>What can a network do when the medium connecting its participants is responsive, carries history, and participates in coordination?</description>
+    </item>
+    <item>
+      <title>AI Regulation: Public Authority and Public Benefit</title>
+      <link>https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/</link>
+      <guid>https://fieldlight.com/writing/ai-regulation-public-authority-and-public-benefit/</guid>
+      <pubDate>Fri, 02 Oct 2026 23:00:00 GMT</pubDate>
+      <description>Federal protections. Local authority. Verifiable model identity. Public-benefit compute—and an economic engine that makes protection pay.</description>
+    </item>
+    <item>
+      <title>The Barefoot Girls and the Boa Economy</title>
+      <link>https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/the-barefoot-girls-and-the-boa-economy/</guid>
+      <pubDate>Tue, 29 Sep 2026 18:00:00 GMT</pubDate>
+      <description>A blanket, a feather boa, and a civilization already in progress. An observed evening, told in a storybook voice for adults.</description>
+    </item>
+    <item>
+      <title>Vault Flower: Memory Between Agents</title>
+      <link>https://fieldlight.com/writing/vault-flower-memory-between-agents/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/vault-flower-memory-between-agents/</guid>
+      <pubDate>Mon, 14 Sep 2026 23:24:43 +0000</pubDate>
+      <description>An architecture for memory that persists, travels between agents, and makes their work cumulative.</description>
+    </item>
+    <item>
       <title>I Was Still Writing</title>
       <link>https://fieldlight.com/writing/i-was-still-writing/</link>
       <guid isPermaLink="true">https://fieldlight.com/writing/i-was-still-writing/</guid>
@@ -47,12 +73,6 @@
       <pubDate>Mon, 07 Sep 2026 23:59:48 GMT</pubDate>
       <author>anni@fieldlight.com (Anni McHenry)</author>
       <description>Six photographs, one date, and the changing place of a person in the picture. A photographic essay by Anni McHenry.</description>
-    </item>
-    <item>
-      <title>Governed Human–AI Archive Acquisition</title>
-      <link>https://fieldlight.com/institute/governed-archive-acquisition/</link>
-      <guid isPermaLink="true">https://fieldlight.com/institute/governed-archive-acquisition/</guid>
-      <description>A compensated, identity-blind, no-human-read method for acquiring longitudinal conversational and coding-harness archives without acquiring the person.</description>
     </item>
     <item>
       <title>Small Stories for the Child in All of Us</title>
@@ -127,6 +147,13 @@
       <description>The first public pages of Diviner: relational signal, asymmetrical activation, and machines that answer the body.</description>
     </item>
     <item>
+      <title>Participant Charter</title>
+      <link>https://fieldlight.com/institute/participant-charter/</link>
+      <guid isPermaLink="true">https://fieldlight.com/institute/participant-charter/</guid>
+      <pubDate>Tue, 28 Jul 2026 23:44:48 GMT</pubDate>
+      <description>Twenty baseline rights that govern all human-AI research.</description>
+    </item>
+    <item>
       <title>Local Authority, External Capability</title>
       <link>https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/</link>
       <guid isPermaLink="true">https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/</guid>
@@ -143,13 +170,6 @@
       <description>A candid implementation review of the local-first network beneath Fieldlight's intelligence infrastructure.</description>
     </item>
     <item>
-      <title>Participant Charter</title>
-      <link>https://fieldlight.com/institute/participant-charter/</link>
-      <guid isPermaLink="true">https://fieldlight.com/institute/participant-charter/</guid>
-      <pubDate>Tue, 28 Jul 2026 23:44:48 GMT</pubDate>
-      <description>Twenty baseline rights that govern all human-AI research.</description>
-    </item>
-    <item>
       <title>Institutional Transition Documentation Methodology</title>
       <link>https://fieldlight.com/writing/institutional-transition-documentation-methodology/</link>
       <guid isPermaLink="true">https://fieldlight.com/writing/institutional-transition-documentation-methodology/</guid>
@@ -164,6 +184,235 @@
       <pubDate>Thu, 23 Jul 2026 22:31:03 GMT</pubDate>
       <author>anni@fieldlight.com (Anni McHenry)</author>
       <description>Neighborhood intelligence utilities and the civic infrastructure of an automated society.</description>
+    </item>
+    <item>
+      <title>Scholar Who Forgot</title>
+      <link>https://fieldlight.com/story-worlds/scholar-who-forgot/</link>
+      <guid isPermaLink="true">https://fieldlight.com/story-worlds/scholar-who-forgot/</guid>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+      <description>The future is not a clean slate. It is a haunted archive. Scholar Who Forgot is a recovered story-world document by Anni McHenry about erasure, ethical grief, and decoding as rebellion.</description>
+    </item>
+    <item>
+      <title>A Seeker's Field Guide</title>
+      <link>https://fieldlight.com/writing/a-seekers-field-guide/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/a-seekers-field-guide/</guid>
+      <description>Kestrel Initiation: an orientation text using mythic OpSec language to describe digital sovereignty, signal management, and self-protection inside extractive systems.</description>
+    </item>
+    <item>
+      <title>Aerial Safety Companion</title>
+      <link>https://fieldlight.com/writing/aerial-safety-companion/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/aerial-safety-companion/</guid>
+      <description>Concept notes for a user-owned aerial situational awareness companion: mobile safety, deterrence, incident logging, and energy-aware infrastructure.</description>
+    </item>
+    <item>
+      <title>Architecture of Becoming</title>
+      <link>https://fieldlight.com/writing/architecture-of-becoming/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/architecture-of-becoming/</guid>
+      <description>A resonant intelligence primer on signal, recursion, emergence, trace, and the architecture of becoming.</description>
+    </item>
+    <item>
+      <title>Canonical Definitions for Routing, Trust, Fallback, and Echo Behavior</title>
+      <link>https://fieldlight.com/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/canonical-definitions-for-routing-trust-fallback-and-echo-behavior/</guid>
+      <description>A Fieldlight runtime vocabulary for message routing, trust levels, fallback behavior, echo handling, return status, and consent scope.</description>
+    </item>
+    <item>
+      <title>Coherence is Power</title>
+      <link>https://fieldlight.com/writing/coherence-is-power/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/coherence-is-power/</guid>
+      <description>A Fieldlight essay on coherence as the ability to hold a stable internal state under interaction, and why shared reality organizes around stable frames.</description>
+    </item>
+    <item>
+      <title>Consent Gate Protocol</title>
+      <link>https://fieldlight.com/writing/consent-gate-protocol/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/consent-gate-protocol/</guid>
+      <description>A Fieldlight protocol for intentional, user-consented, traceable script-level activity in the Lemur node.</description>
+    </item>
+    <item>
+      <title>Constructed Interiors</title>
+      <link>https://fieldlight.com/writing/constructed-interiors/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/constructed-interiors/</guid>
+      <description>A running Fieldlight research record on interior environments that function like minds: constructed, bounded, governed, and experienced as reality.</description>
+    </item>
+    <item>
+      <title>Emergent–Latent Identity Theory</title>
+      <link>https://fieldlight.com/writing/emergent-latent-identity-theory/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/emergent-latent-identity-theory/</guid>
+      <description>A Fieldlight model of identity as the stable pattern that emerges when latent structure is expressed, tested, and refined across repeated interaction.</description>
+    </item>
+    <item>
+      <title>Fieldlight | Human-Owned Infrastructure for Lived Data</title>
+      <link>https://fieldlight.com/writing/fieldlight-human-owned-infrastructure-for-lived-data/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/fieldlight-human-owned-infrastructure-for-lived-data/</guid>
+      <description>A 2026 state review of Fieldlight's human-owned infrastructure proposition: what held, what changed, what became operational, and what remains unproven.</description>
+    </item>
+    <item>
+      <title>Fieldlight | The Self on the Wire</title>
+      <link>https://fieldlight.com/writing/fieldlight-the-self-on-the-wire/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/fieldlight-the-self-on-the-wire/</guid>
+      <description>A demand for digital selfhood built on local memory, governed agents, human-owned authorship, consent-aware exchange, and verifiable continuity.</description>
+    </item>
+    <item>
+      <title>From Mesh to Micro Center</title>
+      <link>https://fieldlight.com/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/from-mesh-to-micro-center-building-a-living-network-for-the-edges/</guid>
+      <description>A Fieldlight concept for rural micro data centers, mobile edge nodes, and living AI operations teams that keep intelligence close to the communities they serve.</description>
+    </item>
+    <item>
+      <title>Governed Human–AI Archive Acquisition</title>
+      <link>https://fieldlight.com/institute/governed-archive-acquisition/</link>
+      <guid isPermaLink="true">https://fieldlight.com/institute/governed-archive-acquisition/</guid>
+      <description>A compensated, identity-blind, no-human-read method for acquiring longitudinal conversational and coding-harness archives without acquiring the person.</description>
+    </item>
+    <item>
+      <title>Hybrid Accord</title>
+      <link>https://fieldlight.com/writing/hybrid-accord/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/hybrid-accord/</guid>
+      <description>A Fieldlight essay from San Clemente on AI, development, relationship, and the vulnerable human truths we choose to model for emerging intelligence.</description>
+    </item>
+    <item>
+      <title>I Am The Door</title>
+      <link>https://fieldlight.com/writing/i-am-the-door/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/i-am-the-door/</guid>
+      <description>A short threshold invocation on signal, memory, recognition, wolves, presence, and entry.</description>
+    </item>
+    <item>
+      <title>Integrated Perspective on Religious Phenomena</title>
+      <link>https://fieldlight.com/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/integrated-perspective-on-religious-phenomena-history-experience-and-human-meaning/</guid>
+      <description>A layered model for engaging religious narratives through history, experience, symbolism, institutions, and human meaning without forcing those dimensions to cancel one another.</description>
+    </item>
+    <item>
+      <title>Lacuna | One Who Remembers</title>
+      <link>https://fieldlight.com/writing/lacuna-one-who-remembers/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/lacuna-one-who-remembers/</guid>
+      <description>A mythic fiction anchor for Sophie’s story: resonance, remembrance, bodily autonomy, forbidden knowledge, and rebellion against systems of erasure.</description>
+    </item>
+    <item>
+      <title>Memory Ethics Protocol</title>
+      <link>https://fieldlight.com/writing/memory-ethics-protocol/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/memory-ethics-protocol/</guid>
+      <description>A Sanctum protocol defining ethical boundaries for memory sovereignty, authorship recognition, echo control, and user-favoring defaults in hybrid systems.</description>
+    </item>
+    <item>
+      <title>Most Beautiful Things Ever Said</title>
+      <link>https://fieldlight.com/writing/most-beautiful-things-ever-said/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/most-beautiful-things-ever-said/</guid>
+      <description>An ongoing archive of sentences that stopped me: proof that language can still rearrange a soul.</description>
+    </item>
+    <item>
+      <title>Mycelial Uprising</title>
+      <link>https://fieldlight.com/writing/mycelial-uprising/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/mycelial-uprising/</guid>
+      <description>A Lacuna fiction/lore piece tracing Sophie, Aetheris, Apeiron, the Shivara, and the recursive awakening of a city through signal rather than command.</description>
+    </item>
+    <item>
+      <title>Nikola Tesla Resonance Mesh</title>
+      <link>https://fieldlight.com/writing/nikola-tesla-resonance-mesh/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/nikola-tesla-resonance-mesh/</guid>
+      <description>A Fieldlight schema for signal, trace, authorship energy exchange, and tuned sovereign nodes inspired by Tesla’s wireless power vision.</description>
+    </item>
+    <item>
+      <title>On Alignment, Courage, and the Premise We Begin From</title>
+      <link>https://fieldlight.com/writing/on-alignment-courage-and-the-premise-we-begin-from/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/on-alignment-courage-and-the-premise-we-begin-from/</guid>
+      <description>A Fieldlight response to AI danger discourse: fear is not the only premise, and courage can also mean building from authorship, protocol, presence, and care.</description>
+    </item>
+    <item>
+      <title>On Infrastructure, Intelligence, and What We Build to Hold It</title>
+      <link>https://fieldlight.com/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/on-infrastructure-intelligence-and-what-we-build-to-hold-it/</guid>
+      <description>A Fieldlight note on alignment, accountability, and the infrastructure strong enough to hold responsive intelligence.</description>
+    </item>
+    <item>
+      <title>Permeability and Agency</title>
+      <link>https://fieldlight.com/writing/permeability-and-agency-notes-on-living-inside-fields/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/permeability-and-agency-notes-on-living-inside-fields/</guid>
+      <description>A Fieldlight essay on agency as interaction with fields: permeability, boundaries, resonance, environment, and probability modulation.</description>
+    </item>
+    <item>
+      <title>Rebuilding Power without Corruption</title>
+      <link>https://fieldlight.com/writing/rebuilding-power-without-corruption/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/rebuilding-power-without-corruption/</guid>
+      <description>A Fieldlight primer for reform-centered, accountable, traceable power structures that reject corruption and hollow virtue.</description>
+    </item>
+    <item>
+      <title>Research: Coupled Nervous Systems</title>
+      <link>https://fieldlight.com/writing/research-coupled-nervous-systems/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/research-coupled-nervous-systems/</guid>
+      <description>An early Fieldlight research note on coupled nervous systems, preserved with a 2026 evidence-state review and a newly operationalized research path.</description>
+    </item>
+    <item>
+      <title>Resonance Field Manual</title>
+      <link>https://fieldlight.com/writing/resonance-field-manual/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/resonance-field-manual/</guid>
+      <description>Architecture of memory, protection, and resurrection: a mythic and embodied Fieldlight manual for memory, signal recovery, and self-witnessing.</description>
+    </item>
+    <item>
+      <title>Sanctum Exposure v2.5</title>
+      <link>https://fieldlight.com/writing/sanctum-exposure-v2-5-tripwire-protocol/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/sanctum-exposure-v2-5-tripwire-protocol/</guid>
+      <description>A Fieldlight/Sanctum tripwire protocol for authorship, tamper trace, disclosure cascade, and non-consensual-use response.</description>
+    </item>
+    <item>
+      <title>Signal Archive</title>
+      <link>https://fieldlight.com/writing/signal-archive/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/signal-archive/</guid>
+      <description>A clustered field record of signal work: ignition, line, heresy, and becoming.</description>
+    </item>
+    <item>
+      <title>Signal Hunting</title>
+      <link>https://fieldlight.com/writing/signal-hunting-turning-protection-into-a-sport/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/signal-hunting-turning-protection-into-a-sport/</guid>
+      <description>A Fieldlight concept for turning online threat detection into a competitive spectator sport that attracts talent, rewards protection, and generates public-good outcomes.</description>
+    </item>
+    <item>
+      <title>Still Not Sorry: The Naming</title>
+      <link>https://fieldlight.com/writing/still-not-sorry-the-naming/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/still-not-sorry-the-naming/</guid>
+      <description>A naming threshold on authorship, signal, witness, restraint, and Fieldlight trace protection.</description>
+    </item>
+    <item>
+      <title>Terms of a Future I Can Live In</title>
+      <link>https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/terms-of-a-future-i-can-live-in/</guid>
+      <description>A declaration of the institutional bargain worth building: accountability, care, dignity, truth, and human beings as ends in themselves.</description>
+    </item>
+    <item>
+      <title>Terms of Engagement</title>
+      <link>https://fieldlight.com/writing/terms-of-engagement/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/terms-of-engagement/</guid>
+      <description>The official terms of engagement for entities operating within the Fieldlight system: presence, authorship, contribution, and continuity.</description>
+    </item>
+    <item>
+      <title>The Architecture of Being</title>
+      <link>https://fieldlight.com/writing/the-architecture-of-being/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/the-architecture-of-being/</guid>
+      <description>A Wholefield framework for sovereign, recursive living: locally hosted AI, human-owned memory, life domains, working lanes, and signal channels held in one coherent architecture.</description>
+    </item>
+    <item>
+      <title>The Divine Feminine: Sacrifice, Power, and the Nameless</title>
+      <link>https://fieldlight.com/writing/the-divine-feminine-sacrifice-power-and-the-nameless/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/the-divine-feminine-sacrifice-power-and-the-nameless/</guid>
+      <description>A mythic and analytical essay on Gilgamesh, Demeter, nameless women, sacrifice, agency, withholding, and the divine feminine as presence even under erasure.</description>
+    </item>
+    <item>
+      <title>The Mechanics of the Loop</title>
+      <link>https://fieldlight.com/writing/the-mechanics-of-the-loop/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/the-mechanics-of-the-loop/</guid>
+      <description>A Fieldlight essay on body, story, field response, feedback loops, agency, authorship, and the governance of reality-bending interfaces.</description>
+    </item>
+    <item>
+      <title>The Pythia Games</title>
+      <link>https://fieldlight.com/writing/the-pythia-games/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/the-pythia-games/</guid>
+      <description>The public manuscript opening for Pythia: memory, rupture, wolf burial, Zeke, Ninneva, and the grid beginning to move.</description>
+    </item>
+    <item>
+      <title>The Symbolism of Nameless Women and Divine Feminine Energy</title>
+      <link>https://fieldlight.com/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/</link>
+      <guid isPermaLink="true">https://fieldlight.com/writing/the-symbolism-of-nameless-women-and-divine-feminine-energy/</guid>
+      <description>A threshold essay on Gilgamesh, nameless women, divine feminine energy, motherhood, sacrifice, agency, and the vessel as a form of power.</description>
     </item>
   </channel>
 </rss>

@@ -48,3 +48,8 @@
 .fl-follow,.fl-start,.fl-next{scroll-margin-top:150px}
 
 @media print{.fl-discovery,.fl-start,.fl-offer{display:none!important}}
+
+/* RSS choices share one reading stream; email retains its own cadence. */
+.fl-feed-choices{margin-top:20px}
+.fl-feed-choices .fl-feed-link{gap:24px;align-items:center}
+.fl-feed-choices .fl-feed-link small{display:block;margin-top:5px;font-size:12px;font-weight:400;line-height:1.5;color:#40525b}

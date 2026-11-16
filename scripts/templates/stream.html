@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="author" content="Anni McHenry">
+  <link rel="canonical" href="{{CANONICAL}}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fieldlight">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{CANONICAL}}">
+  <meta property="og:image" content="https://fieldlight.com/assets/fieldlight-home-social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/fieldlight-burst-48.png">
+  <link rel="apple-touch-icon" href="/assets/fieldlight-burst-touch.png">
+  <link rel="alternate" type="application/rss+xml" title="Fieldlight — Everything" href="https://fieldlight.com/stream/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="Fieldlight — Everything" href="https://fieldlight.com/stream/feed.json">
+  <link rel="alternate" type="application/rss+xml" title="Fieldlight — Publications" href="https://fieldlight.com/feed.xml">
+  <link rel="stylesheet" href="/styles.css?v=37">
+  <link rel="stylesheet" href="/stream/stream.css?v=1">
+</head>
+<body class="stream-page" data-stream-view="{{VIEW}}">
+  <a class="stream-skip" href="#stream-main">Skip to the stream</a>
+  <header class="site-header global-site-header">
+    <a class="brand" href="/" aria-label="Fieldlight Institute home"><span class="brand-name">Fieldlight Institute</span></a>
+    <nav class="nav global-primary-nav" aria-label="Primary navigation">
+      <a href="/institute/">The Institute</a><a href="/systems/">Systems</a><a href="/writing/">Writing</a><a href="/stream/" aria-current="page">Stream</a><a href="/story-worlds/">Story Worlds</a><a href="/continuity/">Continuity</a><a href="/engage/">Engage</a>
+    </nav>
+  </header>
+  <main id="stream-main" class="stream-layout">
+    <header class="stream-intro">
+      <div><p class="stream-eyebrow">Fieldlight / Anni McHenry</p><h1>The stream.</h1><p class="stream-deck">Short posts and photographs, alongside essays, research, and fiction.</p></div>
+      <div class="stream-follow"><span>Follow along</span><a href="/stream/feed.xml">Everything <span>RSS ↗</span></a><a href="/feed.xml">Publications <span>RSS ↗</span></a><a href="/#fl-follow">New work by email <span>↗</span></a></div>
+    </header>
+    <div class="stream-toolbar">
+      <nav class="stream-views" aria-label="Stream views"><a href="/stream/" data-stream-filter="everything"{{EVERYTHING_CURRENT}}>Everything</a><a href="/stream/publications/" data-stream-filter="publications"{{PUBLICATIONS_CURRENT}}>Publications</a></nav>
+      <p class="stream-count" aria-live="polite" data-everything-count="{{EVERYTHING_COUNT}}" data-publications-count="{{PUBLICATIONS_COUNT}}"><span>{{COUNT}}</span> entries</p>
+    </div>
+    <section class="stream-entries" aria-label="Dated entries">
+{{CARDS}}
+    </section>
+    {{EARLIER}}
+    <footer class="stream-end"><span>Fieldlight / Anni McHenry</span><a href="/writing/">Browse writing by subject ↗</a><a href="#stream-main">Back to the top ↑</a></footer>
+  </main>
+  <script src="/stream/stream.js?v=1" defer></script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"a8ece4976a604339bac4dbb72a6c5856"}'></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.post-desk{margin:0;background:#f2ecdf;color:#0b2230;font-family:Inter,ui-sans-serif,system-ui,sans-serif;line-height:1.65}
+.post-desk *{box-sizing:border-box}
+.post-header{max-width:1200px;margin:auto;padding:28px clamp(22px,6vw,72px);display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid #0b223025}
+.post-header>a:first-child{font:32px/1.1 "Iowan Old Style",Baskerville,Georgia,serif;text-decoration:none}
+.post-header>a:last-child{font-size:13px;text-decoration:none}
+.post-desk main{max-width:720px;padding:70px 26px 60px;margin:0 auto}
+.post-eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6b5730;font-weight:700;margin:0 0 18px}
+.post-desk h1{font:normal clamp(43px,7vw,68px)/1.06 "Iowan Old Style",Baskerville,Georgia,serif;letter-spacing:-.035em;margin:0 0 22px}
+.post-deck{font:24px/1.5 "Iowan Old Style",Baskerville,Georgia,serif;max-width:29ch;margin:0 0 32px;color:#40525b}
+.post-primary{display:inline-flex;align-items:center;justify-content:space-between;gap:64px;min-height:52px;padding:13px 22px;background:#0b2230;color:#fff9ed;text-decoration:none;font-size:16px;font-weight:600}
+.post-primary:hover{background:#1f3d48;color:#fff9ed}
+.post-signin{font-size:12px;max-width:45ch;color:#56636a;margin:14px 0 42px}
+.post-help{border-top:1px solid #0b223030;padding-top:26px}
+.post-help h2{font:normal 27px/1.3 "Iowan Old Style",Baskerville,Georgia,serif;margin:0 0 20px}
+.post-help p{font-size:15px;line-height:1.75;color:#40525b;margin:0 0 18px}
+.post-footer-links{display:grid;gap:13px;border-top:1px solid #0b223030;padding-top:24px;margin-top:28px;font-size:14px}
+.post-home-tip{font-size:12px;color:#56636a;max-width:48ch;margin-top:32px}
+.post-desk a:focus-visible{outline:2px solid #8267dc;outline-offset:5px}
+@media(max-width:480px){.post-desk main{padding-top:42px}.post-header{padding:23px}.post-header>a:first-child{font-size:28px}.post-primary{width:100%}}
+
+.post-desk [hidden]{display:none!important}
+.post-help button{border:1px solid #0b223066;background:transparent;padding:10px 18px;color:#0b2230;font:600 14px/1.4 Inter,system-ui,sans-serif;cursor:pointer}
+.post-help button:focus-visible{outline:2px solid #8267dc;outline-offset:4px}

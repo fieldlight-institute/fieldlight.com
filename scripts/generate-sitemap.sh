@@ -26,7 +26,7 @@ cd "$repo_root"
     fi
 
     printf '  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n' "$url" "$lastmod_date"
-  done < <(rg --files -g '*.html' -g '!google*.html' | sort)
+  done < <(rg --files -g '*.html' -g '!google*.html' -g '!post/**' -g '!stream/templates/**' -g '!scripts/**' -g '!tests/**' -g '!docs/**' -g '!scripts/**' -g '!tests/**' -g '!docs/**' | sort)
 
   printf '%s\n' '</urlset>'
 } > "$temporary_file"
