@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from html import escape
 from html.parser import HTMLParser
+import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import re
@@ -188,6 +189,15 @@ def post_content(body, images, *, absolute=False):
     return '\n'.join(paragraphs)
 
 
+def composer_content_hash(post):
+    """Match the browser's UTF-8 JSON.stringify payload, independently of stored hashes."""
+    value = {'title': post.get('title', ''), 'body': post['body'],
+             'images': [{'path': image['path'], 'alt': image['alt']} for image in post['images']]}
+    # JSON.stringify escapes lone surrogates but leaves ordinary Unicode intact.
+    encoded = json.dumps(value, ensure_ascii=False, separators=(',', ':')).encode('utf-8', 'backslashreplace')
+    return hashlib.sha256(encoded).hexdigest()
+
+
 def read_posts(source):
     posts_dir = source / 'stream/posts'
     if not posts_dir.is_dir() or posts_dir.is_symlink():
@@ -227,6 +237,10 @@ def read_posts(source):
                     or not original.resolve().is_relative_to((source / 'stream/media').resolve())):
                 raise ValueError(f'Image is missing or outside canonical media: {relative}')
             media[relative] = original.read_bytes()
+            if post.get('authoring') == 'fieldlight-composer':
+                expected_name = hashlib.sha256(media[relative]).hexdigest()[:24] + path.suffix
+                if path.suffix not in {'.jpg', '.png'} or path.name != expected_name:
+                    raise ValueError(f'Composer photograph content does not match its filename: {relative}')
         url = f'{ORIGIN}/stream/posts/{post_id}/'
         item = {
             'id': url, 'url': url, 'date_published': published, 'date_modified': updated,
@@ -236,7 +250,11 @@ def read_posts(source):
             '_body_html': post_content(body, images),
             '_issue_url': post.get('issue_url'),
         }
-        if post.get('content_hash'):
+        if post.get('authoring') == 'fieldlight-composer':
+            item['_fieldlight_content_hash'] = composer_content_hash(post)
+        elif post.get('content_hash'):
+            # Historical issue hashes cover the original issue Markdown, including
+            # attachment links; retain that protocol for existing issue workflows.
             item['_fieldlight_content_hash'] = post['content_hash']
         if title.strip():
             item['title'] = title

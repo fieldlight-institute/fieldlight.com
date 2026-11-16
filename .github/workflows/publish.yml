@@ -56,6 +56,16 @@ jobs:
           FORCE_DEPLOY: ${{ github.event_name == 'workflow_dispatch' && 'true' || 'false' }}
         run: python site/scripts/prepare-pages.py check --site site --source source
 
+      - name: Set up browser-module tests
+        if: steps.current.outputs.required == 'true'
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+
+      - name: Check publishing, draft recovery, and connection handling
+        if: steps.current.outputs.required == 'true'
+        run: node --test site/tests/*.mjs
+
       - name: Build, validate, and preserve generated website files
         if: steps.current.outputs.required == 'true'
         run: >-

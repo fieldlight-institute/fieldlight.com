@@ -2,36 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,follow">
-  <meta name="apple-mobile-web-app-title" content="Fieldlight Post">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://raw.githubusercontent.com https://fieldlight.com; connect-src 'self' https://api.github.com https://fieldlight.com; font-src 'self' data:; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-src 'none'">
+  <meta name="apple-mobile-web-app-title" content="Fieldlight">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="theme-color" content="#f2ecdf">
   <title>Post to Fieldlight</title>
   <meta name="description" content="Anni’s publishing desk for the Fieldlight stream.">
   <link rel="icon" href="/assets/fieldlight-burst-48.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/fieldlight-burst-touch.png">
+  <link rel="manifest" href="/post/manifest.webmanifest">
   <link rel="stylesheet" href="/styles.css?v=38">
   <link rel="stylesheet" href="/post/post.css">
+  <script type="module" src="/post/composer.js"></script>
 </head>
-<body class="post-desk">
+<body class="post-desk composer-page">
   <header class="post-header"><a href="/">Fieldlight</a><a href="/stream/">View the stream <span aria-hidden="true">↗</span></a></header>
   <main>
-    <p class="post-eyebrow">Anni’s publishing desk</p>
-    <h1>Something to share.</h1>
-    <p class="post-deck">A sentence, a photograph, a thought before it becomes something else.</p>
-    <a class="post-primary" href="https://github.com/annimch04/public-writing/issues/new?template=stream-post.yml">Write a post <span aria-hidden="true">↗</span></a>
-    <p class="post-signin">Opens your posting form on GitHub. Sign in as <strong>annimch04</strong>.</p>
-    <section class="post-help" aria-labelledby="post-how">
-      <h2 id="post-how">Write. Add a photo if you like. Publish.</h2>
-      <p>A title is optional. The photo button in the form lets you choose images from your phone or computer. Add a short description so people using a screen reader can enjoy them too.</p>
-      <p>Write in the <strong>Post</strong> box, tick <strong>Publish this post publicly on Fieldlight</strong>, then select <strong>Create</strong>. Leave the prefilled “[Post] New post” label as it is; your public title is optional. It saves your words and photographs in public-writing, then updates Fieldlight and the Everything feed. A status link appears underneath your post. Fieldlight checks for updates about every ten minutes; GitHub’s queue can take longer.</p>
-      <p>Only your account can publish. This form is for public posts, not private drafts.</p>
-    </section>
-    <div class="post-footer-links">
-      <a href="https://github.com/annimch04/public-writing/issues?q=is%3Aissue+author%3Aannimch04+%22%5BPost%5D%22">Your posts &amp; publishing status <span aria-hidden="true">↗</span></a>
-      <a href="/stream/">Read Everything <span aria-hidden="true">↗</span></a>
+    <div class="desk-topline">
+      <p class="post-eyebrow">Anni’s publishing desk</p>
+      <nav class="desk-nav" aria-label="Publishing desk">
+        <button type="button" id="drafts-toggle" aria-expanded="false" aria-controls="drafts-panel">Drafts <span id="draft-count"></span></button>
+        <button type="button" id="posts-toggle" aria-expanded="false" aria-controls="posts-panel">Your posts</button>
+      </nav>
     </div>
-    <p class="post-home-tip">On iPhone, use Safari’s Share menu → Add to Home Screen to keep this desk within reach.</p>
+    <h1>Something to share.</h1>
+    <div id="connection" class="connection-line">
+      <span class="connection-dot" aria-hidden="true"></span>
+      <span id="connection-text" role="status">Connecting…</span>
+      <button type="button" id="login-toggle" hidden>Sign in</button>
+      <button type="button" id="connection-retry" hidden>Reconnect</button>
+      <button type="button" id="logout-button" hidden>Sign out</button>
+    </div>
+    <form id="login-form" class="login-form" hidden>
+      <input type="text" name="username" value="annimch04" autocomplete="username" hidden>
+      <label id="credential-label" for="password">GitHub publishing key</label>
+      <div class="credential-entry"><input type="password" id="password" name="publishing-key" autocomplete="current-password" spellcheck="false" required><button id="signin-button" type="submit">Sign in</button></div>
+      <div id="remember-options" class="remember-options">
+        <label class="remember-choice"><input id="remember-connection" type="checkbox"> Remember this device</label>
+        <div id="remember-secret" hidden><label for="connection-passphrase">Choose an unlock password</label><input id="connection-passphrase" type="password" name="connection-passphrase" autocomplete="new-password" minlength="12" placeholder="At least 12 characters"></div>
+      </div>
+      <details class="connection-details"><summary>Connection settings</summary><div id="key-help"><p>Connect a publishing key for <strong>annimch04/public-writing</strong>. Choose only that repository and Contents read and write access.</p><p><a href="https://github.com/settings/personal-access-tokens/new?name=Fieldlight%20Publishing&amp;description=Publish%20Fieldlight%20posts%20from%20the%20Fieldlight%20editor&amp;target_name=annimch04&amp;expires_in=180&amp;contents=write" target="_blank" rel="noopener noreferrer">Set up a publishing key ↗</a></p><p>Remember this device encrypts the key with your unlock password. Save that password in your password manager.</p></div><button id="forget-connection" type="button" hidden>Forget this device</button></details>
+      <p id="login-message" class="desk-message" role="status"></p>
+    </form>
+    <section id="drafts-panel" class="desk-panel" aria-labelledby="drafts-heading" hidden>
+      <div class="panel-heading"><h2 id="drafts-heading">Drafts</h2><span>On this device</span></div>
+      <div id="drafts-list" class="post-list"></div>
+    </section>
+    <section id="posts-panel" class="desk-panel" aria-labelledby="posts-heading" hidden>
+      <div class="panel-heading"><h2 id="posts-heading">Your posts</h2><button type="button" id="posts-refresh">Refresh</button></div>
+      <p id="posts-message" class="desk-message" role="status"></p>
+      <div id="posts-list" class="post-list"></div>
+    </section>
+    <form id="composer-form" class="composer-form">
+      <div class="editor-heading"><span id="editing-label">New post</span><button type="button" id="new-post" hidden>New post <span aria-hidden="true">+</span></button></div>
+      <label class="visually-hidden" for="post-title">Title (optional)</label>
+      <input id="post-title" class="title-input" name="title" type="text" maxlength="180" placeholder="Title (optional)" autocomplete="off" disabled>
+      <label class="visually-hidden" for="post-body">Post</label>
+      <textarea id="post-body" class="body-input" name="body" placeholder="A sentence, a photograph, a thought…" rows="7" maxlength="10000" disabled></textarea>
+      <div id="photo-list" class="photo-list"></div>
+      <div class="composer-actions">
+        <button id="add-photos" type="button" class="photo-button" disabled><span aria-hidden="true">＋</span> Add photos</button>
+        <input id="photo-files" type="file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif,image/gif,.heic,.heif" multiple hidden>
+        <button id="publish-button" class="post-primary" type="submit" disabled>Publish <span aria-hidden="true">↗</span></button>
+      </div>
+    </form>
+    <div class="composer-feedback" aria-live="polite" aria-atomic="true"><p id="draft-status">Drafts stay on this device.</p><p id="publish-message"></p></div>
+    <noscript><p>This publishing desk needs JavaScript to save drafts and publish.</p></noscript>
   </main>
 </body>
 </html>

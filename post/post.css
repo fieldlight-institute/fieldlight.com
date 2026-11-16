@@ -21,3 +21,85 @@
 .post-desk [hidden]{display:none!important}
 .post-help button{border:1px solid #0b223066;background:transparent;padding:10px 18px;color:#0b2230;font:600 14px/1.4 Inter,system-ui,sans-serif;cursor:pointer}
 .post-help button:focus-visible{outline:2px solid #8267dc;outline-offset:4px}
+
+/* Composer styles are scoped so the existing publishing-status page stays intact. */
+.composer-page main{max-width:800px;padding-top:52px}
+.composer-page button,.composer-page input,.composer-page textarea{font:inherit;color:inherit}
+.composer-page button{cursor:pointer;border-radius:0}
+.composer-page button:disabled{cursor:default;opacity:.45}
+.composer-page button:focus-visible,.composer-page input:focus-visible,.composer-page textarea:focus-visible{outline:2px solid #8267dc;outline-offset:4px}
+.composer-page .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.composer-page .desk-topline{display:flex;justify-content:space-between;gap:20px;align-items:baseline;margin-bottom:21px}
+.composer-page .post-eyebrow{margin:0}
+.composer-page .desk-nav{display:flex;gap:22px;flex-shrink:0}
+.composer-page .desk-nav button,.composer-page .connection-line button,.composer-page .editor-heading button,.composer-page .panel-heading button{padding:3px 0;background:none;border:0;font-size:12px;line-height:1.5;color:#40525b;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#0b223040}
+.composer-page .desk-nav button[aria-expanded="true"]{color:#0b2230;text-decoration-color:currentColor}
+.composer-page h1{font-size:clamp(42px,7vw,64px);margin-bottom:24px}
+.composer-page .connection-line{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;line-height:1.5;color:#56636a;min-height:23px;margin-bottom:26px}
+.composer-page .connection-dot{width:6px;height:6px;background:#988e79;border-radius:50%;flex:none}
+.composer-page .connection-line[data-state="authenticated"] .connection-dot{background:#527563}
+.composer-page .connection-line button{margin-left:6px}
+.composer-page .connection-line #logout-button{margin-left:auto}
+.composer-page .login-form{margin:0 0 28px;padding:20px;background:#fffaf040;border:1px solid #0b223025}
+.composer-page .login-form label{display:block;font-size:12px;margin-bottom:8px}
+.composer-page .login-form>div{display:flex;gap:10px}
+.composer-page .login-form input{width:100%;min-width:0;padding:9px 10px;font-size:16px;border:1px solid #0b223050;background:#fffaf0}
+.composer-page .login-form button{padding:9px 16px;flex-shrink:0;border:0;background:#0b2230;color:#fff9ed;font-size:14px}
+.composer-page .composer-form{border-top:1px solid #0b223030;margin:0}
+.composer-page .editor-heading{display:flex;justify-content:space-between;align-items:center;min-height:47px;font-size:11px;letter-spacing:.04em;color:#6b5730}
+.composer-page .title-input,.composer-page .body-input{display:block;width:100%;border:0;border-radius:0;padding:8px 0;background:transparent;box-shadow:none;resize:vertical}
+.composer-page .title-input{font:normal 29px/1.3 "Iowan Old Style",Baskerville,Georgia,serif;height:58px}
+.composer-page .body-input{font:normal 22px/1.65 "Iowan Old Style",Baskerville,Georgia,serif;min-height:260px;margin-bottom:24px}
+.composer-page .title-input::placeholder,.composer-page .body-input::placeholder{color:#758087;opacity:1}
+.composer-page .title-input:focus-visible,.composer-page .body-input:focus-visible{outline-offset:8px}
+.composer-page .composer-actions{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;border-top:1px solid #0b223030}
+.composer-page .photo-button{display:flex;align-items:center;gap:7px;min-height:44px;border:0;background:none;padding:0;font-size:14px}
+.composer-page .photo-button>span{font-size:23px;line-height:1}
+.composer-page .post-primary{border:0;min-width:144px;gap:32px;min-height:48px;font:600 14px/1.5 Inter,ui-sans-serif,system-ui,sans-serif;color:#fff9ed}
+.composer-page .post-primary:disabled{background:#0b2230;color:#fff9ed}
+.composer-page .photo-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:0 0 24px}
+.composer-page .photo-list:empty{display:none}
+.composer-page .photo-card{margin:0;min-width:0;position:relative}
+.composer-page .photo-preview{aspect-ratio:4/3;background:#e6dfd0;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+.composer-page .photo-preview img{width:100%;height:100%;object-fit:contain;display:block;margin:0;border:0}
+.composer-page .photo-fallback{font-size:12px;text-align:center;padding:22px;overflow-wrap:anywhere;color:#56636a}
+.composer-page .photo-remove{position:absolute;right:8px;top:8px;width:32px;height:32px;background:#f2ecdfed;border:1px solid #0b223030;font-size:22px;line-height:1}
+.composer-page .photo-card label{display:block;font-size:11px;margin:9px 0 5px;color:#56636a}
+.composer-page .photo-card textarea{width:100%;display:block;min-height:62px;padding:9px 10px;background:#fffaf040;border:1px solid #0b223030;border-radius:0;resize:vertical;font-size:14px;line-height:1.5}
+.composer-page .composer-feedback{font-size:12px;color:#56636a;min-height:45px}
+.composer-page .composer-feedback p{margin:0 0 8px}
+.composer-page .composer-feedback a{margin-left:8px;text-underline-offset:3px}
+.composer-page .composer-feedback [data-error="true"]{color:#8b3b2d}
+.composer-page .desk-panel{margin:0 0 28px;padding:20px 0;border-top:1px solid #0b223030;border-bottom:1px solid #0b223030}
+.composer-page .panel-heading{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin-bottom:12px}
+.composer-page .panel-heading h2{font:normal 27px/1.3 "Iowan Old Style",Baskerville,Georgia,serif;margin:0}
+.composer-page .panel-heading>span{font-size:11px;color:#56636a}
+.composer-page .desk-message{font-size:12px;color:#56636a;margin:12px 0 0}
+.composer-page .desk-message:empty{display:none}
+.composer-page .post-list{display:grid;max-height:320px;overflow:auto}
+.composer-page .post-list-row{display:flex;align-items:center;gap:14px;border-top:1px solid #0b223018;padding:12px 0}
+.composer-page .post-list-row:first-child{border-top:0}
+.composer-page .post-list-row>button{flex:1;min-width:0;text-align:left;border:0;background:none;padding:2px 0;font-size:15px;line-height:1.5}
+.composer-page .post-list-row small{display:block;font-size:11px;color:#56636a;margin-top:3px}
+.composer-page .post-list-row>a{font-size:12px;flex-shrink:0;text-underline-offset:3px}
+.composer-page .post-list-empty{font-size:13px;color:#56636a;margin:6px 0}
+.composer-page[data-busy="true"] .composer-form{opacity:.72}
+@media(max-width:600px){
+  .composer-page main{padding:35px 23px max(35px,env(safe-area-inset-bottom))}
+  .composer-page .desk-topline{flex-wrap:wrap;gap:14px;margin-bottom:22px}
+  .composer-page .desk-nav{gap:22px}
+  .composer-page .body-input{font-size:21px;min-height:230px}
+  .composer-page .post-primary{width:auto;min-width:132px;padding:13px 19px}
+  .composer-page .photo-list{gap:16px;grid-template-columns:minmax(0,1fr)}
+  .composer-page .connection-line{margin-bottom:22px}
+}
+.composer-page .connection-details{font-size:12px;color:#56636a;margin-top:14px;max-width:53ch}
+.composer-page .connection-details summary{cursor:pointer;text-underline-offset:3px}
+.composer-page .connection-details p{margin:8px 0 0}
+.composer-page .composer-feedback button{font:inherit;color:inherit;margin-left:9px;padding:0;border:0;background:none;text-decoration:underline;text-underline-offset:3px}
+.composer-page .post-list-row>button[data-readonly="true"]{opacity:1}
+.composer-page .login-form>div.remember-options{display:block;margin-top:14px}
+.composer-page .login-form .remember-choice{display:flex;align-items:center;gap:8px;font-size:12px;cursor:pointer}
+.composer-page .login-form .remember-choice input{width:15px;height:15px;margin:0;accent-color:#0b2230}
+.composer-page #remember-secret{margin:14px 0 0;max-width:360px}
+.composer-page .connection-details button{margin-top:12px;padding:0;border:0;background:none;color:#56636a;text-decoration:underline;text-underline-offset:3px;font-size:12px}

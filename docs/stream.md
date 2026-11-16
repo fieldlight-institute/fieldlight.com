@@ -4,6 +4,16 @@
 
 Existing reading surfaces and canonical author-owned source records retain their URLs. The stream uses their existing public titles and descriptions. Private notebooks and Reader Continuity's source-context records are not publication inputs.
 
+## Publishing desk
+
+`/post/` is Fieldlight's own text-and-photo composer, served by the existing GitHub Pages site. Drafts and original photo selections are saved only in this browser's IndexedDB until Publish is selected. They do not sync between devices; clearing browser data removes them. The desk can be added to a phone's Home Screen.
+
+Connect once with an **annimch04** fine-grained GitHub key restricted to **public-writing**, with **Contents: read and write**. The key is held in memory. Choosing **Remember this device** stores only an encrypted copy in IndexedDB, protected by a separate unlock password of at least 12 characters. Sign out locks a remembered connection; **Forget this device** removes it. The unlock password is not stored.
+
+Publish writes the canonical post and cleaned photographs to `public-writing` through GitHub's API. It uses the existing website Actions schedule, normally about ten minutes plus build/deployment time. **Saved. Publishing…** confirms the source write; **Published** appears only when the public feed contains that exact content hash. Pending checks and drafts recover after a reload. No separate publishing server is required.
+
+**Your posts** edits records created by this composer and checks their original content hash before saving changes. Earlier issue-created posts are read-only in the desk: edit their original GitHub issue. The [GitHub issue form](https://github.com/annimch04/public-writing/issues/new?template=stream-post.yml) remains a fallback; submitted issues and their original attachments are public.
+
 ## Build
 
 The generator requires Python 3.9 or later and the Python standard library. Run from this website checkout:
@@ -45,7 +55,7 @@ This is a schema example, not a published post. No sample posts are included in 
 
 The source processor removes inline Markdown image syntax and supplies image records in order. The site renders escaped plain-text paragraphs and line breaks, safe HTTP(S) links, and the supplied photographs. Raw HTML is displayed as text. Formatting beyond paragraphs and links is intentionally minimal. Photos require descriptive alternative text and a path inside that post's canonical media folder. The generator copies only referenced media, never the entire canonical archive.
 
-Optional `content_hash` is preserved as the JSON Feed extension `_fieldlight_content_hash`, allowing the publisher to confirm the exact revision after deployment. Extra record fields are otherwise ignored. The **Source record** link points to canonical JSON; the originating GitHub issue is not the canonical publication.
+For composer records, the JSON Feed extension `_fieldlight_content_hash` is independently recomputed from the actual title, body, and ordered image records. Photo bytes must match their content-addressed filenames. Historical issue-origin hashes remain preserved for compatibility with the issue workflow. Extra record fields are otherwise ignored. The **Source record** link points to canonical JSON; the originating GitHub issue is not the canonical publication.
 
 Each post receives a stable public URL at `/stream/posts/post-123/`. Editing the record keeps its URL and `published_at`; `updated_at` records the revision. Removing an authorized record removes its generated post page and referenced media during the next build. The generator owns `stream/posts/` and `stream/media/`; do not place hand-maintained files there.
 
@@ -72,12 +82,14 @@ Adding a short post does not send a Buttondown email. The email link keeps the e
 - `stream/stream.css` and `stream/stream.js`: responsive presentation and optional filter enhancement.
 - `stream/publications.json`: original feed metadata and identity baseline.
 - `tests/test_stream.py`: publication identity/date preservation, source boundary, escaping, photos, and view separation.
+- `post/`: composer, publishing adapter, encrypted connection storage, and narrowly cached offline editor shell.
+- `tests/test_composer.mjs`, `tests/test_publisher.mjs`, and `tests/test_connection.mjs`: draft/photo recovery, publication identity and confirmation, repository writes, and remembered-key protection. Run with `node --test tests/test_composer.mjs tests/test_publisher.mjs tests/test_connection.mjs`.
 
 Run the site's existing `scripts/check-reader-continuity.py` after generation. Regenerate `sitemap.xml` with the site's sitemap script when publishing new permalink pages. Keep the author doorway and private authoring tools excluded from the public sitemap as appropriate. Every generated public page includes the existing Cloudflare analytics beacon.
 
 ## GitHub Pages publication
 
-The website publishes independently through `.github/workflows/publish.yml`, using only its own short-lived `GITHUB_TOKEN`. The canonical author repository remains separate. The website workflow reads public `annimch04/public-writing` over HTTPS and has no write access to it. No deploy key, personal access token, or extra account credential is required.
+The website publishes independently through `.github/workflows/publish.yml`, using only its own short-lived `GITHUB_TOKEN`. The canonical author repository remains separate. The website workflow reads public `annimch04/public-writing` over HTTPS and has no write access to it. The deployment workflow requires no deploy key, personal access token, or extra account credential; the author's browser connection is separate.
 
 **Setup:** In the website repository's **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source (`build_type: workflow`). Keep the existing custom domain. The deployment job uses the `github-pages` environment and the official upload/deploy actions. GitHub documents this setup in [Using custom workflows with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 

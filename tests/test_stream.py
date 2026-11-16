@@ -1,5 +1,6 @@
 """Behavioral checks for the publication boundary and canonical short-post rendering."""
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import tempfile
@@ -92,6 +93,46 @@ class StreamTests(unittest.TestCase):
         self.assertIn('https://fieldlight.com/' + path, post['content_html'])
         self.assertIn('alt="A window &amp; morning light"', post['content_html'])
         self.assertIn('/stream/media/post-123/a-photo.png', outputs['stream/posts/post-123/index.html'].decode())
+
+
+    def test_composer_hash_matches_browser_unicode_and_image_key_order(self):
+        post = {'title': 'Café 🌿', 'body': 'First\n\nSecond “line”',
+                'images': [{'alt': 'Light & shade', 'path': 'stream/media/post-123/abcdef.png', 'ignored': True}]}
+        self.assertEqual(stream.composer_content_hash(post),
+                         '666126a1e8e6a66c0020f3af8f81630a8e9f5dc1d08fb8a0839418b98d5b32b6')
+
+    def test_composer_feed_derives_hash_from_actual_content_after_manual_edits(self):
+        original = self.post(authoring='fieldlight-composer')
+        original['content_hash'] = stream.composer_content_hash(original)
+        self.post(**original)
+        prior, _ = stream.read_posts(self.source)
+        self.assertEqual(prior[0]['_fieldlight_content_hash'], original['content_hash'])
+        for change in [{'body': 'A manual edit with an unchanged hash'}, {'title': 'A manually changed title'}]:
+            with self.subTest(change=change):
+                changed = {**original, **change}
+                self.post(**changed)
+                items, _ = stream.read_posts(self.source)
+                self.assertNotEqual(items[0]['_fieldlight_content_hash'], original['content_hash'])
+                self.assertEqual(items[0]['_fieldlight_content_hash'], stream.composer_content_hash(changed))
+
+    def test_composer_photo_replacement_cannot_reuse_the_old_hash(self):
+        content = b'original photograph bytes'
+        path = 'stream/media/post-123/' + hashlib.sha256(content).hexdigest()[:24] + '.png'
+        photo = self.source / path
+        photo.parent.mkdir(parents=True)
+        photo.write_bytes(content)
+        original = self.post(authoring='fieldlight-composer', images=[{'path': path, 'alt': 'Original description'}])
+        original['content_hash'] = stream.composer_content_hash(original)
+        self.post(**original)
+        items, _ = stream.read_posts(self.source)
+        self.assertEqual(items[0]['_fieldlight_content_hash'], original['content_hash'])
+        changed = {**original, 'images': [{'path': path, 'alt': 'Changed description'}]}
+        self.post(**changed)
+        items, _ = stream.read_posts(self.source)
+        self.assertNotEqual(items[0]['_fieldlight_content_hash'], original['content_hash'])
+        photo.write_bytes(b'different photograph under the same filename')
+        with self.assertRaisesRegex(ValueError, 'does not match its filename'):
+            stream.read_posts(self.source)
 
     def test_missing_source_and_escaping_media_fail_before_output(self):
         with self.assertRaises(ValueError):

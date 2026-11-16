@@ -1,0 +1,15 @@
+{
+  "name": "Fieldlight — Publishing desk",
+  "short_name": "Fieldlight",
+  "description": "A quiet place to write and publish to Fieldlight.",
+  "id": "/post/",
+  "start_url": "/post/",
+  "scope": "/post/",
+  "display": "standalone",
+  "background_color": "#f2ecdf",
+  "theme_color": "#f2ecdf",
+  "icons": [
+    {"src": "/assets/fieldlight-burst-touch.png", "sizes": "180x180", "type": "image/png", "purpose": "any"},
+    {"src": "/assets/fieldlight-burst-48.png", "sizes": "48x48", "type": "image/png", "purpose": "any"}
+  ]
+}

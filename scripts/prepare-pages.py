@@ -15,7 +15,7 @@ import xml.etree.ElementTree as ET
 
 PUBLIC_SUFFIXES = {'.html', '.css', '.js', '.json', '.xml', '.txt', '.ico', '.svg',
                    '.png', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.pdf',
-                   '.mp3', '.mp4', '.m4a', '.wav', '.ogg', '.webm', '.woff', '.woff2', '.ttf', '.otf'}
+                   '.mp3', '.mp4', '.m4a', '.wav', '.ogg', '.webm', '.woff', '.woff2', '.ttf', '.otf', '.webmanifest'}
 PRIVATE_PARTS = {'scripts', 'tests', 'docs', 'templates', '__pycache__', 'node_modules'}
 GENERATED_PATH = re.compile(r'(?:feed\.(?:json|xml)|stream/(?:index\.html|feed\.(?:json|xml)|publications/index\.html|posts/post-[1-9][0-9]*/index\.html|media/post-[1-9][0-9]*/[^/]+))\Z')
 SITEMAP = 'http://www.sitemaps.org/schemas/sitemap/0.9'
