@@ -12,6 +12,38 @@
   ],
   "items": [
     {
+      "id": "https://fieldlight.com/stream/posts/post-56361556562531909256678357689611259756/",
+      "url": "https://fieldlight.com/stream/posts/post-56361556562531909256678357689611259756/",
+      "date_published": "2026-11-17T00:00:31.394Z",
+      "date_modified": "2026-11-17T00:00:31.394Z",
+      "content_html": "<p>stigmergy<br>\ncoordination through changes participants leave in a shared environment</p>",
+      "content_text": "stigmergy\ncoordination through changes participants leave in a shared environment",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_fieldlight_content_hash": "65b7ad283ec7940b9c8a45806cbfd828da22404967255910fffc0158d7b917ed"
+    },
+    {
+      "id": "https://fieldlight.com/stream/posts/post-299997931887738795330709701062565554091/",
+      "url": "https://fieldlight.com/stream/posts/post-299997931887738795330709701062565554091/",
+      "date_published": "2026-11-16T23:12:07.212Z",
+      "date_modified": "2026-11-16T23:45:09.959Z",
+      "content_html": "<p>The ant isn’t pictured but its presence is recorded.</p>\n<figure class=\"stream-photo\"><img src=\"https://fieldlight.com/stream/media/post-299997931887738795330709701062565554091/07a5602f11ce223573b1d919.jpg\" alt=\"Persistent Fieldlight\" loading=\"lazy\" decoding=\"async\"></figure>",
+      "content_text": "The ant isn’t pictured but its presence is recorded.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "_fieldlight_content_hash": "1074d1c1fba5d9939b6a0859951a91286584d7296a899b2b66c10d31d620908b",
+      "title": "Meet Mella",
+      "image": "https://fieldlight.com/stream/media/post-299997931887738795330709701062565554091/07a5602f11ce223573b1d919.jpg"
+    },
+    {
       "id": "https://fieldlight.com/stream/posts/post-179475614500839266641283953191248789991/",
       "url": "https://fieldlight.com/stream/posts/post-179475614500839266641283953191248789991/",
       "date_published": "2026-11-16T17:33:24.592Z",
