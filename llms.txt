@@ -87,3 +87,5 @@ Article pages identify their author and publisher. Canonical Markdown sources pr
 - Publications RSS: https://fieldlight.com/feed.xml
 
 Short posts preserve their own dates and permanent links. They do not replace the existing publication reading surfaces.
+
+- [The Third Institution](https://fieldlight.com/writing/the-third-institution/): What must survive when an intelligence casts a valid vote—and its model provider disappears? Human–AI institutions, Articles of Continuity, and the authority to carry work forward.

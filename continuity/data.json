@@ -658,6 +658,19 @@
         "governed-memory",
         "symbolic-discovery"
       ]
+    },
+    {
+      "id": "FLW-0061",
+      "title": "The Third Institution",
+      "url": "/writing/the-third-institution/",
+      "changedAt": "2026-11-19T22:08:35.716102+00:00",
+      "form": "institutional architecture essay",
+      "primaryThread": "governed-memory",
+      "threads": [
+        "governed-memory",
+        "relational-cognition",
+        "human-owned-intelligence"
+      ]
     }
   ],
   "threads": [
@@ -681,7 +694,8 @@
         "FLW-0049",
         "FLW-0051",
         "FLW-0056",
-        "FLW-0059"
+        "FLW-0059",
+        "FLW-0061"
       ]
     },
     {
@@ -725,7 +739,8 @@
         "FLW-0056",
         "FLW-0057",
         "FLW-0059",
-        "FLW-0060"
+        "FLW-0060",
+        "FLW-0061"
       ]
     },
     {
@@ -744,7 +759,8 @@
         "FLW-0025",
         "FLW-0027",
         "FLW-0028",
-        "FLW-0060"
+        "FLW-0060",
+        "FLW-0061"
       ]
     },
     {
@@ -1408,6 +1424,24 @@
       "relation": "places authority boundaries around",
       "claim": "Fascia applies Local Authority to adaptive connections: prominence acquired through use must not become permission, and participants must be able to revise, refuse, and retain their own record.",
       "basis": "Fascia as Infrastructure, Memory changes the next encounter.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-041",
+      "from": "FLW-0060",
+      "to": "FLW-0061",
+      "relation": "extends adaptive history into institutional governance in",
+      "claim": "The Third Institution distinguishes adaptive institutional state from the authority to amend commitments, extending the connection between history and authority in Fascia.",
+      "basis": "The Third Institution, Latency, iteration, and institutional state; Intellectual lineage and references.",
+      "confidence": "high"
+    },
+    {
+      "id": "FLCX-042",
+      "from": "FLW-0008",
+      "to": "FLW-0061",
+      "relation": "extends provider-independent authority into",
+      "claim": "The Third Institution separates a represented intelligence and institutional continuity from the model provider, including provider withdrawal and authorized succession.",
+      "basis": "The Third Institution, opening hypothetical; A vote with consequences; Intellectual lineage and references.",
       "confidence": "high"
     }
   ],

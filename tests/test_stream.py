@@ -63,7 +63,7 @@ class StreamTests(unittest.TestCase):
         self.post(title='<b>Title</b>', body=body)
         outputs, _, _ = stream.build_outputs(SITE, self.source)
         everything = json.loads(outputs['stream/feed.json'])['items']
-        post = everything[0]
+        post = next(item for item in everything if item['url'].endswith('/stream/posts/post-123/'))
         self.assertEqual(post['date_published'], '2026-11-16T15:30:00Z')
         self.assertEqual(post['_fieldlight_content_hash'], 'test-content-hash')
         self.assertEqual(post['content_text'], body)
@@ -73,7 +73,7 @@ class StreamTests(unittest.TestCase):
         self.assertIn('href="https://example.org/?a=1&amp;b=2"', post['content_html'])
         root_feed = json.loads(outputs['feed.json'])['items']
         self.assertFalse(any(item['id'] == post['id'] for item in root_feed))
-        rss = ET.fromstring(outputs['stream/feed.xml']).find('./channel/item')
+        rss = next(item for item in ET.fromstring(outputs['stream/feed.xml']).findall('./channel/item') if item.findtext('link') == post['url'])
         self.assertEqual(post['content_html'], rss.findtext(f'{{{stream.CONTENT}}}encoded'))
         page = outputs['stream/posts/post-123/index.html'].decode()
         self.assertIn('&lt;b&gt;Title&lt;/b&gt;', page)
@@ -89,7 +89,7 @@ class StreamTests(unittest.TestCase):
         self.post(body='', images=[{'path': path, 'alt': 'A window & morning light'}])
         outputs, _, _ = stream.build_outputs(SITE, self.source)
         self.assertEqual(outputs[path], image.read_bytes())
-        post = json.loads(outputs['stream/feed.json'])['items'][0]
+        post = next(item for item in json.loads(outputs['stream/feed.json'])['items'] if item['url'].endswith('/stream/posts/post-123/'))
         self.assertIn('https://fieldlight.com/' + path, post['content_html'])
         self.assertIn('alt="A window &amp; morning light"', post['content_html'])
         self.assertIn('/stream/media/post-123/a-photo.png', outputs['stream/posts/post-123/index.html'].decode())

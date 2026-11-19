@@ -12,6 +12,21 @@
   ],
   "items": [
     {
+      "id": "https://fieldlight.com/writing/the-third-institution/",
+      "url": "https://fieldlight.com/writing/the-third-institution/",
+      "title": "The Third Institution",
+      "summary": "What must survive when an intelligence casts a valid vote—and its model provider disappears? Human–AI institutions, Articles of Continuity, and the authority to carry work forward.",
+      "authors": [
+        {
+          "name": "Anni McHenry",
+          "url": "https://fieldlight.com/#anni-mchenry"
+        }
+      ],
+      "image": "https://fieldlight.com/writing/the-third-institution/assets/third-institution-share.png",
+      "date_published": "2026-11-19T22:08:35.716102+00:00",
+      "content_text": "What must survive when an intelligence casts a valid vote—and its model provider disappears? Human–AI institutions, Articles of Continuity, and the authority to carry work forward."
+    },
+    {
       "id": "https://fieldlight.com/writing/fascia-as-infrastructure/",
       "url": "https://fieldlight.com/writing/fascia-as-infrastructure/",
       "title": "Fascia as Infrastructure",
