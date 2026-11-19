@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fieldlight.com/continuity/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/engage/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://fieldlight.com/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/institute/governed-archive-acquisition/</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://fieldlight.com/stream/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/stream/posts/post-179475614500839266641283953191248789991/</loc>
@@ -62,15 +62,15 @@
   </url>
   <url>
     <loc>https://fieldlight.com/stream/posts/post-299997931887738795330709701062565554091/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/stream/posts/post-56361556562531909256678357689611259756/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/stream/publications/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/systems/</loc>
@@ -170,7 +170,7 @@
   </url>
   <url>
     <loc>https://fieldlight.com/writing/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://fieldlight.com/writing/institutional-transition-documentation-methodology/</loc>
@@ -293,11 +293,11 @@
     <lastmod>2026-11-16</lastmod>
   </url>
   <url>
-    <loc>https://fieldlight.com/writing/vault-flower-memory-between-agents/</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
-  <url>
     <loc>https://fieldlight.com/writing/the-third-institution/</loc>
     <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://fieldlight.com/writing/vault-flower-memory-between-agents/</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
 </urlset>
